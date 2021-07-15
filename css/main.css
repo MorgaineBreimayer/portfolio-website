@@ -1,0 +1,44 @@
+body {
+  background-color: #04364f;
+  color: #d4ede9;
+  margin: 0;
+}
+header {
+  background-image: url("../img/header@2x.png");
+}
+header img {
+  width: 50%;
+}
+header p {
+  text-align: center;
+}
+nav {
+  float: right;
+}
+h1, h2, h3 {
+  text-align: center;
+  color: #10b5b7;
+}
+a {
+  color: #10b5b7;
+}
+.column-lt {
+  display: inline;
+}
+.column-lt img {
+  width: 50%;
+}
+.column-rt {
+  width: 40%;
+  float: right;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer a i {
+  font-size: 25px;
+  padding: 20px;
+}
