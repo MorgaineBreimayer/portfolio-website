@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="418px" height="267px" viewBox="0 0 418 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>v</title>
+    <g id="v" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(1.000000, 0.000000)" fill="#CF6F30">
+            <text id="H1---Poppins-Medium" font-family="Poppins-Medium, Poppins" font-size="30" font-weight="400">
+                <tspan x="0.4" y="33">H1 - Poppins Medium 30</tspan>
+            </text>
+            <text id="H2---Poppins-Semibol" font-family="Poppins-SemiBold, Poppins" font-size="24" font-weight="500">
+                <tspan x="0" y="88">H2 - Poppins Semibold 24</tspan>
+            </text>
+            <text id="H3---Poppins-Semibol" font-family="Poppins-SemiBold, Poppins" font-size="21" font-weight="500" line-spacing="37">
+                <tspan x="0" y="136">H3 - Poppins Semibold 21</tspan>
+            </text>
+            <text id="H4---Poppins-Regular" font-family="Poppins-Regular, Poppins" font-size="15" font-weight="normal">
+                <tspan x="0.88" y="223">H4 - Poppins Regular 15</tspan>
+            </text>
+            <text id="Link---Poppins-Mediu" font-family="Poppins-Medium, Poppins" font-size="16" font-weight="400" line-spacing="20">
+                <tspan x="0" y="265">Link - Poppins Medium 16</tspan>
+            </text>
+            <text id="Body---Poppins-Regul" font-family="Poppins-Regular, Poppins" font-size="16" font-weight="normal">
+                <tspan x="0" y="182">Body - Poppins Regular 16</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
