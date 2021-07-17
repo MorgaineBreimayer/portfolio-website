@@ -23,13 +23,17 @@ h1, h2, h3 {
 a {
   color: #10b5b7;
 }
-#homepage .column-lt {
+img {
+  width: 100%;
+}
+
+#homepage .col-l {
   display: inline;
 }
-#homepage .column-lt img {
+#homepage .col-l img {
   width: 50%;
 }
-#homepage .column-rt {
+#homepage .col-r {
   width: 40%;
   float: right;
 }
@@ -49,17 +53,35 @@ footer a i {
   margin:0 auto 50px auto;
   width: 1000px;
 }
-
-/*beleaf case study */
-:root {
-  --dark: #022B12;
-  --med: #00623D;
-  --light: #649F74;
+.case-study .page {
+  height: 640px;
+  margin-bottom: 15px;
 }
-
-#beleaf .case_study .page {
-  background: radial-gradient(#fef2f0, #dec8c4);
+.case-study .container {
+  padding: 50px;
+  height: 540px;
 }
-
-
-/* Compleat case study */
+.case-study .col-l {
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+}
+.case-study figure {
+  margin: 0;
+  float: left;
+  text-align: center;
+}
+.case-study .col-r {
+  width: 49%;
+  float: right;
+  margin-left: 10px;
+}
+.case-study .three-col {
+  width: 31%;
+  float: left;
+  padding-right: 29px;
+}
+.case-study .three-col.right {
+  padding-right: 0px;
+  float: right;
+}

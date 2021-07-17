@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="377px" height="208px" viewBox="0 0 377 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lato_android</title>
+    <g id="lato_android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Button---Lato-Bold-1" font-family="Lato-Bold, Lato" font-size="20.48" font-weight="bold" letter-spacing="1.14" fill="#022B12">
+            <tspan x="0" y="204">Button - Lato Bold 17</tspan>
+        </text>
+        <text id="H3---Lato-Bold-18" font-family="Lato-Bold, Lato" font-size="21.68" font-weight="bold" letter-spacing="1.2" fill="#022B12">
+            <tspan x="0" y="122">H3 - Lato Bold 18</tspan>
+        </text>
+        <text id="Body---Lato-Regular" font-family="Lato-Regular, Lato" font-size="19.27" font-weight="normal" letter-spacing="1.07436536" fill="#022B12">
+            <tspan x="0" y="164">Body - Lato Regular 16</tspan>
+        </text>
+        <text id="H2---Lato-Bold-20" font-family="Lato-Bold, Lato" font-size="24.09" font-weight="bold" letter-spacing="1.34309609" fill="#022B12">
+            <tspan x="0" y="78">H2 - Lato Bold 20</tspan>
+        </text>
+        <text id="H1---Lato-Regular-30" font-family="Lato-Regular, Lato" font-size="36.13" font-weight="normal" letter-spacing="0.61" fill="#022B12">
+            <tspan x="0" y="34">H1 - Lato Regular 30</tspan>
+        </text>
+    </g>
+</svg>
