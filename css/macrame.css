@@ -12,6 +12,7 @@
   background-color: #faf5e9;
   font-family: 'Poppins', sans-serif;
   color: var(--navy);
+  line-height: 1.4;
 }
 #macrame .case-study .content {
   padding: 20px 30px;
@@ -30,7 +31,7 @@
   font-size: 1em;
   color: var(--navy);
   text-align: left;
-  margin: 5px 0 0;
+  margin: 13px 0 0;
 }
 #macrame .case-study h4 {
   color: var(--gold);
@@ -39,11 +40,11 @@
 }
 #macrame .case-study p, ul {
   margin: 2px 0 7px;
-  font-size: 13px;
+  font-size: 14px;
 }
 #macrame .case-study figcaption {
   color: var(--orange);
-  font-size: .6em;
+  font-size: .65em;
   line-height: 1.3em;
 }
 
@@ -102,6 +103,7 @@
 }
 #macrame .case-study .page#three .col-r .bad-logos {
   display: inline-block;
+  padding-top: 2px;
 }
 #macrame .case-study .page#three .col-r .bad-logos figure {
   width: 20%;
@@ -182,9 +184,6 @@
 #macrame .case-study .page#five .colors img {
   width: 50%;
 }
-#macrame .case-study .page#five .design_elements img {
-  margin-top: 3px;
-}
 #macrame .case-study .page#five .ui_elements .title {
   color: var(--orange);
   font-weight: 400;
@@ -226,6 +225,9 @@
 }
 #macrame .case-study .page#five .ui_elements .center {
   text-align: center;
+}
+#macrame .case-study .page#five .design_elements {
+  margin-top: 7px;
 }
 
 /* page six */
