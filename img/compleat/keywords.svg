@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1019px" height="1002px" viewBox="0 0 1019 1002" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="407" height="115" rx="57.5"></rect>
+        <filter x="-4.7%" y="-49.6%" width="118.7%" height="166.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="649" height="115" rx="57.5"></rect>
+        <filter x="-2.9%" y="-49.6%" width="111.7%" height="166.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="610" height="115" rx="57.5"></rect>
+        <filter x="-3.1%" y="-49.6%" width="112.5%" height="166.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="656" height="115" rx="57.5"></rect>
+        <filter x="-2.9%" y="-49.6%" width="111.6%" height="166.1%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="419" height="115" rx="57.5"></rect>
+        <filter x="-4.5%" y="-49.6%" width="118.1%" height="166.1%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="561" height="115" rx="57.5"></rect>
+        <filter x="-3.4%" y="-49.6%" width="113.5%" height="166.1%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="20" dy="-20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4" transform="translate(-1329.000000, -455.000000)">
+            <g id="Group-2" transform="translate(1367.000000, 455.000000)">
+                <g id="Group" transform="translate(475.500000, 849.000000)">
+                    <g id="Rectangle" transform="translate(203.500000, 57.500000) scale(-1, -1) translate(-203.500000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#100E2B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="user-ratings" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="67.1066895" y="72">user ratings</tspan>
+                    </text>
+                </g>
+                <g id="Group">
+                    <g id="Rectangle" transform="translate(324.500000, 57.500000) scale(-1, -1) translate(-324.500000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#888795" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="recipe-at-top-of-pag" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="60.4345703" y="72">recipe at top of page</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(117.500000, 340.000000)">
+                    <g id="Rectangle" transform="translate(305.000000, 57.500000) scale(-1, -1) translate(-305.000000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#888795" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="save-pantry-for-late" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="61.0175781" y="72">save pantry for later</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(324.500000, 170.000000)">
+                    <g id="Rectangle" transform="translate(328.000000, 57.500000) scale(-1, -1) translate(-328.000000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#100E2B" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="trusted-recipe-sourc" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="61.3276367" y="72">trusted recipe sources</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(517.500000, 509.000000)">
+                    <g id="Rectangle" transform="translate(209.500000, 57.500000) scale(-1, -1) translate(-209.500000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#100E2B" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <text id="filter-by-diet" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="65.3771973" y="72">filter by diet</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(206.500000, 679.000000)">
+                    <g id="Rectangle" transform="translate(280.500000, 57.500000) scale(-1, -1) translate(-280.500000, -57.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use fill="#888795" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    </g>
+                    <text id="appealing-images" font-family="CenturyGothic, Century Gothic" font-size="45" font-weight="normal" letter-spacing="2.5" fill="#FFFFFF">
+                        <tspan x="61" y="72">appealing images</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1030px" height="122px" viewBox="0 0 1030 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10" transform="translate(-141.000000, -1146.000000)">
+            <g id="Typography" transform="translate(141.000000, 1029.000000)">
+                <g id="Group-6" transform="translate(0.000000, 117.000000)">
+                    <text id="Hyperlink-|-Century" font-family="CenturyGothic, Century Gothic" font-size="18.1704545" font-weight="normal" letter-spacing="1.00946969" fill="#E25819">
+                        <tspan x="580" y="117">Hyperlink | Century Gothic Regular 13</tspan>
+                    </text>
+                    <text id="H4-|-Century-Gothic" font-family="CenturyGothic, Century Gothic" font-size="19.5681818" font-weight="normal" letter-spacing="1.08712121" fill="#100E2B">
+                        <tspan x="579" y="78">H4 | Century Gothic Regular 14px</tspan>
+                    </text>
+                    <text id="H3-|-Century-Gothic" font-family="CenturyGothic-Bold, Century Gothic" font-size="22.3636364" font-weight="bold" letter-spacing="1.24242426" fill="#100E2B">
+                        <tspan x="0" y="117">H3 | Century Gothic Bold 16px</tspan>
+                    </text>
+                    <text id="H2-|-Century-Gothic" font-family="CenturyGothic, Century Gothic" font-size="27.9545455" font-weight="normal" letter-spacing="0.698863653" fill="#100E2B">
+                        <tspan x="0" y="78">H2 | Century Gothic Regular 20px</tspan>
+                    </text>
+                    <text id="Body-text-|-Century" font-family="CenturyGothic, Century Gothic" font-size="22.3636364" font-weight="normal" letter-spacing="0.559090935" fill="#100E2B">
+                        <tspan x="579" y="34">Body text  |  Century Gothic Regular 16</tspan>
+                    </text>
+                    <text id="H1-|-Century-Gothic" font-family="CenturyGothic-Bold, Century Gothic" font-size="33.5454545" font-weight="bold" letter-spacing="0.838636372" fill="#100E2B">
+                        <tspan x="1" y="34">H1 | Century Gothic Bold 24px</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
