@@ -27,7 +27,7 @@
   text-align: left;
   color: white;
   margin: 15px 0 0;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.1em;
 }
 #compleat .case-study h4 {
@@ -52,7 +52,7 @@
   position: relative;
   display: inline-block;
   margin-top: 60px;
-  height: 42px;
+  height: 54px;
 }
 #compleat .case-study .banner.right {
   float: right;
@@ -114,7 +114,7 @@
   padding: 20px;
   width: 60%;
   margin-top: 65px;
-  height: 104px;
+  height: 144px;
 }
 #compleat .case-study .page#two .banner.right::before {
   left: -48px;
@@ -242,7 +242,7 @@
 }
 #compleat .case-study .page#nine h3 {
   color: var(--p);
-  margin-top: 0;
+  margin-top: 8px;
   font-weight: 400;
   padding-bottom: 20px;
 }
@@ -280,11 +280,11 @@
 #compleat .case-study .page#eleven h3 {
   color: var(--p);
   float: left;
-  margin: 0 10px 0 0;
+  margin: 4px 10px 0 0;
 }
 #compleat .case-study .page#eleven hr {
   border: 1px solid var(--p);
-  margin-top: 12px;
+  margin-top: 16px;
   display: flex;
 }
 #compleat .case-study .page#eleven .content.left {
@@ -294,7 +294,7 @@
   display: inline-block;
 }
 #compleat .case-study .page#eleven .content.left .icons figure {
-  width: 11%;
+  width: 14.2%;
   float: left;
   padding: 5px 6px 5px;
 }
@@ -383,48 +383,49 @@
 }
 #compleat .case-study .page#eleven .content.right .text {
   width: 24%;
-  padding-top: 6px;
+  padding-top: 3px;
 }
 #compleat .case-study .page#eleven .content.right .primary, #compleat .case-study .page#eleven .content.right .secondary {
   border-radius: 30px;
   text-align: center;
-  height: 22px;
+  height: 23px;
   margin-left: 0;
   padding: 3px 7px;
 }
 #compleat .case-study .page#eleven .content.right .primary h5, #compleat .case-study .page#eleven .content.right .secondary h5 {
   font-size: .8em;
+  margin-top: 0;
 }
 #compleat .case-study .page#eleven .content.right .primary {
   color: white;
-  width: 60%;
+  width: 64%;
   background-color: var(--o);
 }
 #compleat .case-study .page#eleven .content.right .secondary {
   color: var(--o);
-  width: 52%;
+  width: 57%;
   border: 1px solid var(--o);
   margin-left: 0;
+  padding-top: 2px;
 }
 #compleat .case-study .page#eleven .content.right .inactive .tertiary.col-r, #compleat .case-study .page#eleven .content.right .active .tertiary.col-r {
   color: var(--o);
-  width: 33%;
-  margin: 7px 0;
+  width: 37%;
+  margin: 6px 3px 6px 0;
   padding-right: 4px;
 }
 #compleat .case-study .page#eleven .content.right .active .tertiary.col-r {
   color: white;
   background-color: var(--o);
   border-radius: 10px;
-  padding: 3px 4px;
+  padding: 3px 5px;
+  margin: 2px 0;
 }
 #compleat .case-study .page#eleven .content.right .tertiary h5 {
   font-weight: 700;
   font-size: .65em;
   margin: 0;
-}
-#compleat .case-study .page#eleven .content.right .inactive .col-r {
-  width: 60%;
+  text-align: right;
 }
 #compleat .case-study .page#eleven .content.right .active .primary {
   background-color: #D1480A;
@@ -433,7 +434,7 @@
   width: 36%;
 }
 #compleat .case-study .page#eleven .content.right .bars {
-  padding-bottom: 5px;
+  padding-bottom: 40px;
 }
 #compleat .case-study .page#eleven .content.right .bars .col-l.left .col-l.text {
   width: 20%;
@@ -503,7 +504,7 @@
   background-size: contain;
 }
 #compleat .case-study .page#thirteen .content {
-  width: 880px;
+  width: 1000px;
 }
 #compleat .case-study .page#thirteen img {
   width: 30%;

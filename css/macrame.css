@@ -13,12 +13,13 @@
   font-family: 'Poppins', sans-serif;
   color: var(--navy);
   line-height: 1.4;
+  box-sizing: content-box;
 }
 #macrame .case-study .content {
   padding: 20px 30px;
   border: solid var(--gold) 3px;
   border-radius: 7px;
-  height: 490px;
+  height: 540px;
 }
 #macrame .case-study h2 {
   font-weight: 700;

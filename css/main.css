@@ -1,4 +1,7 @@
 /* Sitewide stylings */
+* {
+  box-sizing: border-box;
+}
 :root {
   --dk-turq: #04364f;
   --med-turq: #10b5b7;
@@ -16,9 +19,14 @@ body {
 }
 header {
   background-image: url("../img/header@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 0;
+  height: 150px;
 }
 header img {
   width: 50%;
+  padding-top: 20px;
 }
 header p {
   text-align: center;
@@ -127,7 +135,7 @@ footer .copyright {
   margin-left: 10px;
 }
 .case-study .three-col {
-  width: 31%;
+  width: 33%;
   float: left;
   padding-right: 29px;
 }

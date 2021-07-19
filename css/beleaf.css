@@ -10,7 +10,10 @@
   color: var(--md);
   font-family: 'Lato', sans-serif;
 }
-
+#beleaf .case-study .page .container {
+  height: 640px;
+  padding: 35px 50px;
+}
 #beleaf .case-study h2 {
   color: var(--md);
   font-size: 2em;
@@ -90,6 +93,12 @@
 #beleaf .case-study .page#three h3 {
   margin-top: 10px;
 }
+#beleaf .case-study .page#three .three-col {
+  padding-bottom: 20px;
+}
+#beleaf .case-study .page#four h3 + p {
+  margin-top: 5px;
+}
 #beleaf .case-study .page#four img {
   border: 2px solid var(--lt);
   margin: 20px 0 0 37px;
@@ -101,6 +110,9 @@
 #beleaf .case-study .page#five .wireframes {
   display: inline-block;
   padding: 20px 0;
+}
+#beleaf .case-study .page#six h5 {
+  margin-top: 10px;
 }
 #beleaf .case-study .page#six figure {
   width: 25%;
@@ -199,7 +211,7 @@
   display: inline-block;
 }
 #beleaf .case-study .page#nine .row img {
-  width: 13%;
+  width: 14%;
   float: left;
   padding: 0 5px;
 }
@@ -207,7 +219,7 @@
   padding: 7px 5px 0;
 }
 #beleaf .case-study .page#nine .row .first img {
-  width: 14%;
+  width: 15%;
   padding-top: 0;
 }
 #beleaf .case-study .page#ten .container {
