@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Morgaine Breimayer">
-  <meta name ="description" content="Portfolio of Morgaine Breimayer, a frontend designer based out of San Francisco." />
+  <meta name="description" content="Portfolio of Morgaine Breimayer, a frontend designer based out of San Francisco." />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Morgaine</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
@@ -17,87 +17,89 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="about">
   <header>
-    <div>
+    <div class="container">
       <img src="img/logo.svg" alt="logo" />
       <nav>
-        <a href="index.html#work">Work</a>
-        <a href="about.html">About</a>
-        <a href="#contact">Contact</a>
+        <ul>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <div id="headline">
-      <div id="wrapper">
-        <h1>About Me</h1>
-      </div>
-      <div>
-        <div class="wrapper">
+    <h1>About Me</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-l">
           <picture>
             <source srcset="img/about/headshot@1x.jpg" media="(max-width:767px;)" />
             <img src="img/about/headshot@2x.jpg" alt="Morgaine Breimayer headshot" />
           </picture>
-          <div id="row">
-            <div class="column_lt">
-              <h2>My Story</h2>
-              <h3>A good user experience is the result of proper execution of both design <i>and</i> code. Which is why I do both. I am an innovative UI/UX designer and front end web developer with a passion for details.</h3>
-
-              <p>I began my career with a degree in digital media, giving me a classically trained eye for good design. Armed with a wide array of skills, I’ve experienced design from all angles of the field, from video and photo editing to print materials to pitch decks to web page design. Working at SideReel, I strengthened my front end developer skills, creating mockups and then coding pages for the content team, while also developing graphics for the site. After 8 years of generalized design experience, I decided to focus in on user interface design, and now have a certificate in UI design.</p>
-              <p>I believe in working smart, and love coming up with streamlined solutions for processes. My experience with front end means I can easily communicate for developers, and I design around the constraints of coding. I have a demonstrated talent for creating beautiful designs. I like to take the initiative, pick up new skills, and take on new challenges. I am an extremely fast learner, familiar with Agile workflow, and approach design with a high degree of empathy for both the user and the developer.</p>
-              <a href="files/MBreimayer_resume.pdf" target="_blank">View my resume</a>
-            </div>
-            <div class="column_rt">
-              <h2>Skills & Tools</h2>
-              <div>
-                <div id="skills">
-                  <h3>Relevent Skills</h3>
-                  <ul>
-                    <li>UI Design</li>
-                    <li>UX Design</li>
-                    <li>Front End Developer</li>
-                    <li>Graphic Design</li>
-                    <li>Wireframing</li>
-                    <li>Protoytping</li>
-                    <li>Competitor Research</li>
-                    <li>User Testing</li>
-                    <li>User Flows</li>
-                    <li>Photo Editing</li>
-                    <li>Video Editing</li>
-                  </ul>
-                </div>
-                <div id="tech">
-                  <h3>Tools I Use</h3>
-                  <ul>
-                    <li>Sketch</li>
-                    <li>InVision</li>
-                    <li>Agile Development</li>
-                    <li>Illustrator</li>
-                    <li>Photoshop</li>
-                    <li>InDesign</li>
-                    <li>Lightroom</li>
-                    <li>HTML</li>
-                    <li>CSS/SCSS</li>
-                    <li>Javascript</li>
-                    <li>Final Cut Pro</li>
-                    <li>Microsoft Office</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="col-r">
+          <h3>A good user experience is the result of proper execution of both design <i>and</i> code.</h3>
+          <h3>Which is why I do both. </h3>
+          <h3>I am an innovative UI/UX designer and front end web developer with a passion for details.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-l">
+          <h2>My Story</h2>
+          <p>I began my career with a degree in digital media, giving me a classically trained eye for good design. Armed with a wide array of skills, I’ve experienced design from all angles of the field, from video and photo editing to print
+            materials to pitch decks to web page design. Working at SideReel, I strengthened my front end developer skills, creating mockups and then coding pages for the content team, while also developing graphics for the site. After 8 years of
+            generalized design experience, I decided to focus in on user interface design, and now have a certificate in UI design.</p>
+          <p>I believe in working smart, and love coming up with streamlined solutions for processes. My experience with front end means I can easily communicate for developers, and I design around the constraints of coding. I have a demonstrated
+            talent for creating beautiful designs. I like to take the initiative, pick up new skills, and take on new challenges. I am an extremely fast learner, familiar with Agile workflow, and approach design with a high degree of empathy for both
+            the user and the developer.</p>
+          <div class="button-cont">
+            <a href="files/MBreimayer_resume.pdf" target="_blank" class="button">View my resume</a>
           </div>
+        </div>
+        <div class="col-r skills">
+          <h2>Skills & Tools</h2>
+          <h3>Relevent Skills</h3>
+          <ul>
+            <li>UI Design</li>
+            <li>UX Design</li>
+            <li>Front End Developer</li>
+            <li>Graphic Design</li>
+            <li>Wireframing</li>
+            <li>Protoytping</li>
+            <li>Competitor Research</li>
+            <li>User Testing</li>
+            <li>User Flows</li>
+            <li>Photo Editing</li>
+            <li>Video Editing</li>
+          </ul>
+          <h3>Tools I Use</h3>
+          <ul>
+            <li>Sketch</li>
+            <li>InVision</li>
+            <li>Agile Development</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>InDesign</li>
+            <li>Lightroom</li>
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>Javascript</li>
+            <li>Final Cut Pro</li>
+            <li>Microsoft Office</li>
+          </ul>
         </div>
       </div>
     </div>
-
   </main>
 
   <footer>
-    <div id="contact" class="wrapper">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
-      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. Prefer to send an email?</p>
+      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. <br />Prefer to send an email?</p>
       <div>
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>

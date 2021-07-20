@@ -18,14 +18,16 @@ body {
   font-size: 16px;
 }
 header {
+  height: 150px;
+}
+header .container {
   background-image: url("../img/header@2x.png");
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10px 10px 10px 0;
-  height: 150px;
+  background-position: 30%;
 }
 header img {
-  width: 50%;
+  width: 63%;
   padding-top: 20px;
 }
 header p {
@@ -33,10 +35,31 @@ header p {
 }
 nav {
   float: right;
+  text-align: center;
 }
-h1, h2, h3 {
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 15px;
+}
+h1, h2 {
   text-align: center;
   color: var(--med-turq);
+}
+h3 {
+  font-weight: 400;
+  margin: 5px 0 10px;
+}
+p, ul {
+  font-weight: 200;
+}
+img {
+  width: 100%;
 }
 a {
   color: var(--lt-turq);
@@ -51,14 +74,11 @@ a:active {
   color: var(--med-turq);
   text-decoration: underline;
 }
-img {
-  width: 100%;
-}
 a.button {
   display: inline-block;
   background-color: var(--lt-turq);
   color: var(--dk-turq);
-  font-weight: 400;
+  font-weight: 600;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid var(--med-turq);
@@ -92,20 +112,64 @@ footer a i {
 footer .copyright {
   font-size: .65em;
 }
-
+.col-l {
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+}
+.col-r {
+  width: 49%;
+  float: right;
+  margin-left: 10px;
+}
+.button-cont {
+  text-align: center;
+  margin-top: 30px;
+}
 
 /* Homepage stylings */
+#homepage #intro {
+  padding: 20px 100px;
+  width: 100%;
+}
+#homepage .container, #about .container {
+  padding: 20px 0;
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+#homepage .row, #about .row {
+  display: inline-block;
+}
 #homepage .col-l {
   display: inline;
+  width: 55%;
 }
 #homepage .col-l img {
-  width: 50%;
 }
 #homepage .col-r {
-  width: 40%;
-  float: right;
+  width: 41%;
+  padding-top: 20px;
 }
 
+/* About page */
+#about .col-l {
+  width: 58%;
+}
+#about .col-r {
+  width: 39%;
+  padding-left: 20px;
+}
+#about .col-r.skills {
+  text-align: right;
+  width: 32%;
+}
+#about .col-r.skills h2 {
+  text-align: right;
+}
+#about .col-r.skills ul {
+  list-style-type: none;
+}
 /* Case Studies */
 .case-study {
   margin:0 auto 50px auto;
@@ -119,20 +183,10 @@ footer .copyright {
   padding: 50px;
   height: 540px;
 }
-.case-study .col-l {
-  width: 48%;
-  float: left;
-  margin-right: 10px;
-}
 .case-study figure {
   margin: 0;
   float: left;
   text-align: center;
-}
-.case-study .col-r {
-  width: 49%;
-  float: right;
-  margin-left: 10px;
 }
 .case-study .three-col {
   width: 33%;

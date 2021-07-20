@@ -19,7 +19,7 @@
 
 <body id="homepage">
   <header>
-    <div>
+    <div class="container">
       <img src="img/logo.svg" alt="logo" />
       <nav>
         <ul>
@@ -33,7 +33,7 @@
 
   <main>
     <div id="intro">
-      <div>
+      <div class="container">
         <h1>Hi, I'm Morgaine<br />
           <span style="font-size: .8em;">a front-end designer based out of San Francisco.</span>
         </h1>
@@ -41,45 +41,51 @@
       </div>
     </div>
     <div id="work">
-      <div class="wrapper">
-        <h2>My Work</h2>
-        <div class="row">
-          <div class="column-lt">
+      <div class="container">
+        <h2>Selected Work</h2>
+        <div class="row macrame">
+          <div class="col-l">
             <picture>
               <source srcset="img/homepage/macrame_title@1x.jpg" media="(max-width:767px;)" />
               <img src="img/homepage/macrame_title@2x.jpg" alt="Macra.me" />
             </picture>
           </div>
-          <div class="column-rt">
+          <div class="col-r">
             <h3>Macra.me</h3>
             <p>Macra.me is a responsive retail web app that allows users to peruse a large, well-curated collection of woven arts without ever having to leave their home.</p>
-            <a href="macrame.html" class="button">View project</a>
+            <div class="button-cont">
+              <a href="macrame.html" class="button">View project</a>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="column-lt">
+        <div class="row beleaf">
+          <div class="col-l">
             <picture>
               <source srcset="img/homepage/beleaf_title@1x.jpg" media="(max-width:767px;)" />
               <img src="img/homepage/beleaf_title@2x.jpg" alt="BeLeaf" />
             </picture>
           </div>
-          <div class="column-rt">
+          <div class="col-r">
             <h3>BeLeaf</h3>
             <p>BeLeaf is a set of iOS & Android native apps that helps plant parents of all skill levels keep on top of their plant care schedule.</p>
-            <a href="beleaf.html" class="button">View project</a>
+            <div class="button-cont">
+              <a href="beleaf.html" class="button">View project</a>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="column-lt">
+        <div class="row compleat">
+          <div class="col-l">
             <picture>
               <source srcset="img/homepage/compleat_title@1x.jpg" media="(max-width:767px;)" />
               <img src="img/homepage/compleat_title@2x.jpg" alt="ComplEat" />
             </picture>
           </div>
-          <div class="column-rt">
+          <div class="col-r">
             <h3>ComplEat</h3>
             <p>ComplEat is a responsive web app that recommends recipes to users based on ingredients they already have available to them.</p>
-            <a href="compleat.html" class="button">View project</a>
+            <div class="button-cont">
+              <a href="beleaf.html" class="button">View project</a>
+            </div>
           </div>
         </div>
       </div>
@@ -87,9 +93,9 @@
   </main>
 
   <footer>
-    <div id="contact" class="wrapper">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
-      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. Prefer to send an email?</p>
+      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. <br />Prefer to send an email?</p>
       <div>
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
