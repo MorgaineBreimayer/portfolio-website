@@ -1,0 +1,21 @@
+@keyframes sky-rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#sky {
+  animation-duration: 50s;
+  animation-name: sky-rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: 2418.049px 2418.049px;
+}
+@keyframes fog-move {
+  from {transform: translate(1300px,1290px);}
+  to {transform: translate(-1765px,1290px);}
+}
+#fog {
+  animation-duration: 10s;
+  animation-name: fog-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
