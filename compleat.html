@@ -20,13 +20,13 @@
 
 <body id="compleat">
   <header>
-    <div>
+    <div class="container">
       <img src="img/logo.svg" alt="logo" />
       <nav>
         <ul>
           <li><a href="index.html#work">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="no-right-pad"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -37,9 +37,9 @@
       <h1>ComplEat Case Study</h1>
     </div>
     <div class="case-study">
-      <div class="page" id="one">
-        <div class="container">
-          <div class="content">
+      <div class="page white-border" id="one">
+        <div class="banner-down">
+          <div class="banner">
             <div class="logo">
               <picture>
                 <source srcset="img/compleat/logos/logo_white@1x.png" media="(max-width:767px;)" />
@@ -47,81 +47,105 @@
               </picture>
               <h3>You already have everything you need</h3>
             </div>
-
-            <p>UX/UI Case Study</p>
+          </div>
+          <div class="down">
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <p class="large-medium">UX/UI Case Study</p>
           </div>
         </div>
       </div>
-      <div class="page" id="two">
+      <div class="page white-border" id="two">
+        <div class="banner right">
+          <h2>What is ComplEat?</h2>
+          <h3 class="large-medium">ComplEat is a web-based app that helps users find recipes <br class="large" />based on ingredients they already have in their kitchen.</h3>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>What is ComplEat?</h2>
-            <h3>ComplEat is a web-based app that helps users find recipes <br />based on ingredients they already have in their kitchen.</h3>
-          </div>
+          <p class="small">ComplEat is a web-based app that helps users find recipes <br class="large" />based on ingredients they already have in their kitchen.</p>
         </div>
       </div>
       <div class="page" id="three">
-        <div class="container">
-          <div class="banner left">
-            <h2>Hypothesis</h2>
-          </div>
-          <div class="content">
-            <h3>Everyone has the need to find recipes for specific ingredients. </h3>
-            <p>From a desire to not waste food, to working with a new ingredient, to not having made it to the grocery store, people need access to tested recipes to help them start cooking when they have food they specifically want to use.</p>
-          </div>
+        <div class="banner left">
+          <h2>Hypothesis</h2>
         </div>
+        <div class="container">
+          <div class="content">
+            <h3 class="col-lg-4 col-md-12">Everyone has the need to find recipes for specific ingredients. </h3>
+            <p class="col-lg-3 col-md-12">From a desire to not waste food, to working with a new ingredient, to not having made it to the grocery store, people need access to tested recipes to help them start cooking when they have food they specifically want to use.</p>
+          </div>
+          <picture class="small">
+            <source srcset="img/compleat/mockups/mockups_mobile@1x.png" media="(max-width:767px;)" />
+            <img src="img/compleat/mockups/mockups_mobile@2x.png" alt="wireframes" />
+          </picture>
+        </div>
+        <picture class="large">
+          <source srcset="img/compleat/mockups/mockups@1x.png" media="(max-width:767px;)" />
+          <img src="img/compleat/mockups/mockups@2x.png" alt="wireframes" />
+        </picture>
+        <picture class="medium">
+          <source srcset="img/compleat/mockups/mockups_mobile@1x.png" media="(max-width:767px;)" />
+          <img src="img/compleat/mockups/mockups_mobile@2x.png" alt="wireframes" />
+        </picture>
       </div>
       <div class="page" id="four">
+        <div class="banner left">
+          <h2>User Research</h2>
+        </div>
         <div class="container">
-          <div class="banner left">
-            <h2>User Research</h2>
-          </div>
-          <div class="content">
-            <div class="col-l">
+          <div class="content flexbox">
+            <div class="col-lg-5 col-md-12">
               <h3>To identify and connect with a target audience, I conducted a series of user interviews and asked about their needs and cooking behavior.</h3>
               <h3>The interviews revealed a unanimous need for the app, even before the specific app idea was presented to them.</h3>
               <h3>The results helped me identify which features potential users consider absolutely necessary in a recipe app.</h3>
             </div>
-            <div class="col-r">
+            <div class="col-lg-6 col-sm-12 large-small">
               <img src="img/compleat/keywords.svg" alt="keywords" />
             </div>
+            <div class="col-md-12 medium">
+              <img src="img/compleat/keywords_mobile.svg" alt="keywords" />
+            </div>
+
           </div>
         </div>
       </div>
       <div class="page" id="five">
+        <div class="banner right">
+          <h2>User Personas</h2>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>User Personas</h2>
-          </div>
           <div class="content">
             <h3>Who is the user?</h3>
-            <p>Cooks of all skill levels | Ages 20-55 | Busy people who can’t get to the store | People trying to use a specific ingredient</p>
-            <picture>
-              <source srcset="img/compleat/user1@1x.png" media="(max-width:767px;)" />
-              <img src="img/compleat/user1@2x.png" alt="user persona 1" />
-            </picture>
+            <p class="col-lg-12">Cooks of all skill levels<span class="large"><b> | </b></span><br class="medium small" />Ages 20-55<span class="large"><b> | </b></span><br class="medium small" />Busy people who can’t get to the store<span class="large"><b> | </b></span><br class="medium small" />People trying to use a specific ingredient</p>
           </div>
         </div>
+        <picture class="large-medium">
+          <source srcset="img/compleat/users/user1@1x.jpg" media="(max-width:767px;)" />
+          <img src="img/compleat/users/user1@2x.jpg" alt="user persona 1" />
+        </picture>
+        <img class="small" src="img/compleat/users/user1_mobile.jpg" alt="user persona 1" />
       </div>
       <div class="page" id="six">
+        <div class="banner right">
+          <h2>User Personas</h2>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>User Personas</h2>
-          </div>
           <div class="content">
-            <p>The data from the user interviews was synthesized into User Personas to provide key insights into users’ needs<br /> and how they will use the app. The User Personas helped maintain focus while developing solutions for them.</p>
-            <picture>
-              <source srcset="img/compleat/user2@1x.png" media="(max-width:767px;)" />
-              <img src="img/compleat/user2@2x.png" alt="user persona 1" />
-            </picture>
+            <p class="col-lg-11 col-sm-12">The data from the user interviews was synthesized into User Personas to provide key insights into users’ needs and how they will use the app. The User Personas helped maintain focus while developing solutions for them.</p>
           </div>
         </div>
+        <picture class="large-medium">
+          <source srcset="img/compleat/users/user2@1x.jpg" media="(max-width:767px;)" />
+          <img src="img/compleat/users/user2@2x.jpg" alt="user persona 2" />
+        </picture>
+        <img class="small" src="img/compleat/users/user2_mobile.jpg" alt="user persona 2" />
       </div>
       <div class="page" id="seven">
+        <div class="banner left">
+          <h2>User Stories</h2>
+        </div>
         <div class="container">
-          <div class="banner left">
-            <h2>User Stories</h2>
-          </div>
           <div class="content">
             <h3>By building User Stories I was able to define the jobs to be done and weigh which features were necessary for a minimum viable product.</h3>
             <p class="first">
@@ -141,26 +165,37 @@
               <b>Feature requirements:</b> account creation, saved recipes section of web app, clickable save button on recipes
             </p>
           </div>
+          <picture class="small">
+            <source srcset="img/compleat/mockups/mockup3@1x.png" media="(max-width:767px;)" />
+            <img src="img/compleat/mockups/mockup3@2x.png" alt="wireframes" />
+          </picture>
+
         </div>
+        <picture class="large-medium">
+          <source srcset="img/compleat/mockups/mockup3@1x.png" media="(max-width:767px;)" />
+          <img src="img/compleat/mockups/mockup3@2x.png" alt="wireframes" />
+        </picture>
       </div>
       <div class="page" id="eight">
+        <div class="banner right">
+          <h2>User Flow & IA Map</h2>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>User Flow & Information Architecture</h2>
-          </div>
           <div class="content">
-            <h3>After defining the objectives of the app, I created a user flow that focused on specific tasks the user would need to complete. </h3>
+            <p class="col-lg-8 col-md-12">After defining the objectives of the app, I created a user flow that focused on specific tasks the user would need to complete. </p>
+            <img src="img/compleat/users/user_flow.svg" alt="user flow chart" class="large" />
+            <img src="img/compleat/users/user_flow_vert.svg" alt="user flow chart" class="medium small" />
           </div>
         </div>
       </div>
       <div class="page" id="nine">
+        <div class="banner left">
+          <h2>Mood Boards</h2>
+        </div>
         <div class="container">
-          <div class="banner left">
-            <h2>Mood Boards</h2>
-          </div>
-          <div class="content">
-            <h3>I created two different mood boards to explore the visual direction of the app. I selected this board because it is practical, inspires cooking confidence, and applies to all food groups.</h3>
-            <figure>
+          <div class="content flexbox">
+            <p class="col-lg-5 col-md-12">I created two different mood boards to explore the visual direction of the app. I selected this board because it is practical, inspires cooking confidence, and applies to all food groups.</p>
+            <figure class="col-lg-7 col-md-12">
               <picture>
                 <source srcset="img/compleat/mood_board@1x.png" media="(max-width:767px;)" />
                 <img src="img/compleat/mood_board@2x.png" alt="mood board" />
@@ -173,119 +208,121 @@
         </div>
       </div>
       <div class="page" id="ten">
+        <div class="banner right">
+          <h2>Wireframe Progression</h2>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>Wireframe Progression</h2>
-          </div>
           <div class="content">
-            <h3>Using the user flows I’d established, I went through a round of rapid paper protoyping. These were turned into low-fidelity wireframes. I then applied the visual direction of the mood board to the wiireframes to bring the app to life.
-            </h3>
-            <picture>
-              <source srcset="img/compleat/wireframes1@1x.png" media="(max-width:767px;)" />
-              <img src="img/compleat/wireframes1@2x.png" alt="wireframe progression" />
-            </picture>
-            <picture>
-              <source srcset="img/compleat/wireframes2@1x.png" media="(max-width:767px;)" />
-              <img src="img/compleat/wireframes2@2x.png" alt="wireframe progression" />
-            </picture>
+            <p class="col-lg-8 col-md-12">Using the user flows I’d established, I went through a round of rapid paper protoyping. These were turned into low-fidelity wireframes. I then applied the visual direction of the mood board to the wiireframes to bring the app to life.
+            </p>
+            <div class="flexbox col-lg-12">
+              <picture class="col-lg-6 col-md-8 col-sm-12">
+                <source srcset="img/compleat/wireframes1@1x.png" media="(max-width:767px;)" />
+                <img src="img/compleat/wireframes1@2x.png" alt="wireframe progression" />
+              </picture>
+              <picture class="col-lg-6 col-md-8 col-sm-12">
+                <source srcset="img/compleat/wireframes2@1x.png" media="(max-width:767px;)" />
+                <img src="img/compleat/wireframes2@2x.png" alt="wireframe progression" />
+              </picture>
+            </div>
+
           </div>
         </div>
       </div>
       <div class="page" id="eleven">
+        <div class="banner left">
+          <h2>Style guide</h2>
+        </div>
         <div class="container">
-          <div class="col-l">
-            <div class="banner left">
-              <h2>Style guide</h2>
-            </div>
-            <div class="content left">
+          <div class="content gridbox">
+            <div class="icon">
               <h3>Icons</h3>
-              <hr />
-              <div class="icons">
-                <figure>
+              <div class="icons flexbox">
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/pantry@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/pantry@2x.png" alt="pantry icon" />
                   </picture>
                   <figcaption>Pantry</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/favorite_empty@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/favorite_empty@2x.png" alt="favorite icon" />
                   </picture>
                   <figcaption>Favorite</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/filters@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/filters@2x.png" alt="filters icon" />
                   </picture>
                   <figcaption>Filters</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/star_empty@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/star_empty@2x.png" alt="rating icon" />
                   </picture>
                   <figcaption>Rating</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/search@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/search@2x.png" alt="search icon" />
                   </picture>
                   <figcaption>Search</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/clock@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/clock@2x.png" alt="time icon" />
                   </picture>
                   <figcaption>Time</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/close@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/close@2x.png" alt="close icon" />
                   </picture>
                   <figcaption>Close</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/person@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/person@2x.png" alt="person icon" />
                   </picture>
                   <figcaption>Servings/<br />Account</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/favorite@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/favorite@2x.png" alt="favorite icon" />
                   </picture>
                   <figcaption>Favorite<br />(Active)</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/filters_selected@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/filters_selected@2x.png" alt="filters icon" />
                   </picture>
                   <figcaption>Filters<br />(Active)</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/star@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/star@2x.png" alt="rating icon" />
                   </picture>
                   <figcaption>Rating<br />(Active)</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/left_right@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/left_right@2x.png" alt="back and forward icon" />
                   </picture>
                   <figcaption>Back/<br />Forward</figcaption>
                 </figure>
-                <figure>
+                <figure class="col-lg-1_75 col-md-6 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/up_down@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/up_down@2x.png" alt="up and down icon" />
@@ -293,86 +330,25 @@
                   <figcaption>Expand/<br />Contract</figcaption>
                 </figure>
               </div>
-              <h3>Color Scheme</h3>
-              <hr />
-              <div class="color-scheme">
-                <div class="col-l color">
-                  <div class="col-l">
-                  </div>
-                  <div class="col-r">
-                    <h5>
-                      Hex: #E25819<br />
-                      RGB: (226, 88, 25)<br />
-                      HSB: (18, 88%, 88%)
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-r color">
-                  <div class="col-l purp">
-                  </div>
-                  <div class="col-r">
-                    <h5>
-                      Hex: #100E2B<br />
-                      RGB: (16, 14, 43)<br />
-                      HSB: (242, 67%, 16%)
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-l color">
-                  <div class="col-l gray">
-                  </div>
-                  <div class="col-r">
-                    <h5>
-                      Hex: #888795<br />
-                      RGB: (136, 135, 149)<br />
-                      HSB: (244, 9%, 58%)
-                    </h5>
-                  </div>
-                </div>
-                <div class="col-r color">
-                  <div class="col-l yellow">
-                  </div>
-                  <div class="col-r">
-                    <h5>
-                      Hex: #FFC33B<br />
-                      RGB: (255, 195, 59)<br />
-                      HSB: (40, 76%, 100%)
-                    </h5>
-                  </div>
-                </div>
-              </div>
-
-              <h3>Typography Heirarchy</h3>
-              <hr />
-              <img src="img/compleat/typography.svg" class="typ" alt="typography" />
-              <h3>Language</h3>
-              <hr />
-              <h5 class="typ">
-                Clear & concise<br />
-                Simple instructions that inspire confidence in the user’s cooking ability.
-              </h5>
             </div>
-          </div>
-          <div class="col-r">
-            <div class="content right">
+            <div class="logos">
               <h3>Logo Usage</h3>
-              <hr />
-              <div class="logos">
-                <figure class="first">
+              <div class="variations flexbox">
+                <figure class="col-lg-2 col-md-2_25 col-sm-6">
                   <picture>
                     <source srcset="img/compleat/logos/logo@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/logos/logo@2x.png" alt="logo" />
                   </picture>
                   <figcaption>Vertical Logo</figcaption>
                 </figure>
-                <figure class="second">
+                <figure class="col-lg-5 col-md-4 col-sm-9">
                   <picture>
                     <source srcset="img/compleat/logos/logo_horizontal@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/logos/logo_horizontal@2x.png" alt="logo" />
                   </picture>
                   <figcaption>Horizontal Logo</figcaption>
                 </figure>
-                <figure class="third">
+                <figure class="col-lg-2 col-md-1_75 col-sm-6">
                   <picture>
                     <source srcset="img/compleat/logos/logomark@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/logos/logomark@2x.png" alt="logo" />
@@ -381,100 +357,108 @@
                 </figure>
               </div>
               <h5><b>Colors:</b> #E25819 | Logo may be white on a background of #E25819</h5>
-              <h5><b>Incorrect logo usage:</b></h5>
-              <div class="logos">
-                <h5 class="col-l">
-                  Do not type out the wordmark<br />
-                  Do not outline<br />
-                  Do not apply colors to a single part
+              <h5 class="large-small"><b>Incorrect logo usage:</b></h5>
+              <div class="logo flexbox large-small">
+                <h5 class="col-lg-6 col-sm-12">Do not apply colors to a single part</h5>
+                <h5 class="col-lg-6 col-sm-12">Do not type out the wordmark</h5>
+                <h5 class="col-lg-6 col-sm-12">Do not outline</h5>
+                <h5 class="col-lg-6 col-sm-12">Do not apply gradients or shadows</h5>
+                <h5 class="col-lg-6 col-sm-12">Do not use other typefaces</h5>
+                <h5 class="col-lg-6 col-sm-12">Do not rotate</h5>
+              </div>
+            </div>
+            <div class="color">
+              <h3>Color Scheme</h3>
+              <div class="color-scheme flexbox">
+                <div class="col-lg-2 col-sm-4 large-small swatch">
+                </div>
+                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                  Hex: #E25819<br />
+                  RGB: (226, 88, 25)<br />
+                  HSB: (18, 88%, 88%)
                 </h5>
-                <h5 class="col-r">
-                  Do not use other typefaces<br />
-                  Do not apply gradients or shadows<br />
-                  Do not rotate
+                <div class="col-lg-2 col-sm-4 large-small swatch purp">
+                </div>
+                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                  Hex: #100E2B<br />
+                  RGB: (16, 14, 43)<br />
+                  HSB: (242, 67%, 16%)
+                </h5>
+                <div class="col-lg-2 col-sm-4 large-small swatch gray">
+                </div>
+                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                  Hex: #888795<br />
+                  RGB: (136, 135, 149)<br />
+                  HSB: (244, 9%, 58%)
+                </h5>
+                <div class="col-lg-2 col-sm-4 large-small swatch yellow">
+                </div>
+                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                  Hex: #FFC33B<br />
+                  RGB: (255, 195, 59)<br />
+                  HSB: (40, 76%, 100%)
                 </h5>
               </div>
+            </div>
+            <div class="ui">
               <h3>UI Elements</h3>
-              <hr />
-              <div class="elements inactive">
-                <div class="col-l left">
-                  <div class="col-l text">
-                    <h5>Inactive</h5>
-                  </div>
-                  <div class="col-r primary">
-                    <h5>Primary Button</h5>
-                  </div>
+              <div class="elements gridbox">
+                <h5 class="inactive h">Inactive</h5>
+                <h5 class="inactive primary">Primary Button</h5>
+                <h5 class="inactive secondary">Secondary Button</h5>
+                <h5 class="inactive tertiary">Tertiary Button</h5>
+                <h5 class="active h">Active</h5>
+                <h5 class="active primary">Primary Button</h5>
+                <h5 class="active secondary">Secondary Button</h5>
+                <h5 class="active tertiary">Tertiary Button</h5>
+                <h5 class="tab h">Tabs</h5>
+                <div class="tabs">
+                  <h5>Inactive</h5>
+                  <h5 class="active">Active</h5>
                 </div>
-                <div class="col-r right">
-                  <div class="col-l secondary">
-                    <h5>Secondary Button</h5>
-                  </div>
-                  <div class="col-r tertiary">
-                    <h5>Tertiary Button</h5>
-                  </div>
-                </div>
+                <h5 class="nav h">Nav Bar</h5>
+                <picture class="nav bar">
+                  <source srcset="img/compleat/icons/nav_bar@1x.png" media="(max-width:767px;)" />
+                  <img src="img/compleat/icons/nav_bar@2x.png" alt="nav bar" />
+                </picture>
+                <h5 class="nav inactive">Inactive</h5>
+                <h5 class="nav active">Active</h5>
               </div>
-              <div class="elements active">
-                <div class="col-l left">
-                  <div class="col-l text">
-                    <h5>Active</h5>
-                  </div>
-                  <div class="col-r primary">
-                    <h5>Primary Button</h5>
-                  </div>
-                </div>
-                <div class="col-r right">
-                  <div class="col-l secondary">
-                    <h5>Secondary Button</h5>
-                  </div>
-                  <div class="col-r tertiary">
-                    <h5>Tertiary Button</h5>
-                  </div>
-                </div>
+            </div>
+            <div class="words flexbox">
+              <div class="col-lg-12 col-md-8 col-sm-12">
+                <h3>Typography Heirarchy</h3>
+                <img src="img/compleat/typography.svg" class="typ large-medium" alt="typography" />
+                <img src="img/compleat/typography_mobile.svg" class="small" alt="typography" />
               </div>
-              <div class="elements bars">
-                <div class="col-l left">
-                  <div class="col-l text">
-                    <h5>Tabs</h5>
-                  </div>
-                  <div class="col-r tabs">
-                    <h5>Inactive</h5>
-                    <h5 class="active">Active</h5>
-                  </div>
-                </div>
-                <div class="col-r right">
-                  <div class="col-l text">
-                    <h5>Nav Bar</h5>
-                  </div>
-                  <div class="col-r">
-                    <picture>
-                      <source srcset="img/compleat/nav_bar@1x.png" media="(max-width:767px;)" />
-                      <img src="img/compleat/nav_bar@2x.png" alt="nav bar" />
-                    </picture>
-                    <h5><span>Inactive</span>Active</h5>
-                  </div>
-                </div>
+              <div class="col-lg-12 col-md-4 col-sm-12">
+                <h3>Language</h3>
+                <h5 class="typ">
+                  Clear & concise<br class="large-small" />
+                  Simple instructions that inspire confidence in the user's cooking ability.
+                </h5>
               </div>
+            </div>
+            <div class="image">
               <h3>Imagery</h3>
-              <hr />
-              <div class="imagery">
-                <h5>
+              <div class="flexbox">
+                <h5 class="col-lg-3 col-md-4 col-sm-12">
                   <b>Ingredients</b><br />
-                  White background<br />
-                  Soft shadow<br />
+                  White background<br class="large-medium"/><span class="small"><b> | </b></span>
+                  Soft shadow<br class="large-medium"/><span class="small"><b> | </b></span>
                   Vibrant colors
                 </h5>
-                <picture>
+                <picture class="col-lg-9 col-md-8 col-sm-12">
                   <source srcset="img/compleat/imagery1@1x.png" media="(max-width:767px;)" />
                   <img src="img/compleat/imagery1@2x.png" alt="ingredient images" />
                 </picture>
-                <h5>
+                <h5 class="col-lg-3 col-md-4 col-sm-12">
                   <b>Recipes</b><br />
-                  Vibrant colors<br />
-                  High quality image<br />
+                  Vibrant colors<br class="large-medium"/><span class="small"><b> | </b></span>
+                  High quality image<br class="large-medium"/><span class="small"><b> | </b></span>
                   Rounded corners
                 </h5>
-                <picture>
+                <picture class="col-lg-9 col-md-8 col-sm-12">
                   <source srcset="img/compleat/imagery2@1x.png" media="(max-width:767px;)" />
                   <img src="img/compleat/imagery2@2x.png" alt="ingredient images" />
                 </picture>
@@ -484,23 +468,28 @@
         </div>
       </div>
       <div class="page" id="twelve">
+        <div class="banner right">
+          <h2>Responsive Design</h2>
+        </div>
         <div class="container">
-          <div class="banner right">
-            <h2>Responsive Design</h2>
-          </div>
           <div class="content">
-            <picture>
+            <picture class="large">
               <source srcset="img/compleat/mockups/devices@1x.png" media="(max-width:767px;)" />
-              <img src="img/compleat/mockups/devices@2x.png" alt="logo" />
+              <img src="img/compleat/mockups/devices@2x.png" alt="devices" />
             </picture>
+            <picture class="medium">
+              <source srcset="img/compleat/mockups/devices_mobile@1x.png" media="(max-width:767px;)" />
+              <img src="img/compleat/mockups/devices_mobile@2x.png" alt="devices" />
+            </picture>
+              <img src="img/compleat/mockups/devices_mobile.png" alt="devices" class="small" />
             <h3>The app was designed for four different screen sizes, to ensure a smooth experience on any device. </h3>
           </div>
         </div>
       </div>
-      <div class="page" id="thirteen">
+      <div class="page white-border" id="thirteen">
         <div class="container">
           <div class="content">
-            <picture>
+            <picture class="large-medium">
               <source srcset="img/compleat/logos/logo_horizontal@1x.png" media="(max-width:767px;)" />
               <img src="img/compleat/logos/logo_horizontal@2x.png" alt="logo" />
             </picture>
@@ -508,25 +497,17 @@
         </div>
       </div>
       <div class="page" id="fourteen">
+        <div class="banner left">
+          <h2>Retrospective</h2>
+        </div>
         <div class="container">
-          <div class="container">
-            <div class="banner left">
-              <h2>Retrospective</h2>
-            </div>
-            <div class="content">
-              <div class="column-lt">
-                <h3><b>What went well</b></h3>
-                <p>Narrowing down the list of MVP features was crucial for the success of this app. I had a fairly long list of dream features, and user testing contributed even more ideas. Sitting down with my mentor to go through the feature list
-                  and
-                  determine which were necessary for the MVP made the scope fo the project much more manageable.</p>
-                <h3><b>Challenges overcome</b></h3>
-                <p>While I was creating the low fidelity wireframes and starting to think about the visual direction of the app, I felt pulled in two very different directions. Having the mood board assignment right after was the perfect way to work
-                  out which direction was the right one.</p>
-                <h3><b>What could be imroved</b></h3>
-                <p>Next time I would choose standard screen sizes for my break points in responsive design, since I ended up having to resize all my wireframes in order to make mockups that fit the screens. I’d also make the medium break point a
-                  horizontal layout instead of vertical. For creating my mockup, I would start with a rough drawing on paper to help me visualize the final result and guide me as I built the pdf so I am not so overwhelmed by the empty page.</p>
-              </div>
-            </div>
+          <div class="content">
+              <h3><b>What went well</b></h3>
+              <p>Narrowing down the list of MVP features was crucial for the success of this app. I had a fairly long list of dream features, and user testing contributed even more ideas. Sitting down with my mentor to go through the feature list and determine which were necessary for the MVP made the scope fo the project much more manageable.</p>
+              <h3><b>Challenges overcome</b></h3>
+              <p>While I was creating the low fidelity wireframes and starting to think about the visual direction of the app, I felt pulled in two very different directions. Having the mood board assignment right after was the perfect way to work out which direction was the right one.</p>
+              <h3><b>What could be improved</b></h3>
+              <p>Next time I would choose standard screen sizes for my break points in responsive design, since I ended up having to resize all my wireframes in order to make mockups that fit the screens. I’d also make the medium break point a horizontal layout instead of vertical. For creating my mockup, I would start with a rough drawing on paper to help me visualize the final result and guide me as I built the pdf so I am not so overwhelmed by the empty page.</p>
           </div>
         </div>
       </div>
@@ -534,13 +515,14 @@
   </main>
 
   <footer>
-    <div id="contact" class="container">
+    <div id="contact" class="container col-sm-12">
       <h2>Get in Touch</h2>
-      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. Prefer to send an email?</p>
+      <hr />
+      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
       <div>
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
-      <div class="social media">
+      <div class="social-media">
         <a href="https://www.linkedin.com/in/morgaine-breimayer-39764620/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -549,6 +531,9 @@
         </a>
         <a href="https://www.instagram.com/morgaine.design/" target="_blank">
           <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/MorgaineBreimayer?tab=repositories" target="_blank">
+          <i class="fab fa-github"></i>
         </a>
       </div>
       <div>

@@ -1,0 +1,122 @@
+/* About page */
+
+#about p, #about ul {
+  line-height: 1.4;
+}
+#about .flexbox.title {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 288.8px;
+  background-color: var(--wt-turq);
+  border-radius: 7px;
+  align-items: center;
+}
+#about .headshot img {
+  border-radius: 7px 0 0 7px;
+}
+#about .intro {
+  padding-right: 27px;
+}
+#about .intro h1, #about .intro h3 {
+  color: var(--dk-turq)
+}
+#about .intro h1 {
+  margin-top: 0;
+}
+#about main h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+#about .skills h3 {
+  text-align: left;
+  padding-left: 20px;
+  margin: 15px 0 5px;
+}
+#about .skills .flexbox {
+  justify-content: center;
+  padding-left: 100px;
+}
+#about .skills ul {
+  margin: 0px;
+}
+#about .button-cont {
+  margin: 25px 0 50px;
+}
+
+/* Medium devices (1024px or smaller) */
+@media only screen and (max-width: 1024px) {
+  #about .headshot {
+    position: relative;
+    overflow: hidden;
+    height: 289px;
+    border-radius: 7px 0 0 7px;
+  }
+  #about .headshot img {
+    height: 289px;
+    width: auto;
+    margin-left: -288px;
+    position: absolute;
+    left: 50%;
+  }
+  #about .container.about {
+    padding: 10px 15px 0;
+  }
+  #about .intro {
+    padding: 0 32px 0 10px;
+  }
+  #about .intro  h1 {
+    margin-bottom: 13px;
+  }
+  #about .story h2 {
+    margin: 30px 0 5px;
+  }
+  #about .button-cont {
+    margin: 25px 0 35px;
+  }
+  #about .skills .flexbox {
+    justify-content: space-evenly;
+    padding-left: 0;
+  }
+  #about main {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small devices (640px and smaller) */
+@media only screen and (max-width: 640px) {
+  #about .flexbox.title {
+    flex-direction: column-reverse;
+    border-radius: 7px;
+    height: unset;
+  }
+
+  #about .headshot {
+    height: unset;
+    padding: 0;
+    border-radius: 0;
+  }
+  #about .headshot picture {
+    display: inline-grid;
+  }
+  #about .headshot img {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    left: 0;
+    border-radius: 0 0 7px 7px;
+    border-top: 2px solid var(--med-turq);
+  }
+  #about .intro h1 {
+    margin-top: revert;
+  }
+  #about .button-cont {
+    margin: 30px 0 45px;
+  }
+  #about .intro {
+    padding: 0 30px;
+  }
+  #about .skills {
+    padding-left: unset;
+  }
+}

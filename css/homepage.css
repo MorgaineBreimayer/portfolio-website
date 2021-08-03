@@ -1,0 +1,125 @@
+/* Homepage */
+#homepage #hero .flexbox {
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: var(--wt-turq);
+  color: var(--dk-turq);
+  border-radius: 7px;
+  padding: 20px;
+}
+#homepage #hero .flexbox .text {
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+}
+#homepage #hero h1, #homepage #hero h2 {
+  color: var(--dk-turq);
+  margin: 5px 0;
+}
+#homepage #hero p {
+  margin-bottom: 0;
+}
+#homepage #hero .bracket {
+  font-size: 174px;
+  line-height: 121px;
+  width: 10%;
+}
+#homepage #work h2 {
+  margin: 20px 0 5px;
+}
+#homepage #work .flexbox {
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+#homepage #work .project {
+  margin-bottom: 25px;
+}
+#homepage #work img {
+  border-radius: 7px;
+}
+#homepage #work h3 {
+  margin: 8px 0 5px;
+}
+#homepage #work p {
+  margin: 0 0 5px;
+}
+
+/* SVG */
+
+#homepage svg {
+  height: 533px;
+  width: 1000px;
+  border-radius: 7px;
+}
+@keyframes sky-rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#sky {
+  animation-duration: 70s;
+  animation-name: sky-rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: 2418.049px 2418.049px;
+}
+@keyframes fog-move {
+  from {transform: translate(1237px,1290px);}
+  to {transform: translate(-1765px,1290px);}
+}
+#fog {
+  animation-duration: 30s;
+  animation-name: fog-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* Medium devices (1024px or smaller) */
+@media only screen and (max-width: 1024px) {
+  #homepage #hero {
+    padding: 10px 15px 0;
+  }
+  #homepage #hero .flexbox .bracket {
+    font-size: 101px;
+    line-height: 62px;
+  }
+  #homepage .animation {
+    height: 341px;
+  }
+  #homepage svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
+/* Small devices (640px and smaller) */
+@media only screen and (max-width: 640px) {
+  #header .col-sm-12 {
+    padding: 0 15px;
+  }
+  #homepage header {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+  #homepage #hero {
+    border-radius: 0;
+  }
+  #homepage #hero.container {
+    margin-top: 5px;
+  }
+  #homepage #hero .flexbox {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #homepage #hero .flexbox .bracket {
+    font-size: 131px;
+    line-height: 91px;
+  }
+  #homepage #work h2 {
+    margin: 20px 0 5px;
+  }
+  #homepage #work .flexbox .project {
+    margin-bottom: 35px;
+  }
+
+}

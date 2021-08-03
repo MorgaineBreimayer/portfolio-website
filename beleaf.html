@@ -21,13 +21,13 @@
 
 <body id="beleaf">
   <header>
-    <div>
+    <div class="container">
       <img src="img/logo.svg" alt="logo" />
       <nav>
         <ul>
           <li><a href="index.html#work">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="no-right-pad"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -55,40 +55,42 @@
           <div class="content">
             <h2>Project Overview</h2>
             <hr />
-            <div class="col-l">
+            <div class="col-lg-8 col-md-12">
               <h3>Project Goals</h3>
               <p>To design a native iOS and Android app that helps people keep on top of watering, repotting, and fertilizing their house plants by sending them push notification reminders.</p>
-              <div class="left">
+              <div class="col-lg-7 col-md-12">
                 <h3>Context</h3>
                 <p>There are a lot of competitors on the field, but they tend to have an overload features and hide the good stuff behind a pay wall. This app aims to have a powerful basic feature set that doesn’t overwhelm and is simple to use.</p>
                 <h3>Users</h3>
                 <p>From fledgling plant parents to veteran gardeners, this app will be useful to anyone who owns a plant. </p>
                 <h3>MVP Key Features</h3>
-                <ul>
+                <ul class="col-md-6 col-sm-12">
                   <li>Ability to enter plants that the user owns</li>
                   <li>Provide information on watering level, soil type, fertilization schedule, and light intensity</li>
                   <li>Set notifications for watering, fertilizing, and repotting</li>
                   <li>Ability to search for plants</li>
                 </ul>
               </div>
-
             </div>
-            <div class="col-r">
-              <h3>Key Skills</h3>
-              <p>
-                Competitor Research<br />
-                User Testing<br />
-                Wireframing<br />
-                Protoyping
-              </p>
-              <h3>Tools Used</h3>
-              <p>
-                Sketch<br />
-                Illustrator<br />
-                Photoshop<br />
-              </p>
+            <div class="col-lg-3 col-md-6 col-sm-12 flexbox">
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <h3>Key Skills</h3>
+                <p>
+                  Competitor Research<br />
+                  User Testing<br />
+                  Wireframing<br />
+                  Protoyping
+                </p>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <h3>Tools Used</h3>
+                <p>
+                  Sketch<br />
+                  Illustrator<br />
+                  Photoshop<br />
+                </p>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -98,42 +100,46 @@
             <h2>Competitor Analysis</h2>
             <hr />
             <h4>Apps Researched</h4>
-            <div class="three-col">
-              <h3>Gardenia</h3>
-              <picture>
-                <source srcset="img/beleaf/research/gardenia@1x.png" media="(max-width:767px;)" />
-                <img src="img/beleaf/research/gardenia@2x.png" alt="Gardenia App" />
-              </picture>
-            </div>
-            <div class="three-col">
-              <h3>Planta</h3>
-              <picture>
-                <source srcset="img/beleaf/research/planta@1x.png" media="(max-width:767px;)" />
-                <img src="img/beleaf/research/planta@2x.png" alt="Gardenia App" />
-              </picture>
-            </div>
-            <div class="three-col right">
-              <h3>Blossom</h3>
-              <picture>
-                <source srcset="img/beleaf/research/blossom@1x.png" media="(max-width:767px;)" />
-                <img src="img/beleaf/research/blossom@2x.png" alt="Gardenia App" />
-              </picture>
+            <div class="flexbox">
+              <div class="col-lg-4 col-sm-12">
+                <h3>Gardenia</h3>
+                <picture>
+                  <source srcset="img/beleaf/research/gardenia@1x.png" media="(max-width:767px;)" />
+                  <img src="img/beleaf/research/gardenia@2x.png" alt="Gardenia App" />
+                </picture>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <h3>Planta</h3>
+                <picture>
+                  <source srcset="img/beleaf/research/planta@1x.png" media="(max-width:767px;)" />
+                  <img src="img/beleaf/research/planta@2x.png" alt="Gardenia App" />
+                </picture>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <h3>Blossom</h3>
+                <picture>
+                  <source srcset="img/beleaf/research/blossom@1x.png" media="(max-width:767px;)" />
+                  <img src="img/beleaf/research/blossom@2x.png" alt="Gardenia App" />
+                </picture>
+              </div>
             </div>
             <h4>Insights</h4>
-            <div class="three-col">
-              <h3>Visuals</h3>
-              <p>Consistent color scheme & custom images help build the personality of the brand.</p>
-              <p>Information can be dense, use icons to save space.</p>
-            </div>
-            <div class="three-col">
-              <h3>Onboarding</h3>
-              <p>Empty screen states are a great place to work in instructions.</p>
-              <p>It’s easy for “add plant” flow to become long and arduous.</p>
-            </div>
-            <div class="three-col right">
-              <h3>Features</h3>
-              <p>Most apps have overload of features that can overpower plant owners.</p>
-              <p>Apps like to hide the best features behind a paywall.</p>
+            <div class="flexbox">
+              <div class="col-lg-4 col-md-12">
+                <h3>Visuals</h3>
+                <p>Consistent color scheme & custom images help build the personality of the brand.</p>
+                <p>Information can be dense, use icons to save space.</p>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <h3>Onboarding</h3>
+                <p>Empty screen states are a great place to work in instructions.</p>
+                <p>It’s easy for “add plant” flow to become long and arduous.</p>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <h3>Features</h3>
+                <p>Most apps have overload of features that can overpower plant owners.</p>
+                <p>Apps like to hide the best features behind a paywall.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -147,9 +153,13 @@
             <p>“I want to set up a new plant.”</p>
             <p>“I want to be able to see reminders and care tips for my plant.”</p>
             <p>“I want to view all my upcoming reminders for plant care.”</p>
-            <picture class="context">
+            <picture class="context large">
               <source srcset="img/beleaf/user_flow.png" media="(max-width:767px;)" />
               <img src="img/beleaf/user_flow.png" alt="user flow" />
+            </picture>
+            <picture class="context medium small flexbox">
+              <source srcset="img/beleaf/user_flow_vert@2x.png" media="(max-width:767px;)" />
+              <img src="img/beleaf/user_flow_vert@1x.png" alt="user flow" />
             </picture>
           </div>
         </div>
@@ -159,15 +169,15 @@
           <div class="content">
             <h2>Wireframe Progression</h2>
             <hr />
-            <div class="wireframes">
-              <div class="col-l">
+            <div class="flexbox">
+              <div class="col-lg-6 col-md-12">
                 <h3>iOS</h3>
                 <picture>
                   <source srcset="img/beleaf/wireframes/ios@1x.png" media="(max-width:767px;)" />
                   <img src="img/beleaf/wireframes/ios@2x.png" alt="ios wireframes" />
                 </picture>
               </div>
-              <div class="col-r">
+              <div class="col-lg-6 col-md-12">
                 <h3>Android</h3>
                 <picture>
                   <source srcset="img/beleaf/wireframes/android@1x.png" media="(max-width:767px;)" />
@@ -175,64 +185,63 @@
                 </picture>
               </div>
             </div>
-            <p>Using the latest human interface guidelines from Apple and Material Designs, I created two versions of the app that use standard UI elements from each mobile operating system. This ensures the app will feel familiar to the user even before they begin using it. Once I had applied the OS standards to the app, I was able to apply visual stylings that are specific to the app.</p>
+            <p>Using the latest human interface guidelines from Apple and Material Designs, I created two versions of the app that use standard UI elements from each mobile operating system. This ensures the app will feel familiar to the user even
+              before they begin using it. Once I had applied the OS standards to the app, I was able to apply visual stylings that are specific to the app.</p>
           </div>
         </div>
       </div>
       <div class="page" id="six">
         <div class="container">
           <div class="content">
-            <h2>Haptic Feedback, Gestures, & Sound</h2>
+            <h2 class="col-sm-10">Haptic Feedback, Gestures, & Sound</h2>
             <hr />
-            <div class="examples">
-              <div class="three-col">
-                <picture>
-                  <source srcset="img/beleaf/wireframes/haptic1@1x.png" media="(max-width:767px;)" />
-                  <img src="img/beleaf/wireframes/haptic1@2x.png" alt="haptic feedback" />
-                </picture>
-              </div>
-              <div class="three-col">
+            <div class="examples gridbox">
+              <picture class="col-lg-12 one">
+                <source srcset="img/beleaf/wireframes/haptic1@1x.png" media="(max-width:767px;)" />
+                <img src="img/beleaf/wireframes/haptic1@2x.png" alt="haptic feedback" />
+              </picture>
+              <div class="col-lg-12 one-text">
                 <h5>Short vibe on swipe</h5>
-                <h5>Long vibe and sound on <br />delete press</h5>
-                <div class="icon">
-                  <figure>
-                    <picture>
-                      <source srcset="img/beleaf/wireframes/hz_scroll@1x.png" media="(max-width:767px;)" />
-                      <img src="img/beleaf/wireframes/hz_scroll@2x.png" />
-                    </picture>
-                    <figcaption>horizontal<br />scroll</figcaption>
-                  </figure>
-                  <figure>
-                    <picture>
-                      <source srcset="img/beleaf/wireframes/v_scroll@1x.png" media="(max-width:767px;)" />
-                      <img src="img/beleaf/wireframes/v_scroll@2x.png" />
-                    </picture>
-                    <figcaption>vertical<br />scroll</figcaption>
-                  </figure>
-                  <figure>
-                    <picture>
-                      <source srcset="img/beleaf/wireframes/tap@1x.png" media="(max-width:767px;)" />
-                      <img src="img/beleaf/wireframes/tap@2x.png" />
-                    </picture>
-                    <figcaption>tap</figcaption>
-                  </figure>
-                  <figure>
-                    <picture>
-                      <source srcset="img/beleaf/wireframes/swipe@1x.png" media="(max-width:767px;)" />
-                      <img src="img/beleaf/wireframes/swipe@2x.png" />
-                    </picture>
-                    <figcaption>swipe<br />left</figcaption>
-                  </figure>
-                </div>
-                <h5 class="right">Long vibe & sound on toggle</h5>
-                <h5 class="right">Short vibe on swipe<br />between tabs</h5>
+                <h5>Long vibe and sound on <br class="large" />delete press</h5>
               </div>
-              <div class="three-col right">
-                <picture>
-                  <source srcset="img/beleaf/wireframes/haptic2@1x.png" media="(max-width:767px;)" />
-                  <img src="img/beleaf/wireframes/haptic2@2x.png" alt="haptic feedback"/>
-                </picture>
+              <div class="icon flexbox col-lg-12">
+                <figure class="col-lg-3 col-md-12 col-sm-3">
+                  <picture>
+                    <source srcset="img/beleaf/wireframes/hz_scroll@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/wireframes/hz_scroll@2x.png" />
+                  </picture>
+                  <figcaption>horizontal<br />scroll</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-md-12 col-sm-3">
+                  <picture>
+                    <source srcset="img/beleaf/wireframes/v_scroll@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/wireframes/v_scroll@2x.png" />
+                  </picture>
+                  <figcaption>vertical<br />scroll</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-md-12 col-sm-3">
+                  <picture>
+                    <source srcset="img/beleaf/wireframes/tap@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/wireframes/tap@2x.png" />
+                  </picture>
+                  <figcaption>tap</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-md-12 col-sm-3">
+                  <picture>
+                    <source srcset="img/beleaf/wireframes/swipe@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/wireframes/swipe@2x.png" />
+                  </picture>
+                  <figcaption>swipe<br />left</figcaption>
+                </figure>
               </div>
+              <div class="two-text">
+                <h5>Long vibe & sound on toggle</h5>
+                <h5>Short vibe on swipe<br />between tabs</h5>
+              </div>
+              <picture class="col-lg-12 two">
+                <source srcset="img/beleaf/wireframes/haptic2@1x.png" media="(max-width:767px;)" />
+                <img src="img/beleaf/wireframes/haptic2@2x.png" alt="haptic feedback" />
+              </picture>
             </div>
             <p>Since it’s a native mobile app, the wireframes were annotated for sound and haptics to keep users engaged with the app, as well as gestures to make the most of the gesture-driven nature of touch screens.</p>
           </div>
@@ -243,52 +252,54 @@
           <div class="content">
             <h2>Style Guide</h2>
             <hr />
-            <div class="top row">
-              <div class="col-l typography">
-                <h4>Typography</h4>
-                <div class="col-l">
+            <div class="flexbox col-lg-12">
+              <div class="col-lg-5 col-md-12 typography flexbox">
+                <h4 class="col-lg-12 col-md-4 col-sm-12">Typography</h4>
+                <div class="col-lg-6 col-md-4 col-sm-6">
                   <h3>iOS</h3>
                   <img src="img/beleaf/icons/lato_ios.svg" alt="ios text Heirarchy" />
                 </div>
-                <div class="col-r">
+                <div class="col-lg-6 col-md-4 col-sm-6">
                   <h3>Android</h3>
                   <img src="img/beleaf/icons/lato_android.svg" alt="android text Heirarchy" />
                 </div>
               </div>
-              <div class="col-r color">
+              <div class="col-lg-5 col-md-12 color">
                 <h4>Color Scheme</h4>
-                <figure>
-                  <picture>
-                    <source srcset="img/beleaf/colors/dk_green@1x.png" media="(max-width:767px;)" />
-                    <img src="img/beleaf/colors/dk_green@2x.png" alt="dark green color sample" />
-                  </picture>
-                  <figcaption>#022B12</figcaption>
-                </figure>
-                <figure class="down">
-                  <picture>
-                    <source srcset="img/beleaf/colors/lt_green@1x.png" media="(max-width:767px;)" />
-                    <img src="img/beleaf/colors/lt_green@2x.png" alt="medium green color sample" />
-                  </picture>
-                  <figcaption>#649F74</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/beleaf/colors/med_green@1x.png" media="(max-width:767px;)" />
-                    <img src="img/beleaf/colors/med_green@2x.png" alt="light green color sample" />
-                  </picture>
-                  <figcaption>#00623D</figcaption>
-                </figure>
-                <figure class="down">
-                  <picture>
-                    <source srcset="img/beleaf/colors/pink@1x.png" media="(max-width:767px;)" />
-                    <img src="img/beleaf/colors/pink@2x.png" alt="pink color sample" />
-                  </picture>
-                  <figcaption>#FBC9C0</figcaption>
-                </figure>
+                <div class="flexbox">
+                  <figure class=" col-lg-3 col-md-1_5 col-sm-3">
+                    <picture>
+                      <source srcset="img/beleaf/colors/dk_green@1x.png" media="(max-width:767px;)" />
+                      <img src="img/beleaf/colors/dk_green@2x.png" alt="dark green color sample" />
+                    </picture>
+                    <figcaption>#022B12</figcaption>
+                  </figure>
+                  <figure class="down col-lg-3 col-md-1_5 col-sm-3">
+                    <picture>
+                      <source srcset="img/beleaf/colors/lt_green@1x.png" media="(max-width:767px;)" />
+                      <img src="img/beleaf/colors/lt_green@2x.png" alt="medium green color sample" />
+                    </picture>
+                    <figcaption>#649F74</figcaption>
+                  </figure>
+                  <div class="col-md-4 medium"></div>
+                  <figure class=" col-lg-3 col-md-1_5 col-sm-3">
+                    <picture>
+                      <source srcset="img/beleaf/colors/med_green@1x.png" media="(max-width:767px;)" />
+                      <img src="img/beleaf/colors/med_green@2x.png" alt="light green color sample" />
+                    </picture>
+                    <figcaption>#00623D</figcaption>
+                  </figure>
+                  <figure class="down col-lg-3 col-md-1_5 col-sm-3">
+                    <picture>
+                      <source srcset="img/beleaf/colors/pink@1x.png" media="(max-width:767px;)" />
+                      <img src="img/beleaf/colors/pink@2x.png" alt="pink color sample" />
+                    </picture>
+                    <figcaption>#FBC9C0</figcaption>
+                  </figure>
+                </div>
+
               </div>
-            </div>
-            <div class="bottom row">
-              <div class="col-l">
+              <div class="col-lg-6 col-sm-12 logo">
                 <h4>Logo Usage</h4>
                 <picture>
                   <source srcset="img/beleaf/logo@1x.png" media="(max-width:767px;)" />
@@ -297,17 +308,69 @@
                 <h5><b>Font:</b> Josefin Sans Regular</h5>
                 <h5><b>Colors:</b> #00623D (medium green) — #649F74 (light green) — #022B12 (dark green)</h5>
               </div>
-              <div class="col-r">
+              <div class="col-lg-6 col-sm-12 icons">
                 <h4>Icons</h4>
-                <picture>
-                  <source srcset="img/beleaf/icons/icons@1x.png" media="(max-width:767px;)" />
-                  <img src="img/beleaf/icons/icons@2x.png" alt="icons" />
-                </picture>
+                <div class="gridbox">
+                  <div class="col-lg-12 large medium"></div>
+                  <div class="col-lg-12 large medium"></div>
+                  <picture>
+                    <source srcset="img/beleaf/icons/garden@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/garden@2x.png" alt="garden" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/add@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/add@2x.png" alt="add" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/reminder@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/reminder@2x.png" alt="reminder" />
+                  </picture>
+                  <div class="col-lg-12 large medium"></div>
+                  <picture>
+                    <source srcset="img/beleaf/icons/direct@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/direct@2x.png" alt="direct" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/indirect@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/indirect@2x.png" alt="indirect" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/medium@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/medium@2x.png" alt="medium" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/low@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/low@2x.png" alt="low" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/water@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/water@2x.png" alt="water" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/lighting@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/lighting@2x.png" alt="light" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/temp@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/temp@2x.png" alt="temp" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/soil@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/soil@2x.png" alt="soil" />
+                  </picture>
+                  <picture>
+                    <source srcset="img/beleaf/icons/repot@1x.png" media="(max-width:767px;)" />
+                    <img src="img/beleaf/icons/repot@2x.png" alt="repot" />
+                  </picture>
+
+            </div>
               </div>
             </div>
-              <p>
-                The visual style of the app draws inspiration from a cherry blossom, using organic curves, soft drop shadows, and  pale pink & greens for the color scheme. The color scheme is soothing and complimentary to the subject matter without drawing attention away from the plants.
-              </p>
+            <img src="img/beleaf/colors/blossom@1x.png" alt="blossom" class="small" />
+            <p>
+              The visual style of the app draws inspiration from a cherry blossom, using organic curves, soft drop shadows, and pale pink & greens for the color scheme. The color scheme is soothing and complimentary to the subject matter without
+              drawing attention away from the plants.
+            </p>
           </div>
         </div>
       </div>
@@ -316,30 +379,25 @@
           <div class="content">
             <h2>User Testing</h2>
             <hr />
-            <h3>I tested my high fidelity wireframes on 5 users by taking them through the 3 userflows of the MVP. Everyone expressed their need for an app of this type, and praised the visual design. They also provided valuable feedback on some pain points in the app.</h3>
-            <h4>Suggestions</h4>
-            <p>
-              “The language is confusing on select lighting page.”<br />
-              “The next button in the add plant flow should have consistent language.”<br />
-              “Date pickers should auto populate with recommended care.”<br />
-              “Plant care square backgrounds look like they are buttons.”<br />
-              “The search should have the keyboard pop up right away.”<br />
-              “The floating action button blocks plant care on my plant page.”
-            </p>
-            <h4>Suggestions</h4>
-            <p>
-              “Very pleasing shapes and colors.”<br />
-              “Nice color scheme that isn’t overpowering.”<br />
-              “The visual design is great.”<br />
-              “This looks really professional.”<br />
-            </p>
-            <h4>Future Feature Ideas</h4>
-            <p>
-              “It would be nice to be able to group reminders to fewer days.”<br />
-              “Nice color scheme that isn’t overpowering.”<br />
-              “I want to be able to filter reminders by type.”<br />
-              “It would be cool to have the ability to shop for plants as a way to monetize.”<br />
-            </p>
+            <p class="col-lg-7 col-md-12">I tested my high fidelity wireframes on 5 users by taking them through the 3 userflows of the MVP. Everyone expressed their need for an app of this type, and praised the visual design. They also provided valuable feedback on some pain
+              points in the app.</p>
+            <h3>Suggestions</h3>
+            <p>“The language is confusing on select lighting page.”</p>
+            <p>“The next button in the add plant flow should have consistent language.”</p>
+            <p>“Date pickers should auto populate with recommended care.”</p>
+            <p>“Plant care square backgrounds look like they are buttons.”</p>
+            <p>“The search should have the keyboard pop up right away.”</p>
+            <p>“The floating action button blocks plant care on my plant page.”</p>
+            <h3>Future Feature Ideas</h3>
+            <p class="col-md-9 col-sm-12">“It would be cool to have the ability to shop for plants as a way to monetize.”</p>
+            <p class="col-md-10 col-sm-12">“It would be nice to be able to group reminders to fewer days.”</p>
+            <p class="col-md-10 col-sm-12">“Nice color scheme that isn’t overpowering.”</p>
+            <p class="col-md-10 col-sm-12">“I want to be able to filter reminders by type.”</p>
+            <h3 class="praise">Praise</h3>
+            <p class="praise">“Nice color scheme that isn’t overpowering.”</p>
+            <p class="praise">“Very pleasing shapes and colors.”</p>
+            <p class="praise">“The visual design is great.”</p>
+            <p class="praise">“This looks really professional.”</p>
           </div>
         </div>
       </div>
@@ -347,93 +405,97 @@
         <div class="container">
           <div class="content">
             <h2>High Fidelity Wireframes & Prototyping</h2>
-            <h3>iOS <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank">Interactive protoype</a></h3>
-            <div class="row">
-              <picture class="first">
+            <hr />
+            <h3>iOS <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="large">Interactive protoype</a></h3>
+            <div class="gridbox">
+              <picture class="first col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_welcome@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_welcome@2x.png" alt="ios welcome wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_search@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_search@2x.png" alt="ios search wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_add_plant@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_add_plant@2x.png" alt="ios add plant wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_lighting@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_lighting@2x.png" alt="ios lighting modal wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/767px@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_garden@2x.png" alt="ios my garden wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_plant@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_plant@2x.png" alt="ios plant wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_reminders@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_reminders@2x.png" alt="ios reminders wireframe" />
               </picture>
             </div>
             <h3>Android</h3>
-            <div class="row android">
-              <picture class="first">
+            <div class="gridbox android">
+              <picture class="first col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_welcome@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_welcome@2x.png" alt="android welcome wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_search@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_search@2x.png" alt="android search wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_add_plant@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_add_plant@2x.png" alt="android add plant wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_lighting@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_lighting@2x.png" alt="android lighting modal wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/767px@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_garden@2x.png" alt="android my garden wireframe" />
               </picture>
-              <picture>
+              <picture class="down col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_plant@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_plant@2x.png" alt="android plant wireframe" />
               </picture>
-              <picture>
+              <picture class="col-lg-12">
                 <source srcset="img/beleaf/wireframes/and_reminders@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/and_reminders@2x.png" alt="android reminders wireframe" />
               </picture>
             </div>
+            <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="medium">Interactive protoype</a>
           </div>
         </div>
       </div>
       <div class="page" id="ten">
         <div class="container">
           <div class="content">
-            <picture>
+            <picture class="logo">
               <source srcset="img/beleaf/logo@1x.png" media="(max-width:767px;)" />
               <img src="img/beleaf/logo@2x.png" alt="logo" />
             </picture>
+            <picture class="medium small flexbox">
+              <source srcset="img/beleaf/mockups/final_mobile@1x.png" media="(max-width:767px;)" />
+              <img src="img/beleaf/mockups/final_mobile@2x.png" alt="mockups" />
+            </picture>
+          </div>
           </div>
         </div>
-      </div>
       <div class="page" id="eleven">
         <div class="container">
           <div class="content">
             <h2>Retrospective</h2>
-            <div class="col-l">
-              <h3>What went well</h3>
-              <p>I’m getting much faster at producing wireframes. I think the color scheme came out quite lovely. It was an interesting exercise to create an app that strictly adhered to iOS/Material Design guidelines before branching off into a different visual direction that tied the two together. My users were all really happy with the app and said it’s something they would like to use.</p>
-              <h3>Challenges overcome</h3>
-              <p>I went through a couple design iterations with the date picker before deciding on one that I liked, and I had a hard time finding examples of them to emulate in Material Design’s specific style. I overused gradients for visual appeal, without considering that they implied clickability; user feedback was crucially important to pointing this out to me.</p>
-              <h3>What can be improved</h3>
-              <p>I wish that I had been less destructive while editing the UI elements that I took from iOS and Material Design resources, in the future I’ll use the visibility toggle on elements rather than deleting. I had a really hard time deciding between using Sketch’s built in prototyping tools and InVision, because each of them were missing features that I wanted in my prototypes. Next time I want to explore using Figma for prototyping.</p>
-            </div>
+            <h3>What went well</h3>
+            <p class="col-lg-9 col-md-12">I’m getting much faster at producing wireframes. I think the color scheme came out quite lovely. It was an interesting exercise to create an app that strictly adhered to iOS/Material Design guidelines before branching off into a different visual direction that tied the two together. My users were all really happy with the app and said it’s something they would like to use.</p>
+            <h3>Challenges overcome</h3>
+            <p class="col-lg-8 col-md-9 col-sm-12">I went through a couple design iterations with the date picker before deciding on one that I liked, and I had a hard time finding examples of them to emulate in Material Design’s specific style. I overused gradients for visual appeal, without considering that they implied clickability; user feedback was crucially important to pointing this out to me.</p>
+            <h3>What can be improved</h3>
+            <p class="col-lg-8 col-md-7 col-sm-12">I wish that I had been less destructive while editing the UI elements that I took from iOS and Material Design resources, in the future I’ll use the visibility toggle on elements rather than deleting. I had a really hard time deciding between using Sketch’s built in prototyping tools and InVision, because each of them were missing features that I wanted in my prototypes. Next time I want to explore using Figma for prototyping.</p>
           </div>
         </div>
       </div>
@@ -441,13 +503,14 @@
   </main>
 
   <footer>
-    <div id="contact" class="container">
+    <div id="contact" class="container col-sm-12">
       <h2>Get in Touch</h2>
-      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. Prefer to send an email?</p>
+      <hr />
+      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
       <div>
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
-      <div class="social media">
+      <div class="social-media">
         <a href="https://www.linkedin.com/in/morgaine-breimayer-39764620/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -456,6 +519,9 @@
         </a>
         <a href="https://www.instagram.com/morgaine.design/" target="_blank">
           <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/MorgaineBreimayer?tab=repositories" target="_blank">
+          <i class="fab fa-github"></i>
         </a>
       </div>
       <div>

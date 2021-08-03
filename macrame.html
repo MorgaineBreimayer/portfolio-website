@@ -6,8 +6,8 @@
   <title>Morgaine Breimayer, Frontend Designer San Francisco</title>
   <meta name="author" content="Morgaine Breimayer">
   <meta name="description" content="Macra.me UI/UX Case Study by Morgaine Breimayer" />
-<!--  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
--->  <link href="css/fontawesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="css/fontawesome.css" rel="stylesheet">
   <link href="css/brands.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/macrame.css" rel="stylesheet">
@@ -20,13 +20,13 @@
 
 <body id="macrame">
   <header>
-    <div>
+    <div class="container">
       <img src="img/logo.svg" alt="logo" />
       <nav>
         <ul>
           <li><a href="index.html#work">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="no-right-pad"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,10 +57,10 @@
             <p>Macra.me is a web-based retail app that gives users access to a large, well-curated array of woven arts products. The web app gives users the ability to have products delivered to any address, try products risk-free in their own homes
               by offering free return shipping. It saves the user the time and energy of shopping in a physical store.</p>
             <h3>Objective</h3>
-            <p>An easy-to-use shopping experience that helps the user find products uniquely suited to their needs and tastes. </p>
+            <p class="col-md-6 col-sm-12">An easy-to-use shopping experience that helps the user find products uniquely suited to their needs and tastes. </p>
             <h3>Deliverables & Role</h3>
             <p style="margin-bottom: 0;">My role as UI designer was:</p>
-            <ul>
+            <ul class="col-md-5 col-sm-8">
               <li>Create a brand guideline for the web app</li>
               <li>Based on the user stories, create a user flow diagram to solve for user needs</li>
               <li>Low & mid fidelity wireframes</li>
@@ -69,59 +69,70 @@
               <li>Responsive design</li>
             </ul>
             <h3>Tools Used</h3>
-            <p>Sketch | Illustrator | Photoshop</p>
+            <p class="col-lg-12 col-sm-6">Sketch | Illustrator | Photoshop</p>
           </div>
         </div>
       </div>
       <div class="page" id="three">
         <div class="container">
-          <div class="content">
-            <h2>Logo Guidelines</h2>
-            <div class="col-l">
-              <h3> Logo Usage</h3>
-              <p>Our logo mimics the intricate patterns found in macrame, replicated using thin, clean lines for clear visibility. The font used is Bellerose Light, whose strong geometric influences and flourishes parallel the geometry found in macrame patterns.</p>
-              <div class="logo-images">
-                <figure class="left">
-                  <picture>
-                    <source srcset="img/macrame/logos/dark_logo@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/dark_logo@2x.png" alt="Macra.me logo" />
-                  </picture>
-                  <figcaption>Dark logo color:<br />Navy #2C3C6A</figcaption>
-                </figure>
-                <figure class="right">
-                  <picture>
-                    <source srcset="img/macrame/logos/light_logo@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/light_logo@2x.png" alt="Macra.me logo" />
-                  </picture>
-                  <figcaption>Light logo color:<br />Ivory #FAF5E9</figcaption>
-                </figure>
+          <div class="content flexbox">
+            <div class="col-lg-6 col-md-12">
+              <h2>Logo Guidelines</h2>
+              <div class="flexbox">
+                <div class="col-lg-12 col-md-6 col-sm-12">
+                  <h3> Logo Usage</h3>
+                  <p>Our logo mimics the intricate patterns found in macrame, replicated using thin, clean lines for clear visibility. The font used is Bellerose Light, whose strong geometric influences and flourishes parallel the geometry found in
+                    macrame patterns.</p>
+                </div>
+                <div class="logo-images flexbox col-lg-12 col-md-6 col-sm-12">
+                  <figure class="col-lg-5 col-md-6">
+                    <picture>
+                      <source srcset="img/macrame/logos/dark_logo@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/logos/dark_logo@2x.png" alt="Macra.me logo" />
+                    </picture>
+                    <figcaption>Dark logo color:<br />Navy #2C3C6A</figcaption>
+                  </figure>
+                  <figure class="col-lg-5 col-md-6">
+                    <picture>
+                      <source srcset="img/macrame/logos/light_logo@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/logos/light_logo@2x.png" alt="Macra.me logo" />
+                    </picture>
+                    <figcaption>Light logo color:<br />Ivory #FAF5E9</figcaption>
+                  </figure>
+                </div>
               </div>
-              <p>The logo consists of two elements, the logomark and the logotype, both of which can be used individually.</p>
-              <div class="logo-images">
-                <figure class="left">
-                  <picture>
-                    <source srcset="img/macrame/logos/logomark@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/logomark@2x.png" alt="Macra.me logo" />
-                  </picture>
-                  <figcaption>Logomark</figcaption>
-                </figure>
-                <figure class="right">
-                  <picture>
-                    <source srcset="img/macrame/logos/logotext@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/logotext@2x.png" alt="Macra.me logo"/>
-                  </picture>
-                  <figcaption>Logotype</figcaption>
-                </figure>
+              <div class="logo-elements flexbox">
+                <p class="col-lg-12 col-md-6 col-sm-12">The logo consists of two elements, the logomark and the logotype, both of which can be used individually.</p>
+                <div class="logo-images flexbox col-lg-12 col-md-6 col-sm-12">
+                  <figure class="col-lg-5">
+                    <picture>
+                      <source srcset="img/macrame/logos/logomark@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/logos/logomark@2x.png" alt="Macra.me logo" />
+                    </picture>
+                    <figcaption>Logomark</figcaption>
+                  </figure>
+                  <figure class="col-lg-5">
+                    <picture>
+                      <source srcset="img/macrame/logos/logotext@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/logos/logotext@2x.png" alt="Macra.me logo" />
+                    </picture>
+                    <figcaption>Logotype</figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
-            <div class="col-r">
-              <div class="logo-padding">
+            <div class="col-lg-6 col-md-12">
+              <div class="logo-padding col-lg-8 col-md-9 col-sm-12">
                 <h3>Let it breathe</h3>
-                <p>Just like a wall hanging, our logo looks best when given a bit of breathing room. Leave padding of 1/2 the width of the logomark on all sides for the best viewing experience.</p>
+                <p>Just like a wall hanging, our logo looks best when given a bit of breathing room. Leave padding of 1/3 the width of the logomark on all sides for the best viewing experience.</p>
               </div>
+              <picture class="logo-padding col-lg-4 col-md-3 col-sm-12">
+                <source srcset="img/macrame/logos/logo_bounds@1x.png" media="(max-width:767px;)" />
+                <img src="img/macrame/logos/logo_bounds@2x.png" alt="Macra.me logo padding" />
+              </picture>
               <h3>There are no mistakes... except for these ones.</h3>
-              <p>Please be mindful of these common errors when using our logo.</p>
-              <div class="bad-logos">
+              <p class="col-md-8 col-sm-12">Please be mindful of these common errors when using our logo.</p>
+              <div class="bad-logos flexbox">
                 <figure>
                   <picture>
                     <source srcset="img/macrame/logos/bad_logo_rotate@1x.png" media="(max-width:767px;)" />
@@ -157,22 +168,6 @@
                   </picture>
                   <figcaption>No gradients</figcaption>
                 </figure>
-              </div>
-              <div class="bad-logos">
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/logos/bad_logo_shadow@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/bad_logo_shadow@2x.png" alt="Macra.me logo" />
-                  </picture>
-                  <figcaption>No drop<br />shadows</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/logos/bad_logo_lowercase@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/logos/bad_logo_lowercase@2x.png" alt="Macra.me logo" />
-                  </picture>
-                  <figcaption>No lowercase<br />or all caps</figcaption>
-                </figure>
                 <figure>
                   <picture>
                     <source srcset="img/macrame/logos/bad_logo_font@1x.png" media="(max-width:767px;)" />
@@ -194,6 +189,20 @@
                   </picture>
                   <figcaption>Don't<br />omit dot</figcaption>
                 </figure>
+                <figure>
+                  <picture>
+                    <source srcset="img/macrame/logos/bad_logo_shadow@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/logos/bad_logo_shadow@2x.png" alt="Macra.me logo" />
+                  </picture>
+                  <figcaption>No drop<br />shadows</figcaption>
+                </figure>
+                <figure>
+                  <picture>
+                    <source srcset="img/macrame/logos/bad_logo_lowercase@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/logos/bad_logo_lowercase@2x.png" alt="Macra.me logo" />
+                  </picture>
+                  <figcaption>No alternate<br />captalization</figcaption>
+                </figure>
               </div>
             </div>
           </div>
@@ -203,34 +212,40 @@
         <div class="container">
           <div class="content">
             <h2>Brand Guidelines</h2>
-            <div class="col-l">
-              <h3>Guiding Principles</h3>
-              <ol>
-                <li>Hand-crafted with love<br />
-                  <span class="description">The tradition of macrame has been passed down through generations. As we create, we pass on these traditions & imbue our products with our deep love for woven arts.</span>
-                </li>
-                <li>Home is where the art is<br />
-                  <span class="description">We aim to fill people’s lives with cozy textiles that will create a warm, welcoming atmosphere in their home through a bohemian aesthetic.</span>
-                </li>
-                <li>Individuality is beautiful<br />
-                  <span class="description">Every one of our products is free spirited & individual, just like our users. We hope seeing our art on a daily basis will inspire our users to make the world more beautiful in the ways that only they can.</span>
-                </li>
-              </ol>
-              <h3>Writing Style</h3>
-              <p>Our writing style is friendly and warm. Since our users are artistic, free spirited types, we run against the grain of bland corporate speak.  </p>
-            </div>
-            <div class="col-r">
-              <h3>Imagery</h3>
-              <p>Our app uses photography to showcase our products. Product photography is bright and clear, with light backgrounds to contrast the product. Color palettes should be earth tones.</p>
-              <picture>
-                <source srcset="img/macrame/photography/product_photos@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/photography/product_photos@2x.png" alt="product photos" />
-              </picture>
-              <p class="context">Context photography is used to give the user and idea of how our products look in the real world. They should depict people enjoying spaces decorated with our products or our products being incorporated into home decor, preferably featuring plants, wood, & other natural materials.</p>
-              <picture class="context">
-                <source srcset="img/macrame/photography/context_photography@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/photography/context_photography@2x.png" alt="product photos" />
-              </picture>
+            <div class="flexbox">
+              <div class="col-lg-6 col-md-12">
+                <h3>Guiding Principles</h3>
+                <ol>
+                  <li><span>Hand-crafted with love</span><br />
+                    The tradition of macrame has been passed down through generations. As we create, we pass on these traditions & imbue our products with our deep love for woven arts.
+                  </li>
+                  <li><span>Home is where the art is</span><br />
+                    We aim to fill people’s lives with cozy textiles that will create a warm, welcoming atmosphere in their home through a bohemian aesthetic.
+                  </li>
+                  <li><span>Individuality is beautiful</span><br />
+                    Every one of our products is free spirited & individual, just like our users. We hope seeing our art on a daily basis will inspire our users to make the world more beautiful in the ways that only they can.
+                  </li>
+                </ol>
+                <h3>Writing Style</h3>
+                <p class="col-md-8 col-sm-12">Our writing style is friendly and warm. Since our users are artistic, free spirited types, we run against the grain of bland corporate speak. </p>
+              </div>
+              <div class="col-lg-6  col-md-12 imagery">
+                <div class="col-lg-12 col-md-7 col-sm-12">
+                  <h3>Imagery</h3>
+                  <p>Our app uses photography to showcase our products. Product photography is bright and clear, with light backgrounds to contrast the product. Color palettes should be earth tones.</p>
+                </div>
+                <picture class="product large small col-lg-12">
+                  <source srcset="img/macrame/photography/product_photos@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/photography/product_photos@2x.png" alt="product photos" />
+                </picture>
+                <div class="context flexbox">
+                  <p class="col-lg-7 col-md-9 col-sm-12">Context photography is used to give the user and idea of how our products look in the real world. They should depict people enjoying spaces decorated with our products or our products being incorporated into home decor, preferably featuring plants, wood, & other natural materials.</p>
+                  <picture class="col-lg-5 col-md-3 col-sm-12 text-right">
+                    <source srcset="img/macrame/photography/context_photography@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/photography/context_photography@2x.png" alt="product photos" />
+                  </picture>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -239,154 +254,283 @@
         <div class="container">
           <div class="content">
             <h2>Style Guidelines</h2>
-            <div class="col-l typography">
-              <h3>Typography</h3>
-              <p><span class="poppins-heading">Poppins Semibold. This is a heading.</span><br /><span class="poppins-body">Poppins Regular. This is body text.</span></p>
-              <p>Poppins mirrors the geometry and personality of the logo font Bellerose, but with less distracting flair for improved legibility at small sizes. It also comes in a wide array of weights and is a Google font, making it ideal for web compatibility.</p>
-              <div class="heirarchy">
-                <div class="col-l">
-                  <p class="title">Mobile Heirarchy</p>
-                  <img src="img/macrame/colors/mobile_heirarchy.svg" alt="mobile heirarchy" />
+            <div class="flexbox large small">
+              <div class="col-lg-6 col-sm-12 typography">
+                <h3>Typography</h3>
+                <p><span class="poppins-heading">Poppins Semibold. This is a heading.</span><br />
+                  <span class="poppins-body">Poppins Regular. This is body text.</span>
+                </p>
+                <p>Poppins mirrors the geometry and personality of the logo font Bellerose, but with less distracting flair for improved legibility at small sizes. It also comes in a wide array of weights and is a Google font, making it ideal for web
+                  compatibility.</p>
+                <div class="heirarchy flexbox">
+                  <div class="col-lg-6 col-sm-12">
+                    <p>Mobile Heirarchy</p>
+                    <img src="img/macrame/colors/mobile_heirarchy.svg" alt="mobile heirarchy" />
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <p>Desktop Heirarchy</p>
+                    <img src="img/macrame/colors/desktop_heirarchy.svg" alt="desktop heirarchy" />
+                  </div>
                 </div>
-                <div class="col-r">
-                  <p class="title">Desktop Heirarchy</p>
-                  <img src="img/macrame/colors/desktop_heirarchy.svg" alt="desktop heirarchy" />
+                <h3 class="icons">Iconography</h3>
+                <div class="icons flexbox">
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/hamburger_menu@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/hamburger_menu@2x.png" alt="hamburger menu" />
+                    </picture>
+                    <figcaption>Hamburger<br />Navigation</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/cart@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/cart@2x.png" alt="cart" />
+                    </picture>
+                    <figcaption>Cart</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/search@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/search@2x.png" alt="Search" />
+                    </picture>
+                    <figcaption>Search</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/down@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/down@2x.png" alt="search" />
+                    </picture>
+                    <figcaption>Increase/<br />Decrease</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/close@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/close@2x.png" alt="close" />
+                    </picture>
+                    <figcaption>Close</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/swatch@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/swatch@2x.png" alt="color swatch" />
+                    </picture>
+                    <figcaption>Color<br />Swatch</figcaption>
+                  </figure>
                 </div>
               </div>
-              <h3>Iconography</h3>
-              <div class="icons">
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/hamburger_menu@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/hamburger_menu@2x.png" alt="hamburger menu" />
+              <div class="col-lg-6 col-sm-12">
+                <h3>Color Scheme</h3>
+                <p>Our color scheme is made up of earthy, muted colors that reflect the colors found in our products.</p>
+                <div class="colors flexbox">
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/navy@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/navy@2x.png" alt="navy color swatch" />
+                    </picture>
+                    <figcaption>Navy<br />#2C3C6A</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/gold@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/gold@2x.png" alt="gold color swatch" />
+                    </picture>
+                    <figcaption>Goldenrod<br />#CC9933</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/ivory@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/ivory@2x.png" alt="ivory color swatch" />
+                    </picture>
+                    <figcaption>Ivory<br />#FAF5E9</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/sage@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/sage@2x.png" alt="sage color swatch" />
+                    </picture>
+                    <figcaption>Sage<br />#3B665F</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/peach@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/peach@2x.png" alt="peach color swatch" />
+                    </picture>
+                    <figcaption>Peach<br />#EDADAD</figcaption>
+                  </figure>
+                </div>
+                <div class="ui-elements gridbox">
+                  <h3 class="top">UI Elements</h3>
+                  <h5 class="top text-center">Inactive</h5>
+                  <h5 class="top text-center">Active</h5>
+                  <p>Primary Buttons</p>
+                  <div class="primary text-center">Add to Cart</div>
+                  <div class="primary active text-center">
+                    <div>Add to Cart</div>
+                  </div>
+                  <p>Secondary Buttons</p>
+                  <div class="second text-center">Keep shopping</div>
+                  <div class="second active text-center">Keep shopping</div>
+                  <p>Color Selection</p>
+                  <picture class="text-center">
+                    <source srcset="img/macrame/colors/color_inactive@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/colors/color_inactive@2x.png" alt="color inactive" />
                   </picture>
-                  <figcaption>Hamburger<br />Navigation</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/cart@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/cart@2x.png" alt="cart" />
+                  <picture class="text-center">
+                    <source srcset="img/macrame/colors/color_active@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/colors/color_active@2x.png" alt="color active" />
                   </picture>
-                  <figcaption>Cart</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/search@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/search@2x.png" alt="Search" />
-                  </picture>
-                  <figcaption>Search</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/down@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/down@2x.png" alt="search" />
-                  </picture>
-                  <figcaption>Increase/<br />Decrease</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/close@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/close@2x.png" alt="close" />
-                  </picture>
-                  <figcaption>Close</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/icons/swatch@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/icons/swatch@2x.png" alt="color swatch" />
-                  </picture>
-                  <figcaption>Color<br />Swatch</figcaption>
-                </figure>
+                </div>
+                <h3 class="design-elements">Design Elements</h3>
+                <p>The app uses line art that emulates the patterns found in macrame. These elements are geometric and monochromatic, echoing the design of our logo.</p>
+                <picture>
+                  <source srcset="img/macrame/colors/design_elements@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/colors/design_elements@2x.png" alt="design elements" class="design_elements" />
+                </picture>
               </div>
             </div>
-            <div class="col-r">
-              <h3>Color Scheme</h3>
-              <p>Our color scheme is made up of earthy, muted colors that reflect the colors found in our products.</p>
-              <div class="colors">
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/colors/navy@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/colors/navy@2x.png" alt="navy color swatch" />
-                  </picture>
-                  <figcaption>Navy<br />#2C3C6A</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/colors/gold@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/colors/gold@2x.png" alt="gold color swatch" />
-                  </picture>
-                  <figcaption>Goldenrod<br />#CC9933</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/colors/ivory@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/colors/ivory@2x.png" alt="ivory color swatch" />
-                  </picture>
-                  <figcaption>Ivory<br />#FAF5E9</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/colors/sage@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/colors/sage@2x.png" alt="sage color swatch" />
-                  </picture>
-                  <figcaption>Sage<br />#3B665F</figcaption>
-                </figure>
-                <figure>
-                  <picture>
-                    <source srcset="img/macrame/colors/peach@1x.png" media="(max-width:767px;)" />
-                    <img src="img/macrame/colors/peach@2x.png" alt="peach color swatch" />
-                  </picture>
-                  <figcaption>Peach<br />#EDADAD</figcaption>
-                </figure>
+            <div class="gridbox medium">
+              <div class="typography">
+                <h3>Typography</h3>
+                <p><span class="poppins-heading">Poppins Semibold. This is a heading.</span><br />
+                  <span class="poppins-body">Poppins Regular. This is body text.</span>
+                </p>
+                <p>Poppins mirrors the geometry and personality of the logo font Bellerose, but with less distracting flair for improved legibility at small sizes. It also comes in a wide array of weights and is a Google font, making it ideal for web
+                  compatibility.</p>
+                <div class="heirarchy flexbox">
+                  <div class="col-lg-6">
+                    <p>Mobile Heirarchy</p>
+                    <img src="img/macrame/colors/mobile_heirarchy.svg" alt="mobile heirarchy" />
+                  </div>
+                  <div class="col-lg-6">
+                    <p>Desktop Heirarchy</p>
+                    <img src="img/macrame/colors/desktop_heirarchy.svg" alt="desktop heirarchy" />
+                  </div>
+                </div>
               </div>
-              <table class="ui_elements">
-                <tr>
-                  <td>
-                    <h3>UI Elements</h3>
-                  </td>
-                  <td class="title">
-                    Inactive
-                  </td>
-                  <td class="title">
-                    Active
-                  </td>
-                </tr>
-                <tr>
-                  <td class="labels">Primary Buttons</td>
-                  <td>
-                    <div class="button inactive">Add to Cart</div>
-                  </td>
-                  <td>
-                    <div class="button active">Add to Cart</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="labels">Secondary Buttons</td>
-                  <td class="second center">Keep shopping</td>
-                  <td class="second active center">Keep shopping</td>
-                </tr>
-                <tr>
-                  <td class="labels">Color Selection</td>
-                  <td class="center">
+              <div class="icons-colors">
+                <h3 class="icons">Iconography</h3>
+                <div class="flexbox icons">
+                  <figure>
                     <picture>
-                      <source srcset="img/macrame/colors/color_inactive@1x.png" media="(max-width:767px;)" />
-                      <img src="img/macrame/colors/color_inactive@2x.png" alt="color inactive" />
+                      <source srcset="img/macrame/icons/hamburger_menu@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/hamburger_menu@2x.png" alt="hamburger menu" />
                     </picture>
-                  </td>
-                  <td class="center">
+                    <figcaption>Hamburger<br />Navigation</figcaption>
+                  </figure>
+                  <figure>
                     <picture>
-                      <source srcset="img/macrame/colors/color_active@1x.png" media="(max-width:767px;)" />
-                      <img src="img/macrame/colors/color_active@2x.png" alt="color active" />
+                      <source srcset="img/macrame/icons/cart@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/cart@2x.png" alt="cart" />
                     </picture>
-                  </td>
-                </tr>
-              </table>
-              <h3 class="design-elements">Design Elements</h3>
-              <p>The app uses line art that emulates the patterns found in macrame. These elements are geometric & monochromatic, echoing the design of our logo.</p>
-              <picture>
-                <source srcset="img/macrame/colors/design_elements@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/colors/design_elements@2x.png" alt="design elements"  class="design_elements" />
-              </picture>
+                    <figcaption>Cart</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/search@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/search@2x.png" alt="Search" />
+                    </picture>
+                    <figcaption>Search</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/down@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/down@2x.png" alt="search" />
+                    </picture>
+                    <figcaption>Increase/<br />Decrease</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/icons/close@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/close@2x.png" alt="close" />
+                    </picture>
+                    <figcaption>Close</figcaption>
+                  </figure>
+                  <figure class="col-md-4">
+                    <picture>
+                      <source srcset="img/macrame/icons/swatch@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/icons/swatch@2x.png" alt="color swatch" />
+                    </picture>
+                    <figcaption>Color<br />Swatch</figcaption>
+                  </figure>
+                </div>
+
+                <h3>Color Scheme</h3>
+                <p>Our color scheme is made up of earthy, muted colors that reflect the colors found in our products.</p>
+                <div class="colors flexbox">
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/navy@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/navy@2x.png" alt="navy color swatch" />
+                    </picture>
+                    <figcaption>Navy<br />#2C3C6A</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/gold@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/gold@2x.png" alt="gold color swatch" />
+                    </picture>
+                    <figcaption>Goldenrod<br />#CC9933</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/ivory@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/ivory@2x.png" alt="ivory color swatch" />
+                    </picture>
+                    <figcaption>Ivory<br />#FAF5E9</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/sage@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/sage@2x.png" alt="sage color swatch" />
+                    </picture>
+                    <figcaption>Sage<br />#3B665F</figcaption>
+                  </figure>
+                  <figure>
+                    <picture>
+                      <source srcset="img/macrame/colors/peach@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/colors/peach@2x.png" alt="peach color swatch" />
+                    </picture>
+                    <figcaption>Peach<br />#EDADAD</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="ui-elements gridbox">
+                <h3 class="top">UI Elements</h3>
+                <h5 class="top text-center">Inactive</h5>
+                <h5 class="top text-center">Active</h5>
+                <p>Primary Buttons</p>
+                <div class="primary text-center">Add to Cart</div>
+                <div class="primary active text-center">
+                  <div>Add to Cart</div>
+                </div>
+                <p>Secondary Buttons</p>
+                <div class="second text-center">Keep shopping</div>
+                <div class="second active text-center">Keep shopping</div>
+                <p>Color Selection</p>
+                <picture class="text-center">
+                  <source srcset="img/macrame/colors/color_inactive@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/colors/color_inactive@2x.png" alt="color inactive" />
+                </picture>
+                <picture class="text-center">
+                  <source srcset="img/macrame/colors/color_active@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/colors/color_active@2x.png" alt="color active" />
+                </picture>
+              </div>
+              <div class="design-elements">
+                <h3>Design Elements</h3>
+                <p>The app uses line art that emulates the patterns found in macrame. These elements are geometric and monochromatic, echoing the design of our logo.</p>
+              </div>
+              <div class="de">
+                <picture>
+                  <source srcset="img/macrame/colors/design_elements@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/colors/design_elements@2x.png" alt="design elements" class="design_elements" />
+                </picture>
+                <picture>
+                  <source srcset="img/macrame/colors/design_elements@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/colors/design_elements@2x.png" alt="design elements" class="design_elements" />
+                </picture>
+              </div>
             </div>
           </div>
         </div>
@@ -396,15 +540,19 @@
           <div class="content">
             <h2>User Flow</h2>
             <h3> User Stories for MVP</h3>
-            <div class="user-stories">
-              <p class="three-col">As a new customer, I want to access the inventory without having to register, so that I can make sure this store has what I’m looking for before having to create an account.</p>
-              <p class="three-col">As a customer, I want to be able to place multiple items in a shopping cart, so that I can purchase more than one item at a time. </p>
-              <p class="three-col right">As a customer, I want there to be a variety of payment options, so that I can choose the payment method that suits me best. </p>
+            <div class="user-stories flexbox">
+              <p class="col-lg-4 col-md-12">As a new customer, I want to access the inventory without having to register, so that I can make sure this store has what I’m looking for before having to create an account.</p>
+              <p class="col-lg-4 col-md-12">As a customer, I want to be able to place multiple items in a shopping cart, so that I can purchase more than one item at a time. </p>
+              <p class="col-lg-4 col-md-12">As a customer, I want there to be a variety of payment options, so that I can choose the payment method that suits me best. </p>
             </div>
             <h3>IA Map</h3>
-            <picture>
+            <picture class="large">
               <source srcset="img/macrame/user_flow@1x.png" media="(max-width:767px;)" />
               <img src="img/macrame/user_flow@2x.png" alt="Information Architecture Map" />
+            </picture>
+            <picture class="medium small">
+              <source srcset="img/macrame/user_flow_vert@1x.png" media="(max-width:767px;)" />
+              <img src="img/macrame/user_flow_vert@2x.png" alt="Information Architecture Map" />
             </picture>
           </div>
         </div>
@@ -413,62 +561,64 @@
         <div class="container">
           <div class="content">
             <h2>Low Fidelity Wireframes</h2>
-            <figure class="up">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/home@2x.png" alt="homepage low fidelity wireframe" />
-              </picture>
-              <figcaption>Homepage</figcaption>
-            </figure>
-            <figure class="down">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/product_category@2x.png" alt="product category low fidelity wireframe" />
-              </picture>
-              <figcaption>Product Category</figcaption>
-            </figure>
-            <figure class="up">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/search@2x.png" alt="search low fidelity wireframe" />
-              </picture>
-              <figcaption>Search</figcaption>
-            </figure>
-            <figure class="down">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/nav@2x.png" alt="navigation menu low fidelity wireframe" />
-              </picture>
-              <figcaption>Navigation Menu</figcaption>
-            </figure>
-            <figure class="up">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/product_page@2x.png" alt="product page low fidelity wireframe" />
-              </picture>
-              <figcaption>Product Page</figcaption>
-            </figure>
-            <figure class="down">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/cart@2x.png" alt="cart low fidelity wireframe" />
-              </picture>
-              <figcaption>Cart</figcaption>
-            </figure>
-            <figure class="up">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/checkout@2x.png" alt="checkout low fidelity wireframe" />
-              </picture>
-              <figcaption>Checkout</figcaption>
-            </figure>
-            <figure class="down">
-              <picture>
-                <source srcset="img/macrame/low_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/low_fidelity_wireframes/order_confirmation@2x.png" alt="order confiirmation low fidelity wireframe" />
-              </picture>
-              <figcaption>Order Confirmation</figcaption>
-            </figure>
+            <div class="flexbox">
+              <figure class="up col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/home@2x.png" alt="homepage low fidelity wireframe" />
+                </picture>
+                <figcaption>Homepage</figcaption>
+              </figure>
+              <figure class="down col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/product_category@2x.png" alt="product category low fidelity wireframe" />
+                </picture>
+                <figcaption>Product Category</figcaption>
+              </figure>
+              <figure class="up col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/search@2x.png" alt="search low fidelity wireframe" />
+                </picture>
+                <figcaption>Search</figcaption>
+              </figure>
+              <figure class="down col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/nav@2x.png" alt="navigation menu low fidelity wireframe" />
+                </picture>
+                <figcaption>Navigation Menu</figcaption>
+              </figure>
+              <figure class="up col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/product_page@2x.png" alt="product page low fidelity wireframe" />
+                </picture>
+                <figcaption>Product Page</figcaption>
+              </figure>
+              <figure class="down col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/cart@2x.png" alt="cart low fidelity wireframe" />
+                </picture>
+                <figcaption>Cart</figcaption>
+              </figure>
+              <figure class="up col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/checkout@2x.png" alt="checkout low fidelity wireframe" />
+                </picture>
+                <figcaption>Checkout</figcaption>
+              </figure>
+              <figure class="down col-lg-1_5 col-md-3 col-sm-6">
+                <picture>
+                  <source srcset="img/macrame/low_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/low_fidelity_wireframes/order_confirmation@2x.png" alt="order confiirmation low fidelity wireframe" />
+                </picture>
+                <figcaption>Order Confirmation</figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
@@ -476,62 +626,48 @@
         <div class="container">
           <div class="content">
             <h2>Mid Fidelity Wireframes</h2>
-            <figure>
-              <figcaption>Homepage</figcaption>
-              <picture>
+            <div class="gridbox">
+              <h5 class="hp-h">Homepage</h5>
+              <h5 class="pc-h">Product Category</h5>
+              <h5 class="s-h">Search</h5>
+              <h5 class="nm-h">Navigation Menu</h5>
+              <h5 class="pp-h">Product Page</h5>
+              <h5 class="c-h">Cart</h5>
+              <h5 class="ch-h">Checkout</h5>
+              <h5 class="oc-h">Order Confirmation</h5>
+              <picture class="hp">
                 <source srcset="img/macrame/mid_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/home@2x.png" alt="homepage mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Product Category</figcaption>
-              <picture>
+              <picture class="pc">
                 <source srcset="img/macrame/mid_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/product_category@2x.png" alt="product category mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Search</figcaption>
-              <picture>
+              <picture class="s">
                 <source srcset="img/macrame/mid_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/search@2x.png" alt="search mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Navigation Menu</figcaption>
-              <picture>
+              <picture class="nm">
                 <source srcset="img/macrame/mid_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/nav@2x.png" alt="navigation menu mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Product Page</figcaption>
-              <picture>
+              <picture class="pp">
                 <source srcset="img/macrame/mid_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/product_page@2x.png" alt="product page mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Cart</figcaption>
-              <picture>
+              <picture class="c">
                 <source srcset="img/macrame/mid_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/cart@2x.png" alt="cart mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Checkout</figcaption>
-              <picture>
+              <picture class="ch">
                 <source srcset="img/macrame/mid_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/checkout@2x.png" alt="checkout mid fidelity wireframe" />
               </picture>
-            </figure>
-            <figure>
-              <figcaption>Order Confirmation</figcaption>
-              <picture>
+              <picture class="oc">
                 <source srcset="img/macrame/mid_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
                 <img src="img/macrame/mid_fidelity_wireframes/order_confirmation@2x.png" alt="order confirmation mid fidelity wireframe" />
               </picture>
-            </figure>
+            </div>
           </div>
         </div>
       </div>
@@ -539,65 +675,77 @@
         <div class="container">
           <div class="content">
             <h2>User Testing</h2>
-            <div class="three-col user1">
-              <h3>User 1</h3>
-              <p><b>Age:</b> 32<span><b>Gender:</b> female</span><br /><b>Shops online:</b> every other day</p>
-              <p><b>Feedback:</b> <i>I didn’t like that when I clicked “keep shopping” it took me back to the homepage, I’d rather it keep me on the original item page.</i></p>
-              <p><b>Solution:</b> Rearrange the userflow to have the “keep shopping” link direct the user back to the product page.</p>
-              <figure>
-                <figcaption>Before</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user1_1@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user1_1@2x.png" />
-                </picture>
-              </figure>
-              <figure>
-                <figcaption>After</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user1_2@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user1_2@2x.png" />
-                </picture>
-              </figure>
-            </div>
-            <div class="three-col user2">
-              <h3>User 2</h3>
-              <p><b>Age:</b> 26<span><b>Gender:</b> female</span><br /><b>Shops online:</b> several times a week</p>
-              <p><b>Feedback:</b> <i>I was really confused by the layout of the wall hanging page because it was side scroll & I could only see the small section.  I love the side menu, I hate when online shops don’t have that.</i></p>
-              <p><b>Solution:</b> By decreasing the number of horizontal scroll rows from two to one, the next section of the page will appear above the fold.</p>
-              <figure>
-                <figcaption>Before</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user2_1@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user2_1@2x.png" />
-                </picture>
-              </figure>
-              <figure>
-                <figcaption>After</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user2_2@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user2_2@2x.png" />
-                </picture>
-              </figure>
-            </div>
-            <div class="three-col user3">
-              <h3>User 3</h3>
-              <p><b>Age:</b> 37<span><b>Gender:</b> nonbinary</span><br /><b>Shops online:</b> daily</p>
-              <p><b>Feedback:</b> <i>I want the “keep shopping” link to return me to the page I was on, not the homepage. also, I didn’t know which color was selected on the product page.</i></p>
-              <p><b>Solution:</b> To solve the color swatches problem, there will have to be a separate UI style for the selected item.</p>
-              <figure>
-                <figcaption>Before</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user3_1@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user3_1@1x.png" />
-                </picture>
-              </figure>
-              <figure>
-                <figcaption>After</figcaption>
-                <picture>
-                  <source srcset="img/macrame/user_testing/user3_2@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/user_testing/user3_2@1x.png" />
-                </picture>
-              </figure>
+            <div class="flexbox">
+              <div class="col-lg-4 col-md-12 user1">
+                <div class="col-lg-12 col-md-8 col-sm-12">
+                  <h3>User 1</h3>
+                  <p><b>Age:</b> 32<span><b>Gender:</b> female</span><br /><b>Shops online:</b> every other day</p>
+                  <p><b>Feedback:</b> <i>I didn’t like that when I clicked “keep shopping” it took me back to the homepage, I’d rather it keep me on the original item page.</i></p>
+                  <p><b>Solution:</b> Rearrange the userflow to have the “keep shopping” link direct the user back to the product page.</p>
+                </div>
+                <div class="col-lg-12 col-md-4 col-sm-12 example">
+                  <figure>
+                    <figcaption>Before</figcaption>
+                    <picture>
+                      <source srcset="img/macrame/user_testing/user1_1@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/user_testing/user1_1@2x.png" />
+                    </picture>
+                  </figure>
+                  <figure>
+                    <figcaption>After</figcaption>
+                    <picture>
+                      <source srcset="img/macrame/user_testing/user1_2@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/user_testing/user1_2@2x.png" />
+                    </picture>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 user2">
+                <div class="col-lg-12 col-md-8 col-sm-12">
+                  <h3>User 2</h3>
+                  <p><b>Age:</b> 26<span><b>Gender:</b> female</span><br /><b>Shops online:</b> several times a week</p>
+                  <p><b>Feedback:</b> <i>I was really confused by the layout of the wall hanging page because it was side scroll & I could only see the small section. I love the side menu, I hate when online shops don’t have that.</i></p>
+                  <p><b>Solution:</b> By decreasing the number of horizontal scroll rows from two to one, the next section of the page will appear above the fold.</p>
+                </div>
+                <div class="flexbox col-lg-12 col-md-4 col-sm-12 example">
+                  <figure class="col-lg-6">
+                    <figcaption>Before</figcaption>
+                    <picture>
+                      <source srcset="img/macrame/user_testing/user2_1@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/user_testing/user2_1@2x.png" />
+                    </picture>
+                  </figure>
+                  <figure class="col-lg-6">
+                    <figcaption>After</figcaption>
+                    <picture>
+                      <source srcset="img/macrame/user_testing/user2_2@1x.png" media="(max-width:767px;)" />
+                      <img src="img/macrame/user_testing/user2_2@2x.png" />
+                    </picture>
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 user3">
+                <div class="col-lg-12 col-md-9 col-sm-12">
+                  <h3>User 3</h3>
+                  <p><b>Age:</b> 37<span><b>Gender:</b> nonbinary</span><br /><b>Shops online:</b> daily</p>
+                  <p><b>Feedback:</b> <i>I want the “keep shopping” link to return me to the page I was on, not the homepage. also, I didn’t know which color was selected on the product page.</i></p>
+                  <p><b>Solution:</b> To solve the color swatches problem, there will have to be a separate UI style for the selected item.</p>
+                </div>
+                <figure class="col-lg-12 col-md-3 col-sm-12 example">
+                  <figcaption>Before</figcaption>
+                  <picture>
+                    <source srcset="img/macrame/user_testing/user3_1@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/user_testing/user3_1@1x.png" />
+                  </picture>
+                </figure>
+                <figure class="col-lg-12 col-md-3 col-sm-12 example">
+                  <figcaption>After</figcaption>
+                  <picture>
+                    <source srcset="img/macrame/user_testing/user3_2@1x.png" media="(max-width:767px;)" />
+                    <img src="img/macrame/user_testing/user3_2@1x.png" />
+                  </picture>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
@@ -606,53 +754,55 @@
         <div class="container">
           <div class="content">
             <h2>High Fidelity Wireframes</h2>
-            <div class="col">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/home@2x.png" alt="homepage high fidelity wireframe" />
-              </picture>
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/search@2x.png" alt="search high fidelity wireframe" />
-              </picture>
-            </div>
-            <div class="col odd">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/product_category@2x.png" alt="product category high fidelity wireframe" />
-              </picture>
-            </div>
-            <div class="col">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/product_page@2x.png" alt="product page high fidelity wireframe" />
-              </picture>
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/modal@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/modal@2x.png" alt="modal high fidelity wireframe" />
-              </picture>
-            </div>
-            <div class="col odd">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/cart@2x.png" alt="cart high fidelity wireframe" />
-              </picture>
-            </div>
-            <div class="col">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/nav@2x.png" alt="navigation menu high fidelity wireframe" />
-              </picture>
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/checkout@2x.png" alt="checkout high fidelity wireframe" />
-              </picture>
-            </div>
-            <div class="col odd">
-              <picture>
-                <source srcset="img/macrame/high_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
-                <img src="img/macrame/high_fidelity_wireframes/order_confirmation@2x.png" alt="order confirmation high fidelity wireframe" />
-              </picture>
+            <div class="gridbox">
+              <div class="one">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/home@2x.png" alt="homepage high fidelity wireframe" />
+                </picture>
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/search@2x.png" alt="search high fidelity wireframe" />
+                </picture>
+              </div>
+              <div class="two">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/product_category@2x.png" alt="product category high fidelity wireframe" />
+                </picture>
+              </div>
+              <div class="three">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/product_page@2x.png" alt="product page high fidelity wireframe" />
+                </picture>
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/modal@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/modal@2x.png" alt="modal high fidelity wireframe" />
+                </picture>
+              </div>
+              <div class="four">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/cart@2x.png" alt="cart high fidelity wireframe" />
+                </picture>
+              </div>
+              <div class="five">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/nav@2x.png" alt="navigation menu high fidelity wireframe" />
+                </picture>
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/checkout@2x.png" alt="checkout high fidelity wireframe" />
+                </picture>
+              </div>
+              <div class="six">
+                <picture>
+                  <source srcset="img/macrame/high_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/high_fidelity_wireframes/order_confirmation@2x.png" alt="order confirmation high fidelity wireframe" />
+                </picture>
+              </div>
             </div>
           </div>
         </div>
@@ -661,10 +811,20 @@
         <div class="container">
           <div class="content">
             <h2>Responsive Design</h2>
-            <picture>
-              <source srcset="img/macrame/mockups/mbp_iphone@1x.png" media="(max-width:767px;)" />
-              <img src="img/macrame/mockups/mbp_iphone@2x.png" alt="desktop mobile mockups" />
-            </picture>
+            <div class="flexbox">
+              <div class="col-lg-9 col-md-12">
+                <picture>
+                  <source srcset="img/macrame/mockups/desktop@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/mockups/desktop@2x.png" alt="desktop mockups" />
+                </picture>
+              </div>
+              <div class="col-lg-3 col-md-12">
+                <picture>
+                  <source srcset="img/macrame/mockups/iphone@1x.png" media="(max-width:767px;)" />
+                  <img src="img/macrame/mockups/iphone@2x.png" alt="mobile mockups" />
+                </picture>
+              </div>
+            </div>
             <h3>As a responsive web app, Macra.me can be used on any device in any location.</h3>
           </div>
         </div>
@@ -672,7 +832,7 @@
       <div class="page" id="twelve">
         <div class="container">
           <div class="content">
-            <picture>
+            <picture class="large medium">
               <source srcset="img/macrame/logos/logo@1x.png" media="(max-width:767px;)" />
               <img src="img/macrame/logos/logo@2x.png" alt="logo" />
             </picture>
@@ -683,16 +843,20 @@
         <div class="container">
           <div class="content">
             <h2>Retrospective</h2>
-            <div class="col-l">
-              <h3>What went well</h3>
-              <p>The color scheme came out really nice in this project, subtle but very in touch with the products. I broke with tradition for the modal design, giving it a diamond shape instead of a rectangle, and it was well received. The navigation for the web app was universally praised in user testing.</p>
-              <h3>Challenges overcome</h3>
-              <p>Since this project focused early on building brand guidelines, I put extra energy into getting the logo right. The trick was making something that looked good even at small sizes. I went through multiple iterations that were too complex, I struggled with finding the right balance between reflecting the intricacies of the shop products while remaining minimal and contemporary. Getting feedback from my peers was crucial to this process. </p>
+            <div class="flexbox">
+              <div class="col-lg-7 col-md-12">
+                <h3>What went well</h3>
+                <p>The color scheme came out really nice in this project, subtle but very in touch with the products. I broke with tradition for the modal design, giving it a diamond shape instead of a rectangle, and it was well received. The
+                  navigation for the web app was universally praised in user testing.</p>
+                <h3>Challenges overcome</h3>
+                <p>Since this project focused early on building brand guidelines, I put extra energy into getting the logo right. The trick was making something that looked good even at small sizes. I went through multiple iterations that were too
+                  complex, I struggled with finding the right balance between reflecting the intricacies of the shop products while remaining minimal and contemporary. Getting feedback from my peers was crucial to this process. </p>
+              </div>
+              <picture class="col-lg-4 col-md-5 text-center">
+                <source srcset="img/macrame/logos/light_logo@1x.png" media="(max-width:767px;)" />
+                <img src="img/macrame/logos/light_logo@2x.png" alt="macrame logo" />
+              </picture>
             </div>
-            <picture class="col-r">
-              <source srcset="img/macrame/logos/light_logo@1x.png" media="(max-width:767px;)" />
-              <img src="img/macrame/logos/light_logo@2x.png" alt="macrame logo" />
-            </picture>
           </div>
         </div>
       </div>
@@ -700,13 +864,14 @@
   </main>
 
   <footer>
-    <div id="contact" class="container">
+    <div id="contact" class="container col-sm-12">
       <h2>Get in Touch</h2>
-      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! Call or text me at <a href="tel:+14158239308">415-823-9308</a>. Prefer to send an email?</p>
+      <hr />
+      <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
       <div>
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
-      <div class="social media">
+      <div class="social-media">
         <a href="https://www.linkedin.com/in/morgaine-breimayer-39764620/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -715,6 +880,9 @@
         </a>
         <a href="https://www.instagram.com/morgaine.design/" target="_blank">
           <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/MorgaineBreimayer?tab=repositories" target="_blank">
+          <i class="fab fa-github"></i>
         </a>
       </div>
       <div>

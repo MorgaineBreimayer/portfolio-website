@@ -53,8 +53,10 @@
 #beleaf .case-study hr {
   border: 1px solid var(--lt);
   margin: 0;
+  width: 100%;
 }
 
+/* Page One */
 #beleaf .case-study .page#one .container {
   background-image: url("../img/beleaf/mockups/title_mockup@2x.png");
   background-position: bottom;
@@ -69,32 +71,33 @@
   font-weight: 500;
   font-size: 1.2em;
 }
+
+/* Page Two */
 #beleaf .case-study .page#two .container {
   background-image: url('../img/beleaf/mockups/galaxy_mockup@2x.png');
 }
 #beleaf .case-study .page#two hr {
-  width: 652px;
+  width: 663px;
 }
-#beleaf .case-study .page#two .col-l {
-  width: 65%;
+#beleaf .case-study .page#two .col-lg-7 {
+  float: left;
 }
-#beleaf .case-study .page#two .col-l .left {
-  width: 60%;
-}
-#beleaf .case-study .page#two .col-r {
-  width: 25%;
+#beleaf .case-study .page#two .col-lg-3 {
   text-align: right;
-  padding-top: 255px;
+  padding-top: 130px;
+  float: right;
 }
-#beleaf .case-study .page#two .col-r h3 {
+#beleaf .case-study .page#two .col-lg-3 h3 {
   text-align: right;
   padding-top: 20px;
 }
+
+/* Page Three */
 #beleaf .case-study .page#three h3 {
   margin-top: 10px;
 }
-#beleaf .case-study .page#three .three-col {
-  padding-bottom: 20px;
+#beleaf .case-study .page#three .flexbox + h4 {
+  margin-top: 0;
 }
 #beleaf .case-study .page#four h3 + p {
   margin-top: 5px;
@@ -107,62 +110,67 @@
 #beleaf .case-study .page#five h3 {
   padding-left: 30px;
 }
-#beleaf .case-study .page#five .wireframes {
-  display: inline-block;
-  padding: 20px 0;
+#beleaf .case-study .page#five .flexbox {
+  padding: 45px 0;
 }
+
+/* Page Five */
 #beleaf .case-study .page#six h5 {
   margin-top: 10px;
 }
-#beleaf .case-study .page#six figure {
-  width: 25%;
-  float: left;
-}
-#beleaf .case-study .page#six .examples {
-  display: inline-block;
+#beleaf .case-study .page#six .gridbox {
   margin: 70px 0;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 30% 40% 30%;
+  align-items: center;
+}
+#beleaf .case-study .page#six .one {
+  grid-column: 1;
+  grid-row: 1/span3;
+}
+#beleaf .case-study .page#six .one-text {
+  grid-column: 2;
+  grid-row: 1;
 }
 #beleaf .case-study .page#six .icon {
-  display: inline-block;
-  padding: 30px 0 20px;
+  grid-column: 2;
+  grid-row: 2;
+}
+#beleaf .case-study .page#six .two {
+  grid-column: 3;
+  grid-row: 1/span3;
+}
+#beleaf .case-study .page#six .two-text {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: right;
 }
 #beleaf .case-study .page#six .icon img {
   width: 80%;
 }
-#beleaf .case-study .page#six .right {
-  text-align: right;
-}
+
+/* Page Seven */
 #beleaf .case-study .page#seven .content {
   background-image: url("../img/beleaf/colors/blossom@2x.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  height: 548px;
 }
-#beleaf .case-study .page#seven .row {
-  display: inline-block;
-  margin-bottom: 30px;
+#beleaf .case-study .page#seven hr + .flexbox {
+  row-gap: 30px;
 }
-#beleaf .case-study .page#seven .row.top .col-l {
-  width: 41%;
-}
-#beleaf .case-study .page#seven .typography .col-r, #beleaf .case-study .page#seven .row.top .col-l.typography .col-l {
-  width: 47%;
-  margin-left: 0;
+#beleaf .case-study .page#seven .typography .col-lg-6 {
+  float: left;
 }
 #beleaf .case-study .page#seven .typography h3 {
   text-decoration: underline;
   padding-bottom: 5px;
 }
-#beleaf .case-study .page#seven .col-r h4 {
+#beleaf .case-study .page#seven .color {
+  padding-left: 20px;
+}
+#beleaf .case-study .page#seven .color h4, #beleaf .case-study .page#seven .icons h4 {
   text-align: right;
   padding-bottom: 5px;
-}
-#beleaf .case-study .page#seven .col-r.color {
-  width: 39%;
-}
-#beleaf .case-study .page#seven figure {
-  width: 25%;
 }
 #beleaf .case-study .page#seven figcaption {
   margin-top: 0;
@@ -170,21 +178,29 @@
 #beleaf .case-study .page#seven .down {
   padding-top: 40px;
 }
-#beleaf .case-study .page#seven .row.bottom {
-  margin: 5px 0;
-}
-#beleaf .case-study .page#seven .row.bottom .col-l img {
-  padding: 15px 0 5px;
-  width: 55%;
-}
-#beleaf .case-study .page#seven .row.bottom .col-l h5 {
+#beleaf .case-study .page#seven .col-lg-6 h5 {
   margin-top: 10px;
 }
-#beleaf .case-study .page#seven .row.bottom .col-r img {
-  padding-top: 5px;
-  width: 90%;
-  float: right;
+#beleaf .case-study .page#seven .logo img {
+  width: 60%;
+  padding-top: 20px;
 }
+#beleaf .case-study .page#seven .gridbox {
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(3, 33px);
+  text-align: right;
+  row-gap: 20px;
+  padding-top: 15px;
+}
+#beleaf .case-study .page#seven .gridbox img {
+  height: 100%;
+  width: auto;
+}
+#beleaf .case-study .page#seven p {
+  padding-top: 25px;
+}
+
+/* Page Eight */
 #beleaf .case-study .page#eight .container {
   background-image: url("../img/beleaf/mockups/succulent_mockup@1x.jpg");
   background-size: contain;
@@ -192,47 +208,51 @@
 #beleaf .case-study .page#eight hr {
   width: 637px;
 }
-#beleaf .case-study .page#eight h3 {
-  width: 59%;
-}
 #beleaf .case-study .page#eight h4 {
   color: var(--dk);
 }
 #beleaf .case-study .page#eight p {
   line-height: 22px;
+  margin-bottom: 0;
 }
+
+/* Page Nine */
 #beleaf .case-study .page#nine a {
   padding-left: 735px;
   text-decoration: underline;
   color: var(--md);
   font-size: .8em;
 }
-#beleaf .case-study .page#nine .row {
-  display: inline-block;
+#beleaf .case-study .page#nine .gridbox {
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: 100%;
+  text-align: right;
+  align-items: center;
 }
-#beleaf .case-study .page#nine .row img {
-  width: 14%;
-  float: left;
-  padding: 0 5px;
+#beleaf .case-study .page#nine img {
+  width: 88%;
 }
-#beleaf .case-study .page#nine .row.android img {
-  padding: 7px 5px 0;
+#beleaf .case-study .page#nine .first img, #beleaf .case-study .page#nine .android .first img {
+  width: 100%;
 }
-#beleaf .case-study .page#nine .row .first img {
-  width: 15%;
-  padding-top: 0;
+#beleaf .case-study .page#nine .android img {
+  width: 95%;
 }
+
+/* Page Ten  */
 #beleaf .case-study .page#ten .container {
   background-image: url("../img/beleaf/mockups/final@2x.png");
   background-size: 71%;
   background-position: bottom left;
   background-repeat: no-repeat;
 }
-#beleaf .case-study .page#ten img {
+#beleaf .case-study .page#ten .logo img {
   width: 33%;
   margin: 0 auto;
   display: block;
 }
+
+/* Page Eleven */
 #beleaf .case-study .page#eleven .container {
   background-image: url("../img/beleaf/frond@2x.png");
   background-size: contain;
@@ -240,6 +260,309 @@
 #beleaf .case-study .page#eleven h3 {
   padding-top: 20px;
 }
-#beleaf .case-study .page#eleven .col-l {
+#beleaf .case-study .page#eleven .col-lg-6l {
   width: 70%;
+}
+
+
+/* Medium devices (1024px or smaller) */
+@media only screen and (max-width: 1024px) {
+  #beleaf .case-study .page .container {
+    height: 775px;
+    padding: 40px;
+    background-repeat: no-repeat;
+  }
+  #beleaf .case-study hr {
+    width: unset;
+  }
+
+  #beleaf .case-study .page#one .container {
+    background-image: url("../img/beleaf/mockups/title_mobile@2x.png");
+    padding-top: 30px;
+  }
+  #beleaf .case-study .page#one .content {
+    text-align: center;
+  }
+  #beleaf .case-study .page#one h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  #beleaf .case-study .page#one p {
+    padding-top: 10px;
+  }
+
+  #beleaf .case-study .page#two .container {
+    background-image: url("../img/beleaf/mockups/galaxy_mobile@2x.png");
+    background-position: bottom right;
+    background-size: 85%;
+  }
+  #beleaf .case-study .page#two hr {
+    width: unset;
+  }
+  #beleaf .case-study .page#two .col-lg-3 {
+    padding-top: 0;
+    float: left;
+    text-align: left;
+  }
+  #beleaf .case-study .page#two .col-lg-3 h3 {
+    text-align: left;
+  }
+  #beleaf .case-study .page#two .col-md-6 > .col-md-6 {
+    float: left;
+  }
+
+  #beleaf .case-study .page#three h4 {
+    padding-top: 20px;
+  }
+
+  #beleaf .case-study .page#four picture {
+    text-align: center;
+  }
+  #beleaf .case-study .page#four img {
+    border: unset;
+    padding-top: 30px;
+    margin: unset;
+  }
+  #beleaf .case-study .page#four .flexbox {
+    justify-content: center;
+    display: flex;
+  }
+
+  #beleaf .case-study .page#five .flexbox {
+    padding: 10px 0;
+    text-align: center;
+  }
+  #beleaf .case-study .page#five .flexbox h3 {
+    text-align: center;
+    padding-left: 0;
+  }
+  #beleaf .case-study .page#five img {
+    width: 60%;
+  }
+
+  #beleaf .case-study .page#six .gridbox {
+    margin: 0px 0 15px;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+  }
+  #beleaf .case-study .page#six .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #beleaf .case-study .page#six .one-text {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #beleaf .case-study .page#six .icon {
+    grid-column: 3;
+    grid-row: 1/span3;
+  }
+  #beleaf .case-study .page#six .two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #beleaf .case-study .page#six .two-text {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+  }
+  #beleaf .case-study .page#six .icon img {
+    width: 55%;
+  }
+  #beleaf .case-study .page#six .icon figcaption {
+    margin: 0 0 15px;
+  }
+
+  #beleaf .case-study .page#seven .content {
+    background-position-y: 188px;
+  }
+  #beleaf .case-study .page#seven hr + .flexbox {
+    row-gap: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  #beleaf .case-study .page#seven .typography .col-lg-6 + .col-lg-6 {
+    float: right;
+  }
+  #beleaf .case-study .page#seven .color {
+    padding-left: 0;
+    padding-bottom: 25px;
+  }
+  #beleaf .case-study .page#seven .color h4 {
+    text-align: left;
+  }
+  #beleaf .case-study .page#seven .down {
+    padding-top: 0;
+  }
+  #beleaf .case-study .page#seven .logo img {
+    width: 72%;
+  }
+  #beleaf .case-study .page#seven .gridbox {
+    text-align: center;
+    column-gap: 2px;
+  }
+  #beleaf .case-study .page#seven .gridbox img {
+    height: 80%;
+  }
+
+  #beleaf .case-study .page#eight .container {
+    background-position: bottom;
+    background-image: url("../img/beleaf/mockups/succulent_mobile@2x.png");
+  }
+  #beleaf .case-study .page#eight hr {
+    width: unset;
+  }
+  #beleaf .case-study .page#eight hr + p {
+    margin-top: 15px;
+    color: var(--dk);
+    font-size: 1em;
+  }
+  #beleaf .case-study .page#eight .praise {
+    padding-left: 115px;
+  }
+
+  #beleaf .case-study .page#nine a {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 100px;
+  }
+  #beleaf .case-study .page#nine .down {
+    padding-top: 80px;
+  }
+
+  #beleaf .case-study .page#ten {
+    text-align: center;
+  }
+  #beleaf .case-study .page#ten .container {
+    background-image: unset;
+    padding-bottom: 0;
+  }
+  #beleaf .case-study .page#ten .medium img {
+    width: 97.5%;
+
+  }
+
+  #beleaf .case-study .page#eleven .container {
+    background-position: bottom right;
+    background-size: 135%;
+  }
+}
+
+/* Small devices (640px and smaller) */
+@media only screen and (max-width: 640px) {
+  #beleaf .case-study .page .container {
+    height: unset;
+    padding: 30px;
+  }
+  #beleaf .case-study h2 {
+    font-size: 1.5em;
+  }
+
+  #beleaf .case-study .page#one .container, #beleaf .case-study .page#two .container {
+    height: 775px;
+  }
+  #beleaf .case-study .page#one img {
+    width: 40%;
+  }
+
+  #beleaf .case-study .page#two .container {
+    height: unset;
+  }
+  #beleaf .case-study .page#two .col-lg-7, #beleaf .case-study .page#two .col-lg-3, #beleaf .case-study .page#two .col-md-6 > .col-md-6 {
+    float: unset;
+  }
+  #beleaf .case-study .page#two .col-lg-3 h3 {
+    padding-top: 0;
+  }
+
+  #beleaf .case-study .page#three .flexbox {
+    justify-content: space-around;
+  }
+
+  #beleaf .case-study .page#four img, #beleaf .case-study .page#five img {
+    width: 100%;
+  }
+
+  #beleaf .case-study .page#six .gridbox {
+    margin: 15px 0 15px;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 44% 12% 44%;
+  }
+  #beleaf .case-study .page#six .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #beleaf .case-study .page#six .one-text {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #beleaf .case-study .page#six .icon {
+    grid-column: 1/span2;
+    grid-row: 2;
+  }
+  #beleaf .case-study .page#six .two {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #beleaf .case-study .page#six .two-text {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  #beleaf .case-study .page#six .icon img {
+    width: 55%;
+  }
+  #beleaf .case-study .page#six .icon figcaption {
+    margin: 0 0 15px;
+  }
+
+  #beleaf .case-study .page#seven .content {
+    background-image: none;
+  }
+  #beleaf .case-study .page#seven hr + .flexbox {
+    margin-bottom: 0;
+  }
+  #beleaf .case-study .page#seven p {
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  #beleaf .case-study .page#seven .color {
+    padding-bottom: 5px;
+  }
+  #beleaf .case-study .page#seven .color img {
+    width: 125%;
+  }
+    #beleaf .case-study .page#seven .icons h4 {
+      text-align: left;
+    }
+
+  #beleaf .case-study .page#eight .content{
+    padding-bottom: 150px;
+  }
+  #beleaf .case-study .page#eight p {
+    margin-top: 3px;
+    font-size: .95em;
+  }
+  #beleaf .case-study .page#eight .praise {
+    padding: 0;
+  }
+
+  #beleaf .case-study .page#nine .gridbox {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4,25%);
+  }
+  #beleaf .case-study .page#nine .down {
+    padding-top: 0;
+  }
+
+  #beleaf .case-study .page#ten .logo img {
+    width: 60%;
+  }
+  #beleaf .case-study .page#ten .small img {
+    display: block;
+    justify-content: center;
+  }
+  #beleaf .case-study .page#ten .container,  #beleaf .case-study .page#eleven .container {
+    background-image: unset;
+  }
 }

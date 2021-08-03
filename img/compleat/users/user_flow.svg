@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2175px" height="980px" viewBox="0 0 2175 980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user_flow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7" transform="translate(-182.000000, -468.000000)">
+            <g id="user_flow" transform="translate(182.000000, 468.000000)">
+                <text id="Click-Save-to-Pantry" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="313.625749" y="46">Click Save to Pantry</tspan>
+                </text>
+                <text id="Select-Ingredients" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="7.54696271" y="230">Select Ingredients</tspan>
+                </text>
+                <text id="Click-Filters-Button" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="0.339562978" y="557">Click Filters Button</tspan>
+                </text>
+                <text id="Select-Filters" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="34.6975253" y="862">Select Filters</tspan>
+                </text>
+                <text id="No" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="909.620193" y="407">No</tspan>
+                </text>
+                <text id="No" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="1288.62019" y="535">No</tspan>
+                </text>
+                <text id="No" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="1912.62019" y="407">No</tspan>
+                </text>
+                <text id="Yes" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="1714.61972" y="585">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="906.619718" y="229">Yes</tspan>
+                </text>
+                <text id="Yes" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="1285.61972" y="791">Yes</tspan>
+                </text>
+                <text id="Click-Save-Button" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                    <tspan x="831.500241" y="650">Click Save Button</tspan>
+                </text>
+                <path id="Path-2" d="M604,36 C613.280923,36 620.824796,43.4371956 620.996992,52.6769603 L621,53 L621,131 L631,131 L619,155 L607,131 L617,131 L617,53 C617,45.9228654 611.344808,40.1665717 604.306856,40.0035504 L604,40 L539,40 L539,36 L604,36 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-3" d="M106,243 L106,337 L116,337 L104,361 L92,337 L102,337 L102,243 L106,243 Z" fill="#979797" fill-rule="nonzero"></path>
+                <line x1="104" y1="75" x2="104" y2="202" id="Path-3" stroke="#979797" stroke-width="4"></line>
+                <path id="Path-3" d="M106,568 L106,663 L116,663 L104,687 L92,663 L102,663 L102,568 L106,568 Z" fill="#979797" fill-rule="nonzero"></path>
+                <line x1="104" y1="436" x2="104" y2="527" id="Path-3" stroke="#979797" stroke-width="4"></line>
+                <line x1="104" y1="792" x2="104" y2="833" id="Path-3" stroke="#979797" stroke-width="4"></line>
+                <path id="Path-3" d="M1735,596 L1735,678 L1745,678 L1733,702 L1721,678 L1731,678 L1731,596 L1735,596 Z" fill="#979797" fill-rule="nonzero"></path>
+                <line x1="1733" y1="492" x2="1733" y2="555" id="Path-3" stroke="#979797" stroke-width="4"></line>
+                <line x1="1857" y1="398" x2="1900" y2="398" id="Path-3" stroke="#979797" stroke-width="4"></line>
+                <path id="Path-3" d="M1306,803 L1306,855 L1316,855 L1304,879 L1292,855 L1302,855 L1302,803 L1306,803 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-3" d="M1306,451 L1306,482 L1316,482 L1304,506 L1292,482 L1302,482 L1302,451 L1306,451 Z" fill="#979797" fill-rule="nonzero"></path>
+                <line x1="1304" y1="707" x2="1304" y2="762" id="Path-3" stroke="#979797" stroke-width="4" transform="translate(1304.000000, 734.500000) scale(1, -1) translate(-1304.000000, -734.500000) "></line>
+                <line x1="1304" y1="547" x2="1304" y2="576" id="Path-3" stroke="#979797" stroke-width="4" transform="translate(1304.000000, 561.500000) scale(1, -1) translate(-1304.000000, -561.500000) "></line>
+                <path id="Path-5" d="M1159,210 L1183,222 L1159,234 L1159,224 L955,224 L955,220 L1159,220 L1159,210 Z" fill="#979797" fill-rule="nonzero"></path>
+                <line x1="727" y1="222" x2="894" y2="222" id="Path-5" stroke="#979797" stroke-width="4"></line>
+                <line x1="206" y1="38" x2="302" y2="38" id="Path-5" stroke="#979797" stroke-width="4"></line>
+                <path id="Path-5" d="M1165,629 L1189,641 L1165,653 L1165,643 L1036,643 L1036,639 L1165,639 L1165,629 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-5" d="M1159,386 L1183,398 L1159,410 L1159,400 L953,400 L953,396 L1159,396 L1159,386 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-5" d="M1580,386 L1604,398 L1580,410 L1580,400 L1425,400 L1425,396 L1580,396 L1580,386 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-5" d="M1588,917 L1612,929 L1588,941 L1588,931 L1425,931 L1425,927 L1588,927 L1588,917 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-6" d="M106,874 L106,914 C106,921.077135 111.655192,926.833428 118.693144,926.99645 L119,927 L242,927 L242,917 L266,929 L242,941 L242,931 L119,931 C109.719077,931 102.175204,923.562804 102.003008,914.32304 L102,914 L102,874 L106,874 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-6" d="M925,665 L937,689 L927,689 L927,913.957673 C926.999989,913.981354 926.999989,913.981354 926.999934,914.005034 C926.973778,923.393837 919.341445,930.983762 909.952641,930.957607 C804.687407,930.664347 724.159825,930.51204 668.370499,930.500686 L654.790909,930.500819 C654.438928,930.500904 654.088096,930.500995 653.738415,930.501093 L651.654135,930.501757 C626.808425,930.51068 607.926428,930.553577 595.009289,930.630439 C588.017276,930.672043 582.774723,930.723594 579.284539,930.785017 C577.548978,930.81556 576.250219,930.848502 575.394059,930.883515 C581.041893,930.652545 576.152924,931.084262 576.003477,929.093608 L576,929 L572,929 C572,926.82077 567.746108,927.192937 575.230614,926.886856 C576.124237,926.850311 577.450152,926.81668 579.214155,926.785636 C582.7231,926.723883 587.979241,926.672199 594.985488,926.630509 C607.911288,926.553597 626.799741,926.510683 651.651992,926.501758 L653.736818,926.501093 L654.262338,926.500951 L654.262338,926.500951 L668.370825,926.500686 C724.16442,926.51204 804.695205,926.664353 909.963784,926.957623 C917.143458,926.977624 922.979948,921.173563 922.99995,913.99389 L922.999987,913.975782 L922.999987,913.975782 L923,913.957673 L923,689 L913,689 L925,665 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-6" d="M2028,678 L2028,724 C2028,733.280923 2020.5628,740.824796 2011.32304,740.996992 L2011,741 L1878,741 L1878,751 L1854,739 L1878,727 L1878,737 L2011,737 C2018.07713,737 2023.83343,731.344808 2023.99645,724.306856 L2024,724 L2024,678 L2028,678 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-6" d="M2011,396 C2020.28092,396 2027.8248,403.437196 2027.99699,412.67696 L2028,413 L2028,579 L2038,579 L2026,603 L2014,579 L2024,579 L2024,413 C2024,405.922865 2018.34481,400.166572 2011.30686,400.00355 L2011,400 L1958,400 L1958,396 L2011,396 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path id="Path-6" d="M910,546 C919.280923,546 926.824796,553.437196 926.996992,562.67696 L927,563 L927,592 L937,592 L925,616 L913,592 L923,592 L923,563 C923,555.922865 917.344808,550.166572 910.306856,550.00355 L910,550 L723,550 L723,546 L910,546 Z" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M207.5,398.5 C208.444699,398.559156 209.389399,398.618312 210.334098,398.677469 C218.238878,399.172459 224.396648,405.727883 224.396648,413.648146 L224.396648,533 C224.396648,541.284271 231.112377,548 239.396648,548 L437,548 L437,548" id="Path-6" stroke="#979797" stroke-width="4" transform="translate(322.250000, 473.250000) scale(-1, -1) translate(-322.250000, -473.250000) "></path>
+                <path d="M618.5,284.5 L618.5,383.5 C618.5,391.784271 625.215729,398.5 633.5,398.5 L896.5,398.5 L896.5,398.5" id="Path-6" stroke="#979797" stroke-width="4"></path>
+                <g id="Group">
+                    <rect id="Rectangle" fill="#E25819" x="0" y="0" width="208" height="75" rx="37.5"></rect>
+                    <text id="Homepage" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#FFFFFF">
+                        <tspan x="46.3449726" y="45">Homepage</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(0.000000, 361.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="204" height="71" rx="35.5"></rect>
+                    <text id="Search-Results" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="25.678508" y="45">Search Results</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 687.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="204" height="101"></rect>
+                    <text id="Filters-Overlay" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="24.4523455" y="61">Filters Overlay</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(1183.000000, 346.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="238" height="101"></rect>
+                    <text id="Login/Create-Account" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" line-spacing="19" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="50.8950125" y="51">Login/Create</tspan>
+                        <tspan x="31.5" y="80.7299542">Account Overlay</tspan>
+                    </text>
+                </g>
+                <g id="Group-6" transform="translate(504.000000, 107.000000)">
+                    <path d="M192.764486,36.3021559 L163.342905,162.059673 L36.3346322,192.732284 L69.5095636,68.2258756 L192.764486,36.3021559 Z" id="Rectangle" stroke="#E25819" stroke-width="4" transform="translate(114.501046, 114.501046) rotate(45.000000) translate(-114.501046, -114.501046) "></path>
+                    <text id="Is-the-user-logged-i" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" line-spacing="19" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="59.501046" y="112.385822">Is the user</tspan>
+                        <tspan x="61.7891359" y="142.115777">logged in?</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(1189.000000, 526.498954)">
+                    <path d="M192.754575,36.3068803 L162.946636,162.247462 L36.324569,192.737023 L69.1131304,68.4137278 L192.754575,36.3068803 Z" id="Rectangle" stroke="#E25819" stroke-width="4" transform="translate(114.501046, 114.501046) rotate(45.000000) translate(-114.501046, -114.501046) "></path>
+                    <text id="Is-the-user-logged-i" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" line-spacing="19" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="59.501046" y="112.886868">Is the user</tspan>
+                        <tspan x="61.7891359" y="142.616823">logged in?</tspan>
+                    </text>
+                </g>
+                <g id="Group-12" transform="translate(1604.000000, 269.306566)">
+                    <path d="M217.381031,40.0830583 L197.827846,197.398431 L40.0902938,217.373928 L64.6175209,64.1879287 L217.381031,40.0830583 Z" id="Rectangle" stroke="#E25819" stroke-width="4" transform="translate(128.693434, 128.693434) rotate(45.000000) translate(-128.693434, -128.693434) "></path>
+                    <text id="Does-the-user-have-a" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" line-spacing="19" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="55.5280218" y="123.271645">Does the user</tspan>
+                        <tspan x="38.6934342" y="153.001599">have an account?</tspan>
+                    </text>
+                </g>
+                <g id="Group-8" transform="translate(1183.000000, 875.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="238" height="101"></rect>
+                    <text id="Recipe-Saved-overlay" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" line-spacing="19" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="50.5" y="51">Recipe Saved</tspan>
+                        <tspan x="81.4091177" y="80.7299542">overlay</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(515.000000, 510.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="204" height="71" rx="35.5"></rect>
+                    <text id="Recipe-Page" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="39.4099079" y="46">Recipe Page</tspan>
+                    </text>
+                </g>
+                <g id="Group-9" transform="translate(1612.000000, 891.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="238" height="71" rx="35.5"></rect>
+                    <text id="My-Recipes-Page" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="31.3168387" y="46">My Recipes Page</tspan>
+                    </text>
+                </g>
+                <g id="Group-10" transform="translate(1612.000000, 702.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="238" height="71" rx="35.5"></rect>
+                    <text id="My-Account-Page" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="28.3198437" y="46">My Account Page</tspan>
+                    </text>
+                </g>
+                <g id="Group-11" transform="translate(1877.000000, 603.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="294" height="71" rx="35.5"></rect>
+                    <text id="Create-Account-Page" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="36.8313912" y="46">Create Account Page</tspan>
+                    </text>
+                </g>
+                <g id="Group-14" transform="translate(1183.000000, 184.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="238" height="71" rx="35.5"></rect>
+                    <text id="My-Pantry-Page" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="36.991297" y="46">My Pantry Page</tspan>
+                    </text>
+                </g>
+                <g id="Group-4" transform="translate(266.000000, 891.000000)">
+                    <rect id="Rectangle" stroke="#E25819" stroke-width="4" x="2" y="2" width="304" height="71" rx="35.5"></rect>
+                    <text id="Filtered-Search-Resu" font-family="Lato-Regular, Lato" font-size="23.598386" font-weight="normal" letter-spacing="0.399265375" fill="#000000">
+                        <tspan x="30.7675626" y="46">Filtered Search Results</tspan>
+                    </text>
+                </g>
+                <path id="Path" d="M491,536 L515,548 L491,560 L491,550 L435,550 C427.922865,550 422.166572,555.655192 422.00355,562.693144 L422,563 L422,891 L418,891 L418,563 C418,553.719077 425.437196,546.175204 434.67696,546.003008 L435,546 L491,546 L491,536 Z" fill="#979797" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
