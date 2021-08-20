@@ -39,7 +39,7 @@
   margin: 15px 0 0;
 }
 
-#beleaf .case-study p, ul {
+#beleaf .case-study p, #beleaf .case-study ul {
   margin: 2px 0 7px;
 }
 #beleaf .case-study ul {
@@ -50,6 +50,7 @@
   margin: 0 auto;
   text-align: justify;
 }
+
 #beleaf .case-study hr {
   border: 1px solid var(--lt);
   margin: 0;

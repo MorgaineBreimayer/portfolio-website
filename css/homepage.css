@@ -1,14 +1,22 @@
 /* Homepage */
-#homepage #hero .flexbox {
+#homepage #hero .gridbox {
   justify-content: center;
-  flex-wrap: nowrap;
+  grid-template-columns: 6% 88% 6%;
   background-color: var(--wt-turq);
   color: var(--dk-turq);
   border-radius: 7px;
   padding: 20px;
+  align-items: center;
 }
-#homepage #hero .flexbox .text {
-  display: block;
+#homepage #hero .bracket {
+  grid-row: 1 / span 2;
+  grid-column: 1;
+}
+#homepage #hero .bracket.right {
+  transform: rotate(180deg);
+  grid-column: 3;
+}
+#homepage #hero .text {
   text-align: center;
   padding: 0 10px;
 }
@@ -18,11 +26,10 @@
 }
 #homepage #hero p {
   margin-bottom: 0;
-}
-#homepage #hero .bracket {
-  font-size: 174px;
-  line-height: 121px;
-  width: 10%;
+  grid-row: 2;
+  grid-column: 2;
+  text-align: center;
+  padding: 0 30px;
 }
 #homepage #work h2 {
   margin: 20px 0 5px;
@@ -74,14 +81,21 @@
   animation-timing-function: linear;
 }
 
+
 /* Medium devices (1024px or smaller) */
 @media only screen and (max-width: 1024px) {
   #homepage #hero {
     padding: 10px 15px 0;
   }
-  #homepage #hero .flexbox .bracket {
-    font-size: 101px;
-    line-height: 62px;
+  #homepage #hero .gridbox {
+    grid-template-columns: 6% 88% 6%;
+  }
+  #homepage #hero .bracket {
+    grid-row: 1 / span 1;
+  }
+  #homepage #hero p {
+    grid-column: 2 / span 1;
+    padding: 0;
   }
   #homepage .animation {
     height: 341px;
@@ -98,7 +112,6 @@
     padding: 0 15px;
   }
   #homepage header {
-    margin-bottom: 20px;
     padding-bottom: 0;
   }
   #homepage #hero {
@@ -107,13 +120,11 @@
   #homepage #hero.container {
     margin-top: 5px;
   }
-  #homepage #hero .flexbox {
-    width: 100%;
-    margin: 0 auto;
+  #homepage #hero h2 {
+    font-size: 1.2em;
   }
-  #homepage #hero .flexbox .bracket {
-    font-size: 131px;
-    line-height: 91px;
+  #homepage #hero p {
+    grid-column: 1 / span 3;
   }
   #homepage #work h2 {
     margin: 20px 0 5px;

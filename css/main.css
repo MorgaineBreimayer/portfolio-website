@@ -17,6 +17,9 @@ body {
   line-height: 1.3;
   font-size: 16px;
 }
+main {
+  padding-top: 30px;
+}
 img {
   width: 100%;
 }
@@ -46,40 +49,54 @@ hr {
   display: block;
 }
 
-
-/* Header */
+/* Header & Nav */
 header {
-  height: 151px;
+  width: 1000px;
+  margin: 0 auto;
 }
-header img {
-  width: 63%;
-}
-header p {
-  text-align: center;
-}
-
-/* Nav */
-nav {
+.navtoggle nav {
+  text-align: right;
+  margin-top: 58px;
   float: right;
-  text-align: center;
-  margin-top: 50px;
+  z-index: 10;
 }
-nav > ul {
+.navtoggle nav ul {
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
+.navtoggle nav li:not(:first-child) {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 600;
-  padding: 0 15px;
+  padding: 0 0 0 30px;
 }
-nav a {
+.navtoggle nav li:not(:first-child) a {
   position: relative;
   z-index: 0;
   text-decoration: none;
 }
-nav a:before, nav a:after {
+.navtoggle li:first-child {
+  display: none;
+}
+.modal {
+  background-color: var(--dk-turq);
+  z-index: -1;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity .5s, z-index .5s;
+}
+.modal.clicked {
+  transition: opacity .5s;
+  opacity: .7;
+  z-index: 9;
+}
+
+/* Nav Animation */
+.navtoggle nav li:not(:first-child) a:before, nav li:not(:first-child) a:after {
   position: absolute;
   top: 12px;
   left: 50%;
@@ -94,26 +111,129 @@ nav a:before, nav a:after {
   transition: all 0.3s;
   z-index: -1;
 }
-nav a:after {
+.navtoggle nav li:not(:first-child) a:after {
   border-width: 2px;
   transition: all 0.4s;
 }
-nav a:hover:before {
+.navtoggle nav li:not(:first-child) a:hover:before {
   opacity: .2;
   transform: translateX(-50%) translateY(-50%) scale(1);
 }
-nav a:hover:after {
+.navtoggle nav li:not(:first-child) a:hover:after {
   opacity: .15;
   transform: translateX(-50%) translateY(-50%) scale(1.3);
 }
-nav a:active {
+.navtoggle nav li:not(:first-child) a:active {
   color: var(--wt-turq);
 }
-nav a:active:before {
+.navtoggle nav li:not(:first-child) a:active:before {
   opacity: .5;
 }
-nav a:active:after {
+.navtoggle nav li:not(:first-child) a:active:after {
   opacity: .45;
+}
+
+/* Floating Nav */
+.dot, .dot:before, .dot:after {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 20px;
+  background-color: var(--wt-turq);
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.dot {
+  margin-top: 10px;
+}
+.dot:before, .dot:after {
+  content: "";
+}
+.dot:before {
+  right: 10px;
+  transition: right .5s, height .5s, width .5s, transform .5s;
+  transition-delay: .3s;
+}
+.dot:after {
+  left: 10px;
+  transition: left .5s, height .5s, width .5s, transform .5s;
+  transition-delay: .3s;
+}
+.dots .dot.clicked:before {
+  right: -8px;
+  height: 5px;
+  width: 22px;
+  transform: rotate(225deg);
+  transition: right .5s, height .5s, width .5s, transform .5s;
+  transition-delay: .3s;
+}
+.dots .dot.clicked:after {
+  left: -8px;
+  height: 5px;
+  width: 22px;
+  transform: rotate(135deg);
+  transition: left .5s, height .5s, width .5s, transform .5s;
+  transition-delay: .3s;
+}
+.navtoggle.scrolled nav {
+  position: fixed;
+  margin-top: 0;
+  top: 10px;
+  right: -20px;
+}
+.navtoggle.scrolled nav ul {
+  position: relative;
+  right: -289px;
+  display: inline-block;
+  transition: right .3s ease-out;
+  background-image: url("../img/menu_bg.svg");
+  background-size: cover;
+  width: 309px;
+  filter: drop-shadow(2px 2px 3px #021D28);
+}
+.navtoggle.scrolled.complete nav ul {
+  right: -254px;
+  transition: right .3s ease-out;
+}
+.navtoggle.scrolled nav.clicked ul {
+  right: 20px;
+  transition: right .5s ease-out;
+}
+.navtoggle.scrolled li {
+  display: block;
+  height: 26px;
+}
+.navtoggle.scrolled li a {
+  padding: 0 15px 0 8px;
+  width: 100%;
+  color: var(--wt-turq);
+}
+.navtoggle.scrolled li:first-child {
+  display: inline-block;
+  font-size: 1.7em;
+  line-height: 0em;
+  margin: 3px 0 5px 7px;
+}
+.navtoggle.scrolled li:first-child img {
+  height: 26px;
+  width: auto;
+}
+.navtoggle.scrolled nav ul li:not(:first-child) {
+  padding: 0;
+}
+.navtoggle.scrolled li:not(:first-child) a {
+  top: 9px;
+}
+.navtoggle.scrolled nav ul li:not(:first-child) a:hover {
+  color: var(--lt-turq);
+  transition: color .2s;
+}
+.navtoggle.scrolled nav ul li:not(:first-child) a:active {
+  color: var(--dk-turq);
+  transition: color .2s;
+}
+.navtoggle.scrolled nav li:not(:first-child) a:hover:before, .navtoggle.scrolled nav li:not(:first-child) a:hover:after  {
+  opacity: 0;
 }
 
 
@@ -140,9 +260,6 @@ p, ul {
 a {
   color: var(--lt-turq);
 }
-/* a:hover, a:focus {
-  text-decoration: underline;
-} */
 a:visited {
   color: var(--lt-turq);
 }
@@ -191,6 +308,9 @@ footer {
 footer h2 {
   margin-top: 0;
   margin-bottom: 5px;
+}
+footer .social-media p {
+  margin-bottom: 0;
 }
 footer .social-media a {
   color: var(--med-turq);
@@ -275,24 +395,41 @@ footer .copyright {
 .medium {
   display: none;
 }
+.large.medium {
+  display: revert;
+}
 
 
 /* Medium devices (1024px or smaller) */
 @media only screen and (max-width: 1024px) {
   header {
-    margin-bottom: 15px;
+    width: 100%;
   }
-  header img {
-    width: 80%;
+  header .container {
+    margin: 0;
+    padding: 20px 20px 15px;
   }
-  nav {
+  header .container img {
+    width: 590px;
+  }
+  .navtoggle nav {
+    margin-top: 15px;
+  }
+  .navtoggle nav ul {
+    padding: 0;
     margin: 0;
   }
-  nav ul {
-    padding: 0;
-    margin: revert;
+  .navtoggle nav ul li:not(:first-child) {
+    padding: 0 0 0 40px;
   }
-  nav a:before, nav a:after {
+  .navtoggle nav li:not(:first-child) {
+    text-align: right;
+    padding-right: 0;
+  }
+  .navtoggle nav li:third-child, .navtoggle nav li:fourth-child {
+    padding-top: 15px;
+  }
+  .navtoggle nav li:not(:first-child) a:before, nav li:not(:first-child) a:after {
     width: 40px;
     height: 40px;
   }
@@ -374,17 +511,14 @@ footer .copyright {
   header {
     height: unset;
   }
-  header img {
-    width: 100%;
+  header .container {
+    padding-right: 0;
+  }
+  header .container img {
     padding-top: 0;
   }
-  nav {
-    float: unset;
-    margin: 20px 0;
-  }
-  nav a:before, nav a:after {
-    width: 40px;
-    height: 40px;
+  main {
+    padding-top: 0px;
   }
   h1 {
     font-size: 1.5em;
@@ -429,8 +563,8 @@ footer .copyright {
   .col-sm-10 {
     width: 83%;
   }
-  .col-sm-10 {
-    width: 83%;
+  .col-sm-11 {
+    width: 91%;
   }
   .col-sm-12 {
     width: 100%;
@@ -460,8 +594,68 @@ footer .copyright {
   .medium {
     display: none;
   }
+  .large.medium {
+    display: none;
+  }
   .small {
     display: revert;
   }
-
+  header .container {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+  .navtoggle {
+    align-items: flex-end;
+  }
+  .navtoggle img.logo {
+    width: 340px;
+  }
+  .navtoggle nav {
+    position: fixed;
+    margin-top: 0;
+    top: 10px;
+  }
+  .navtoggle nav ul {
+    position: relative;
+    right: -254px;
+    display: inline-block;
+    transition: right .5s ease-out;
+    background-image: url("../img/menu_bg.svg");
+    background-size: cover;
+    width: 309px;
+    filter: drop-shadow(2px 2px 3px #021D28);
+  }
+  .navtoggle nav.clicked ul {
+    right: 20px;
+    transition: right .5s ease-out;
+  }
+  .navtoggle li {
+    display: block;
+    height: 26px;
+  }
+  .navtoggle li a {
+    padding: 0 15px 0 8px;
+    width: 100%;
+    color: var(--wt-turq);
+  }
+  .navtoggle li:first-child {
+    display: inline-block;
+    font-size: 1.7em;
+    line-height: 0em;
+    margin: 3px 0 5px 7px;
+  }
+  .navtoggle li:first-child img {
+    height: 26px;
+    width: auto;
+  }
+  .navtoggle nav ul li:not(:first-child) {
+    padding: 0;
+  }
+  .navtoggle li:not(:first-child) a {
+    top: 9px;
+  }
+  .navtoggle nav li:not(:first-child) a:hover:before, .navtoggle nav li:not(:first-child) a:hover:after  {
+    opacity: 0;
+  }
 }

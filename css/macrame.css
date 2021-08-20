@@ -43,7 +43,7 @@
   font-weight: 400;
   font-size: .8em;
 }
-#macrame .case-study p, ul {
+#macrame .case-study p, #macrame .case-study ul {
   margin: 2px 0 7px;
   font-size: 14px;
 }
@@ -358,9 +358,9 @@
   background-image: url("../img/macrame/mockups/mbp_desk@1x.jpg");
   background-size: cover;
 }
-#macrame .case-study .page#twelve .large {
+/* #macrame .case-study .page#twelve .large {
   display: block;
-}
+} */
 #macrame .case-study .page#twelve img {
   width: 13%;
   padding: 12px;
@@ -717,7 +717,7 @@
   }
 
   #macrame .case-study .page#two {
-    background-size: 47%;
+    background-size: 40%;
     background-position: bottom right;
   }
   #macrame .case-study .page#two h2 + h3 {

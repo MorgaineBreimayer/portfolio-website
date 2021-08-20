@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link href="css/fontawesome.css" rel="stylesheet">
   <link href="css/brands.css" rel="stylesheet">
+  <link href="css/all.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/homepage.css" rel="stylesheet">
   <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -21,29 +22,35 @@
 <body id="homepage">
   <header>
     <div class="container">
-      <img src="img/logo.svg" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html#work">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="no-right-pad"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo col-lg-8 col-md-7 col-sm-10" src="img/logo.svg" alt="Morgaine Breimayer UX UI logo"  />
+        <nav class="col-lg-4 col-md-12 nav-list" id="nav-list">
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="dots" onclick="menuToggle()">
+                <div class="dot" id="dot"></div>
+              </a>
+            </li>
+            <li><a href="index.html#work" onclick="menuToggleWork()">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <div id="hero" class="container">
-      <div class="flexbox">
-        <div class="bracket text-right">{</div>
+      <div class="gridbox">
+        <img class="bracket left" src="img/bracket.svg" alt="bracket" />
         <div class="text">
           <h1>Hi, I'm Morgaine</h1>
           <h2>a front-end designer based out of San Francisco</h2>
-          <p>That's right, front end + design. I'm a tech industry unicorn, existing at the intersection of designer and developer. UI/UX skills? Got it. Graphic design chops? Yeah, got those too. HTML, CSS, and Javascript? Check, check, and check.
-          </p>
-
         </div>
-        <div class="bracket">}</div>
+        <p>That's right, front end + design. I'm a tech industry unicorn, existing at the intersection of designer and developer. <b>UI/UX</b> skills? Got it. <b>Graphic design</b> chops? Yeah, got those too. <b>HTML, CSS</b>, and <b>Javascript</b>? Check, check, and check.
+        </p>
+        <img class="bracket right" src="img/bracket.svg"  alt="bracket" />
       </div>
     </div>
     <div id="work" class="container">
@@ -102,6 +109,7 @@
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
       <div class="social-media">
+        <p>See more of my work here: </p>
         <a href="https://www.linkedin.com/in/morgaine-breimayer-39764620/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -120,6 +128,9 @@
       </div>
     </div>
   </footer>
+  <div class="modal" id="modal"></div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 

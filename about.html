@@ -9,6 +9,7 @@
   <title>About Morgaine</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link href="css/fontawesome.css" rel="stylesheet">
+  <link href="css/all.css" rel="stylesheet">
   <link href="css/brands.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/about.css" rel="stylesheet">
@@ -21,14 +22,21 @@
 <body id="about">
   <header>
     <div class="container">
-      <img src="img/logo.svg" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html#work">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo col-lg-8 col-md-7 col-sm-10" src="img/logo.svg" alt="Morgaine Breimayer UX UI logo"  />
+        <nav class="col-lg-4 col-md-12 nav-list" id="nav-list">
+          <ul>
+            <li>
+              <a href="javascript:void(0);" class="dots" onclick="menuToggle()">
+                <div class="dot" id="dot"></div>
+              </a>
+            </li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -108,6 +116,7 @@
         <a href="mailto:morgaine.breimayer@gmail.com" class="button contact">Email me</a>
       </div>
       <div class="social-media">
+        <p>See more of my work here: </p>
         <a href="https://www.linkedin.com/in/morgaine-breimayer-39764620/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -126,6 +135,8 @@
       </div>
     </div>
   </footer>
+  <div class="modal" id="modal"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 
