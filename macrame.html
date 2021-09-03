@@ -31,8 +31,8 @@
                 <div class="dot" id="dot"></div>
               </a>
             </li>
-            <li><a href="index.html#work">Work</a></li>
-            <li><a href="about.html">About</a></li>
+            <li id="works"><a href="index.html#work" onclick="menuToggleWork()">Work</a></li>
+            <li id="about"><a href="about.html">About</a></li>
             <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
           </ul>
         </nav>
@@ -224,14 +224,14 @@
               <div class="col-lg-6 col-md-12">
                 <h3>Guiding Principles</h3>
                 <ol>
-                  <li><span>Hand-crafted with love</span><br />
-                    The tradition of macrame has been passed down through generations. As we create, we pass on these traditions & imbue our products with our deep love for woven arts.
+                  <li>Hand-crafted with love<br />
+                    <span>The tradition of macrame has been passed down through generations. As we create, we pass on these traditions & imbue our products with our deep love for woven arts.</span>
                   </li>
-                  <li><span>Home is where the art is</span><br />
-                    We aim to fill people’s lives with cozy textiles that will create a warm, welcoming atmosphere in their home through a bohemian aesthetic.
+                  <li>Home is where the art is<br />
+                    <span>We aim to fill people’s lives with cozy textiles that will create a warm, welcoming atmosphere in their home through a bohemian aesthetic.</span>
                   </li>
-                  <li><span>Individuality is beautiful</span><br />
-                    Every one of our products is free spirited & individual, just like our users. We hope seeing our art on a daily basis will inspire our users to make the world more beautiful in the ways that only they can.
+                  <li>Individuality is beautiful<br />
+                    <span>Every one of our products is free spirited & individual, just like our users. We hope seeing our art on a daily basis will inspire our users to make the world more beautiful in the ways that only they can.</span>
                   </li>
                 </ol>
                 <h3>Writing Style</h3>
@@ -760,58 +760,17 @@
       </div>
       <div class="page" id="ten">
         <div class="container">
-          <div class="content">
-            <h2>High Fidelity Wireframes</h2>
-            <div class="gridbox">
-              <div class="one">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/home@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/home@2x.png" alt="homepage high fidelity wireframe" />
-                </picture>
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/search@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/search@2x.png" alt="search high fidelity wireframe" />
-                </picture>
-              </div>
-              <div class="two">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/product_category@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/product_category@2x.png" alt="product category high fidelity wireframe" />
-                </picture>
-              </div>
-              <div class="three">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/product_page@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/product_page@2x.png" alt="product page high fidelity wireframe" />
-                </picture>
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/modal@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/modal@2x.png" alt="modal high fidelity wireframe" />
-                </picture>
-              </div>
-              <div class="four">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/cart@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/cart@2x.png" alt="cart high fidelity wireframe" />
-                </picture>
-              </div>
-              <div class="five">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/nav@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/nav@2x.png" alt="navigation menu high fidelity wireframe" />
-                </picture>
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/checkout@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/checkout@2x.png" alt="checkout high fidelity wireframe" />
-                </picture>
-              </div>
-              <div class="six">
-                <picture>
-                  <source srcset="img/macrame/high_fidelity_wireframes/order_confirmation@1x.png" media="(max-width:767px;)" />
-                  <img src="img/macrame/high_fidelity_wireframes/order_confirmation@2x.png" alt="order confirmation high fidelity wireframe" />
-                </picture>
-              </div>
-            </div>
+          <div class="content flexbox">
+            <h2 class="col-lg-12 large">High Fidelity Wireframes</h2>
+            <h2 class="col-lg-12 medium small">Interactive Prototype</h2>
+            <picture class="col-lg-4 large right-align">
+              <img src="img/macrame/mockups/hi-fid-left.png" alt="high fidelity wireframe" />
+            </picture>
+            <iframe class="prototype" src="https://morgainebreimayer849661.invisionapp.com/console/share/7C30ZXXIQS" frameborder="0" allowfullscreen></iframe>
+            <picture class="col-lg-4 large">
+              <img src="img/macrame/mockups/hi-fid-right.png" alt="high fidelity wireframe" />
+            </picture>
+            <h3 class="col-lg-12 large">Interactive Prototype</h3>
           </div>
         </div>
       </div>
@@ -872,7 +831,7 @@
   </main>
 
   <footer>
-    <div id="contact" class="container col-sm-12">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
       <hr />
       <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
@@ -901,7 +860,6 @@
   </footer>
   <div class="modal" id="modal"></div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 

@@ -39,10 +39,10 @@ window.addEventListener("scroll", () => {
 
   if (screenWidth >= 1024) {
     screenWidth = "large";
-  } else if (screenWidth < 1024 && screenWidth > 640) {
-    screenWidth = "medium";
-  } else {
+  } else if (screenWidth < 640) {
     screenWidth = "small";
+  } else {
+    screenWidth = "medium";
   }
 
   if ((currentScroll > 130) && (screenWidth = "large")) {

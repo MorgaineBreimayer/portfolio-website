@@ -2,7 +2,7 @@
 #homepage #hero .gridbox {
   justify-content: center;
   grid-template-columns: 6% 88% 6%;
-  background-color: var(--wt-turq);
+  background: linear-gradient(45deg,#d4ece9,#fbf4f8);
   color: var(--dk-turq);
   border-radius: 7px;
   padding: 20px;
@@ -24,7 +24,7 @@
   color: var(--dk-turq);
   margin: 5px 0;
 }
-#homepage #hero p {
+#homepage #hero .info {
   margin-bottom: 0;
   grid-row: 2;
   grid-column: 2;
@@ -38,6 +38,7 @@
   flex-wrap: wrap;
   margin-top: 20px;
   padding-bottom: 10px;
+  align-items: center;
 }
 #homepage #work .project {
   margin-bottom: 25px;
@@ -48,22 +49,92 @@
 #homepage #work h3 {
   margin: 8px 0 5px;
 }
+#homepage #work h3 a {
+  text-decoration: none;
+}
+#homepage #work h3 a:hover, #homepage #work h3 a:active {
+  text-decoration: underline;
+}
 #homepage #work p {
   margin: 0 0 5px;
 }
+#homepage #work p:nth-child(2) {
+  margin-top: 15px;
+}
 
-/* SVG */
+/* Logo animation */
+#homepage header svg {
+  width: 650px;
+}
+#ribbon2, #ribbon3, #ribbon1reveal, #ribbon2reveal, #ribbon3reveal, #morgaine, #frontend, #morgaineReveal, #frontendReveal {
+  opacity: 0;
+}
+#ribbon1reveal {
+  animation: .7s ribbon1reveal linear forwards 1;
+}
+@keyframes ribbon1reveal {
+  0% {opacity: 1;}
+  99% {transform: translateX(555px); opacity: 1;}
+  100% {opacity: 0;}
+}
+#ribbon2 {
+  animation: .3s ribbon2 .7s linear forwards 1 ;
+}
+@keyframes ribbon2 {
+  0% {opacity: 0;}
+  99% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#ribbon2reveal {
+  animation: .3s ribbon2reveal .7s linear forwards 1;
+}
+@keyframes ribbon2reveal {
+  0% {opacity: 1;}
+  99% {opacity: 1;}
+  100% {transform: scaleX(.8); opacity: 0;}
+}
+#ribbon3 {
+  animation: .9s ribbon3 1s forwards linear 1;
+}
+@keyframes ribbon3 {
+  0% {transform: translateX(-805px); opacity: 1;}
+  100% {opacity: 1;}
+}
+#ribbon3reveal {
+  animation: 1.4s visibleOnOff 1s forwards linear 1;
+}
+@keyframes visibleOnOff {
+  0% {opacity: 1;}
+  99% {opacity: 1;}
+  100% {opacity: 0;}
+}
+#morgaine {
+  animation: .6s textReveal .6s forwards ease-out 1;
+}
+#frontend {
+  animation: .7s textReveal 1.7s forwards ease-out 1;
+}
+@keyframes textReveal {
+  0% {opacity: 1; transform: translateX(-550px);}
+  100% {transform: translateX(0); opacity: 1;}
+}
+#morgaineReveal {
+  animation: .6s visibleOnOff .6s forwards linear 1;
+}
 
-#homepage svg {
-  height: 533px;
-  width: 1000px;
+/* SF SVG */
+#homepage main svg {
+  height: auto;
+  width: 100%;
   border-radius: 7px;
+  margin: 15px 0 0;
+
 }
 @keyframes sky-rotate {
   0% {transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
 }
-#sky {
+#sky, #sky1 {
   animation-duration: 70s;
   animation-name: sky-rotate;
   animation-iteration-count: infinite;
@@ -74,7 +145,7 @@
   from {transform: translate(1237px,1290px);}
   to {transform: translate(-1765px,1290px);}
 }
-#fog {
+#fog, #fog1 {
   animation-duration: 30s;
   animation-name: fog-move;
   animation-iteration-count: infinite;
@@ -84,6 +155,9 @@
 
 /* Medium devices (1024px or smaller) */
 @media only screen and (max-width: 1024px) {
+  #homepage header svg {
+    width: 590px;
+  }
   #homepage #hero {
     padding: 10px 15px 0;
   }
@@ -97,10 +171,14 @@
     grid-column: 2 / span 1;
     padding: 0;
   }
-  #homepage .animation {
-    height: 341px;
+  #homepage #work .flexbox {
+    align-items: baseline;
+    text-align: center;
   }
-  #homepage svg {
+  #homepage #work .flexbox .flexbox p:first-child {
+    margin-top: 15px;
+  }
+  #homepage .footer svg {
     height: auto;
     width: 100%;
   }
@@ -131,6 +209,9 @@
   }
   #homepage #work .flexbox .project {
     margin-bottom: 35px;
+  }
+  #homepage header svg {
+    width: 340px;
   }
 
 }

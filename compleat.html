@@ -31,8 +31,8 @@
                 <div class="dot" id="dot"></div>
               </a>
             </li>
-            <li><a href="index.html#work">Work</a></li>
-            <li><a href="about.html">About</a></li>
+            <li id="works"><a href="index.html#work" onclick="menuToggleWork()">Work</a></li>
+            <li id="about"><a href="about.html">About</a></li>
             <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
           </ul>
         </nav>
@@ -242,171 +242,121 @@
           <h2>Style guide</h2>
         </div>
         <div class="container">
-          <div class="content gridbox">
+          <div class="content">
             <div class="icon">
               <h3>Icons</h3>
               <div class="icons flexbox">
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/pantry@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/pantry@2x.png" alt="pantry icon" />
                   </picture>
-                  <figcaption>Pantry</figcaption>
                 </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/favorite_empty@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/favorite_empty@2x.png" alt="favorite icon" />
                   </picture>
-                  <figcaption>Favorite</figcaption>
                 </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/filters@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/filters@2x.png" alt="filters icon" />
                   </picture>
-                  <figcaption>Filters</figcaption>
                 </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/star_empty@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/star_empty@2x.png" alt="rating icon" />
                   </picture>
-                  <figcaption>Rating</figcaption>
                 </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/search@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/search@2x.png" alt="search icon" />
-                  </picture>
-                  <figcaption>Search</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/clock@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/clock@2x.png" alt="time icon" />
-                  </picture>
-                  <figcaption>Time</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/close@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/close@2x.png" alt="close icon" />
-                  </picture>
-                  <figcaption>Close</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/person@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/person@2x.png" alt="person icon" />
-                  </picture>
-                  <figcaption>Servings/<br />Account</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/favorite@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/favorite@2x.png" alt="favorite icon" />
-                  </picture>
-                  <figcaption>Favorite<br />(Active)</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/filters_selected@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/filters_selected@2x.png" alt="filters icon" />
-                  </picture>
-                  <figcaption>Filters<br />(Active)</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/star@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/star@2x.png" alt="rating icon" />
-                  </picture>
-                  <figcaption>Rating<br />(Active)</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
-                  <picture>
-                    <source srcset="img/compleat/icons/left_right@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/icons/left_right@2x.png" alt="back and forward icon" />
-                  </picture>
-                  <figcaption>Back/<br />Forward</figcaption>
-                </figure>
-                <figure class="col-lg-1_75 col-md-6 col-sm-3">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
                     <source srcset="img/compleat/icons/up_down@1x.png" media="(max-width:767px;)" />
                     <img src="img/compleat/icons/up_down@2x.png" alt="up and down icon" />
                   </picture>
-                  <figcaption>Expand/<br />Contract</figcaption>
                 </figure>
-              </div>
-            </div>
-            <div class="logos">
-              <h3>Logo Usage</h3>
-              <div class="variations flexbox">
-                <figure class="col-lg-2 col-md-2_25 col-sm-6">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
-                    <source srcset="img/compleat/logos/logo@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/logos/logo@2x.png" alt="logo" />
+                    <source srcset="img/compleat/icons/search@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/search@2x.png" alt="search icon" />
                   </picture>
-                  <figcaption>Vertical Logo</figcaption>
                 </figure>
-                <figure class="col-lg-5 col-md-4 col-sm-9">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
-                    <source srcset="img/compleat/logos/logo_horizontal@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/logos/logo_horizontal@2x.png" alt="logo" />
+                    <source srcset="img/compleat/icons/clock@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/clock@2x.png" alt="time icon" />
                   </picture>
-                  <figcaption>Horizontal Logo</figcaption>
                 </figure>
-                <figure class="col-lg-2 col-md-1_75 col-sm-6">
+                <figure class="col-lg-1 col-md-2 col-sm-3">
                   <picture>
-                    <source srcset="img/compleat/logos/logomark@1x.png" media="(max-width:767px;)" />
-                    <img src="img/compleat/logos/logomark@2x.png" alt="logo" />
+                    <source srcset="img/compleat/icons/close@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/close@2x.png" alt="close icon" />
                   </picture>
-                  <figcaption>Logomark</figcaption>
                 </figure>
-              </div>
-              <h5><b>Colors:</b> #E25819 | Logo may be white on a background of #E25819</h5>
-              <h5 class="large-small"><b>Incorrect logo usage:</b></h5>
-              <div class="logo flexbox large-small">
-                <h5 class="col-lg-6 col-sm-12">Do not apply colors to a single part</h5>
-                <h5 class="col-lg-6 col-sm-12">Do not type out the wordmark</h5>
-                <h5 class="col-lg-6 col-sm-12">Do not outline</h5>
-                <h5 class="col-lg-6 col-sm-12">Do not apply gradients or shadows</h5>
-                <h5 class="col-lg-6 col-sm-12">Do not use other typefaces</h5>
-                <h5 class="col-lg-6 col-sm-12">Do not rotate</h5>
+                <figure class="col-lg-1 col-md-2 col-sm-3">
+                  <picture>
+                    <source srcset="img/compleat/icons/person@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/person@2x.png" alt="person icon" />
+                  </picture>
+                </figure>
+                <figure class="col-lg-1 col-md-2 col-sm-3">
+                  <picture>
+                    <source srcset="img/compleat/icons/favorite@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/favorite@2x.png" alt="favorite icon" />
+                  </picture>
+                </figure>
+                <figure class="col-lg-1 col-md-2 col-sm-3">
+                  <picture>
+                    <source srcset="img/compleat/icons/filters_selected@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/filters_selected@2x.png" alt="filters icon" />
+                  </picture>
+                </figure>
+                <figure class="col-lg-1 col-md-2 col-sm-3">
+                  <picture>
+                    <source srcset="img/compleat/icons/star@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/icons/star@2x.png" alt="rating icon" />
+                  </picture>
+                </figure>
               </div>
             </div>
             <div class="color">
               <h3>Color Scheme</h3>
               <div class="color-scheme flexbox">
-                <div class="col-lg-2 col-sm-4 large-small swatch">
+                <div class="col-lg-1 col-sm-6 large-small swatch">
                 </div>
-                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                <h5 class="col-lg-2 col-md-3 col-sm-6">
                   Hex: #E25819<br />
                   RGB: (226, 88, 25)<br />
                   HSB: (18, 88%, 88%)
                 </h5>
-                <div class="col-lg-2 col-sm-4 large-small swatch purp">
+                <div class="col-lg-1 col-sm-6 large-small swatch purp">
                 </div>
-                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                <h5 class="col-lg-2 col-md-3 col-sm-6">
                   Hex: #100E2B<br />
                   RGB: (16, 14, 43)<br />
                   HSB: (242, 67%, 16%)
                 </h5>
-                <div class="col-lg-2 col-sm-4 large-small swatch gray">
+                <div class="col-lg-1 col-sm-6 large-small swatch gray">
                 </div>
-                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                <h5 class="col-lg-2 col-md-3 col-sm-6">
                   Hex: #888795<br />
                   RGB: (136, 135, 149)<br />
                   HSB: (244, 9%, 58%)
                 </h5>
-                <div class="col-lg-2 col-sm-4 large-small swatch yellow">
+                <div class="col-lg-1 col-sm-6 large-small swatch yellow">
                 </div>
-                <h5 class="col-lg-4 col-md-3 col-sm-8">
+                <h5 class="col-lg-2 col-md-3 col-sm-6">
                   Hex: #FFC33B<br />
                   RGB: (255, 195, 59)<br />
                   HSB: (40, 76%, 100%)
                 </h5>
               </div>
+            </div>
+            <div class="flexbox typography">
+              <h3 class="col-lg-12">Typography Heirarchy</h3>
+              <img src="img/compleat/icons/h1.svg" alt="typography" class="col-lg-5 col-md-7"/>
+              <img src="img/compleat/icons/body.svg" alt="typography"  class="col-lg-5 col-md-7"/>
             </div>
             <div class="ui">
               <h3>UI Elements</h3>
@@ -429,48 +379,118 @@
                   <source srcset="img/compleat/icons/nav_bar@1x.png" media="(max-width:767px;)" />
                   <img src="img/compleat/icons/nav_bar@2x.png" alt="nav bar" />
                 </picture>
-                <h5 class="nav inactive">Inactive</h5>
-                <h5 class="nav active">Active</h5>
+                <h5 class="nav inactive">Inactive<span>Active</span></h5>
               </div>
             </div>
-            <div class="words flexbox">
-              <div class="col-lg-12 col-md-8 col-sm-12">
-                <h3>Typography Heirarchy</h3>
-                <img src="img/compleat/typography.svg" class="typ large-medium" alt="typography" />
-                <img src="img/compleat/typography_mobile.svg" class="small" alt="typography" />
+          </div>
+        </div>
+      </div>
+      <div class="page" id="eleven-half">
+        <div class="banner left">
+          <h2>Brand Guidelines</h2>
+        </div>
+        <div class="container">
+          <div class="content">
+            <div class="logos flexbox">
+              <h3 class="col-lg-12">Logo Usage</h3>
+              <div class="variations flexbox col-lg-6 col-md-12">
+                <figure class="col-lg-3 col-md-2 col-sm-6">
+                  <picture>
+                    <source srcset="img/compleat/logos/logo@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/logos/logo@2x.png" alt="logo" />
+                  </picture>
+                  <figcaption>Vertical Logo</figcaption>
+                </figure>
+                <figure class="col-lg-6 col-md-4 col-sm-12">
+                  <picture>
+                    <source srcset="img/compleat/logos/logo_horizontal@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/logos/logo_horizontal@2x.png" alt="logo" />
+                  </picture>
+                  <figcaption>Horizontal Logo</figcaption>
+                </figure>
+                <figure class="col-lg-3 col-md-1_75 col-sm-6">
+                  <picture>
+                    <source srcset="img/compleat/logos/logomark@1x.png" media="(max-width:767px;)" />
+                    <img src="img/compleat/logos/logomark@2x.png" alt="logo" />
+                  </picture>
+                  <figcaption>Logomark</figcaption>
+                </figure>
+                <h5 class="col-lg-12"><b>Colors:</b> #E25819 | Logo may be white on a background of #E25819</h5>
               </div>
-              <div class="col-lg-12 col-md-4 col-sm-12">
-                <h3>Language</h3>
-                <h5 class="typ">
-                  Clear & concise<br class="large-small" />
-                  Simple instructions that inspire confidence in the user's cooking ability.
-                </h5>
+              <div class="col-lg-6 col-md-12">
+                <h5><b>Incorrect logo usage:</b></h5>
+                <div class="incorrect flexbox">
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/multicolor@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/multicolor@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not apply colors to a single part</figcaption>
+                  </figure>
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/rearrange@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/rearrange@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not change the logo arrangement</figcaption>
+                  </figure>
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/stroke@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/stroke@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not outline</figcaption>
+                  </figure>
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/shadow@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/shadow@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not apply gradients or shadows</figcaption>
+                  </figure>
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/font@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/font@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not use other typefaces</figcaption>
+                  </figure>
+                  <figure class="col-lg-4 col-md-2 col-sm-6">
+                    <picture>
+                      <source srcset="img/compleat/logos/rotated@1x.png" media="(max-width:767px;)" />
+                      <img src="img/compleat/logos/rotated@2x.png" alt="logo" />
+                    </picture>
+                    <figcaption>Do not rotate</figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
-            <div class="image">
-              <h3>Imagery</h3>
-              <div class="flexbox">
-                <h5 class="col-lg-3 col-md-4 col-sm-12">
-                  <b>Ingredients</b><br />
-                  White background<br class="large-medium"/><span class="small"><b> | </b></span>
-                  Soft shadow<br class="large-medium"/><span class="small"><b> | </b></span>
-                  Vibrant colors
+            <div class="image flexbox">
+              <h3 class="col-lg-12">Imagery</h3>
+              <div class="col-lg-6 col-md-12 flexbox">
+                <h5 class="col-lg-12 col-md-3 col-sm-12">
+                  <b>Ingredients:</b> <br class="medium" />White background<br class="medium" /><span class="large-small"><b> | </b></span>Soft shadow<br class="medium" /><span class="large-small"><b> | </b></span>Vibrant colors
                 </h5>
-                <picture class="col-lg-9 col-md-8 col-sm-12">
+                <picture class="col-lg-12 col-md-9 col-sm-12">
                   <source srcset="img/compleat/imagery1@1x.png" media="(max-width:767px;)" />
                   <img src="img/compleat/imagery1@2x.png" alt="ingredient images" />
                 </picture>
-                <h5 class="col-lg-3 col-md-4 col-sm-12">
-                  <b>Recipes</b><br />
-                  Vibrant colors<br class="large-medium"/><span class="small"><b> | </b></span>
-                  High quality image<br class="large-medium"/><span class="small"><b> | </b></span>
-                  Rounded corners
+              </div>
+              <div class="col-lg-6 col-md-12 flexbox">
+                <h5 class="col-lg-12 col-md-3 col-sm-12">
+                  <b>Recipes:</b> <br class="medium" />Vibrant colors<br class="medium" /><span class="large-small"><b> | </b></span>High quality image<br class="medium" /><span class="large-small"><b> | </b></span>Rounded corners
                 </h5>
-                <picture class="col-lg-9 col-md-8 col-sm-12">
+                <picture class="col-lg-12 col-md-9 col-sm-12">
                   <source srcset="img/compleat/imagery2@1x.png" media="(max-width:767px;)" />
                   <img src="img/compleat/imagery2@2x.png" alt="ingredient images" />
                 </picture>
               </div>
+            </div>
+            <div>
+              <h3>Language</h3>
+              <h5 class="typ">
+                Simple instructions that inspire confidence in the user's cooking ability. Clear & concise.
+              </h5>
             </div>
           </div>
         </div>
@@ -523,7 +543,7 @@
   </main>
 
   <footer>
-    <div id="contact" class="container col-sm-12">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
       <hr />
       <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
@@ -551,7 +571,7 @@
     </div>
   </footer>
   <div class="modal" id="modal"></div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
   <script src="js/script.js"></script>
 </body>
 

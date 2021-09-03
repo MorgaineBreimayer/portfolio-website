@@ -31,7 +31,7 @@
                 <div class="dot" id="dot"></div>
               </a>
             </li>
-            <li><a href="index.html#work">Work</a></li>
+            <li id="works"><a href="index.html#work" onclick="menuToggleWork()">Work</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
           </ul>
@@ -43,33 +43,33 @@
   <main>
     <div class="container about">
       <div class="flexbox title">
-        <div class="headshot col-lg-7 col-md-5 col-sm-12">
+        <div class="headshot col-lg-6 col-md-5 col-sm-12">
           <picture>
             <source srcset="img/about/headshot@1x.jpg" media="(max-width:767px;)" />
             <img src="img/about/headshot@2x.jpg" alt="Morgaine Breimayer headshot" />
           </picture>
         </div>
-        <div class="intro col-lg-5 col-md-7 col-sm-12">
+        <div class="intro col-lg-6 col-md-7 col-sm-12">
           <h1><span class="bracket">{ </span>About Me<span class="bracket"> }</span></h1>
           <h3>A great user experience is the result of proper execution of both design <i>and</i> code.</h3>
           <h3>I can create both. </h3>
           <h3>I am an innovative UI/UX designer and frontend web developer with a passion for details.</h3>
+          <div class="button-cont">
+            <a href="files/MBreimayer_resume.pdf" target="_blank" class="button">View my resume</a>
+          </div>
         </div>
       </div>
       <div class="story col-lg-12 col-sm-12">
         <h2>My Story</h2>
         <hr />
         <p>I began my career with a degree in digital media, giving me a classically trained eye for good design. Armed with a wide array of skills, I’ve experienced design from all angles of the field, from video and photo editing to print materials to pitch decks to web page design. Working at SideReel, I strengthened my front end developer skills, creating mockups and then coding pages for the content team, while also developing graphics for the site. After 8 years of generalized design experience, I decided to focus in on user interface design, sharpening my experience with a certificate in UI design.</p>
-        <p>I believe in working smart, and love coming up with streamlined solutions for processes. My experience with front end means I can easily communicate for developers, and I design around the constraints of coding. I have a demonstrated talent for creating beautiful designs. I like to take the initiative, pick up new skills, and take on new challenges. I am an extremely fast learner, familiar with Agile workflow, and approach design with a high degree of empathy for both the user and the developer.</p>
-        <div class="button-cont">
-          <a href="files/MBreimayer_resume.pdf" target="_blank" class="button">View my resume</a>
-        </div>
+        <p>I believe in working smart, and love coming up with streamlined solutions for processes. My experience with frontend means I can easily communicate with developers, and I design around the constraints of coding. I have a demonstrated talent for creating beautiful designs. I like to take the initiative, pick up new skills, and take on new challenges. I am an extremely fast learner, familiar with Agile workflow, and approach design with a high degree of empathy for both the user and the developer.</p>
       </div>
       <div class="skills col-lg-12">
         <h2>Skills & Tools</h2>
         <hr />
         <div class="flexbox">
-          <div class="col-lg-4 col-med-5 col-sm-5">
+          <div class="col-lg-4 col-med-5 col-sm-12">
             <h3>Relevent Skills</h3>
             <ul>
               <li>UI Design</li>
@@ -81,11 +81,14 @@
               <li>Competitor Research</li>
               <li>User Testing</li>
               <li>User Flows</li>
+              <li>Templating</li>
+              <li>Image Sourcing</li>
+              <li>Photography</li>
               <li>Photo Editing</li>
               <li>Video Editing</li>
             </ul>
           </div>
-          <div class="col-lg-4 col-med-5 col-sm-5">
+          <div class="col-lg-4 col-med-5 col-sm-12">
             <h3>Tools I Use</h3>
             <ul>
               <li>Sketch</li>
@@ -108,7 +111,7 @@
   </main>
 
   <footer>
-    <div id="contact" class="container col-sm-12">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
       <hr />
       <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
@@ -136,7 +139,7 @@
     </div>
   </footer>
   <div class="modal" id="modal"></div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
   <script src="js/script.js"></script>
 </body>
 

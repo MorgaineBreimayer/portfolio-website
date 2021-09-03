@@ -113,12 +113,13 @@
 #macrame .case-study .page#four ol {
   font-size: 14px;
   margin-top: 5px;
+  font-weight: 600;
 }
 #macrame .case-study .page#four ol li {
   padding-bottom: 10px;
 }
 #macrame .case-study .page#four ol li span {
-  font-weight: 600;
+  font-weight: 500;
 }
 #macrame .case-study .page#four .product img {
   margin: 10px 0 15px;
@@ -296,9 +297,25 @@
 #macrame .case-study .page#ten {
   background-color: var(--navy);
 }
+#macrame .case-study .page#ten .content {
+  background-color: white;
+  align-items: center;
+}
+#macrame .case-study .page#ten .prototype {
+  width: 250px;
+  height: 425px;
+  margin: 0 auto;
+  display: block;
+}
+#macrame .case-study .page#ten picture.right-align {
+  text-align: right;
+}
 #macrame .case-study .page#ten h2 {
-  color: var(--ivory);
+  color: var(--navy);
   align-items: baseline;
+}
+#macrame .case-study .page#ten h3 {
+  text-align: center;
 }
 #macrame .case-study .page#ten img {
   width: 84%;
@@ -328,6 +345,9 @@
 }
 #macrame .case-study .page#ten .gridbox .six {
   grid-column: 6;
+}
+#macrame .case-study .page#ten iframe .standalone {
+  background-color: var(--navy) !important;
 }
 
 /* page eleven */
@@ -632,35 +652,9 @@
     width: 80%;
   }
 
-  #macrame .case-study .page#ten .gridbox {
-    grid-template-columns: repeat(3, 123px);
-    grid-template-rows: repeat(6, 1fr);
-    align-items: baseline;
-    margin: 15px 0 0 10px;
- }
- #macrame .case-study .page#ten .gridbox .one {
-   grid-row: 1/span4;
-   grid-column: 1;
- }
-  #macrame .case-study .page#ten .gridbox .two {
-    grid-row: 1/span2;
-    grid-column: 2;
-  }
-  #macrame .case-study .page#ten .gridbox .three {
-    grid-row: 1/span4;
-    grid-column: 3;
-  }
-  #macrame .case-study .page#ten .gridbox .four {
-    grid-row: 5/span2;
-    grid-column: 1;
-  }
-  #macrame .case-study .page#ten .gridbox .five {
-    grid-row: 3/span4;
-    grid-column: 2;
-  }
-  #macrame .case-study .page#ten .gridbox .six {
-    grid-row: 5/span2;
-    grid-column: 3;
+  #macrame .case-study .page#ten .prototype {
+    width: 375px;
+    height: 615px;
   }
 
   #macrame .case-study .page#eleven .flexbox {

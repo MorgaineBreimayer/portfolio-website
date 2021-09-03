@@ -6,13 +6,23 @@
 #about .flexbox.title {
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 288.8px;
+  height: 300px;
   background-color: var(--wt-turq);
   border-radius: 7px;
   align-items: center;
+  background: linear-gradient(0deg,#d4ece9,#fbf4f8);
+}
+#about .headshot {
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px 0 0 7px;
 }
 #about .headshot img {
-  border-radius: 7px 0 0 7px;
+  height: 300px;
+  width: auto;
+  left: -12%;
+  display: block;
+  position: relative;
 }
 #about .intro {
   padding-right: 27px;
@@ -21,7 +31,10 @@
   color: var(--dk-turq)
 }
 #about .intro h1 {
-  margin-top: 0;
+  margin: 0 0 15px;
+}
+#about .button-cont {
+  margin: 20px 0 0;
 }
 #about main h2 {
   margin-top: 25px;
@@ -39,23 +52,19 @@
 #about .skills ul {
   margin: 0px;
 }
-#about .button-cont {
-  margin: 25px 0 50px;
-}
 
 /* Medium devices (1024px or smaller) */
 @media only screen and (max-width: 1024px) {
+  #about .flexbox.title {
+    height: 335px;
+  }
   #about .headshot {
-    position: relative;
-    overflow: hidden;
-    height: 289px;
-    border-radius: 7px 0 0 7px;
+    height: 335px;
   }
   #about .headshot img {
-    height: 289px;
+    height: 335px;
     width: auto;
-    margin-left: -288px;
-    position: absolute;
+    margin-left: -335px;
     left: 50%;
   }
   #about .container.about {
@@ -69,9 +78,6 @@
   }
   #about .story h2 {
     margin: 30px 0 5px;
-  }
-  #about .button-cont {
-    margin: 25px 0 35px;
   }
   #about .skills .flexbox {
     justify-content: space-evenly;
@@ -110,13 +116,20 @@
   #about .intro h1 {
     margin-top: revert;
   }
-  #about .button-cont {
-    margin: 30px 0 45px;
-  }
   #about .intro {
     padding: 0 30px;
   }
   #about .skills {
     padding-left: unset;
+    text-align: center;
+  }
+  #about .skills h3 {
+    text-align: center;
+    padding-left: 0;
+    color: var(--lt-pink);
+  }
+  #about .skills ul {
+    list-style-type: none;
+    padding-left: 0;
   }
 }

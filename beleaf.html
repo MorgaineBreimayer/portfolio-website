@@ -32,8 +32,8 @@
                 <div class="dot" id="dot"></div>
               </a>
             </li>
-            <li><a href="index.html#work">Work</a></li>
-            <li><a href="about.html">About</a></li>
+            <li id="works"><a href="index.html#work" onclick="menuToggleWork()">Work</a></li>
+            <li id="about"><a href="about.html">About</a></li>
             <li><a href="#contact" onclick="menuToggleWork()">Contact</a></li>
           </ul>
         </nav>
@@ -68,7 +68,7 @@
               <p>To design a native iOS and Android app that helps people keep on top of watering, repotting, and fertilizing their house plants by sending them push notification reminders.</p>
               <div class="col-lg-7 col-md-12">
                 <h3>Context</h3>
-                <p>There are a lot of competitors on the field, but they tend to have an overload features and hide the good stuff behind a pay wall. This app aims to have a powerful basic feature set that doesn’t overwhelm and is simple to use.</p>
+                <p>There are a lot of competitors on the field, but they tend to have an overload of features and hide the good stuff behind a pay wall. This app aims to have a powerful basic feature set that doesn’t overwhelm and is simple to use.</p>
                 <h3>Users</h3>
                 <p>From fledgling plant parents to veteran gardeners, this app will be useful to anyone who owns a plant. </p>
                 <h3>MVP Key Features</h3>
@@ -412,10 +412,22 @@
       <div class="page" id="nine">
         <div class="container">
           <div class="content">
-            <h2>High Fidelity Wireframes & Prototyping</h2>
+            <h2>High Fidelity Prototypes</h2>
             <hr />
-            <h3>iOS <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="large">Interactive protoype</a></h3>
-            <div class="gridbox">
+            <div class="flexbox">
+              <h3 class="col-lg-6 col-md-12">iOS Prototype</h3>
+              <div class="prototype col-lg-6 col-md-10 col-sm-12">
+                <iframe src="https://www.sketch.com/embed/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518/a/R1VEdp8/play" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen>
+                </iframe>
+              </div>
+              <h3 class="col-lg-6 col-md-12">Android Prototype</h3>
+              <div class="prototype col-lg-6 col-md-10 col-sm-12">
+                <iframe src="https://www.sketch.com/embed/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518/a/R1VLYWZ/play" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <!-- <h3>iOS <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="large">Interactive protoype</a></h3> -->
+            <!-- <div class="gridbox">
               <picture class="first col-lg-12">
                 <source srcset="img/beleaf/wireframes/ios_welcome@1x.png" media="(max-width:767px;)" />
                 <img src="img/beleaf/wireframes/ios_welcome@2x.png" alt="ios welcome wireframe" />
@@ -476,7 +488,7 @@
                 <img src="img/beleaf/wireframes/and_reminders@2x.png" alt="android reminders wireframe" />
               </picture>
             </div>
-            <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="medium">Interactive protoype</a>
+            <a href="https://sketch.cloud/s/0dd476f7-c7c9-4acf-87e2-3ca571dfc518" target="blank" class="medium">Interactive protoype</a> -->
           </div>
         </div>
       </div>
@@ -511,7 +523,7 @@
   </main>
 
   <footer>
-    <div id="contact" class="container col-sm-12">
+    <div id="contact" class="container">
       <h2>Get in Touch</h2>
       <hr />
       <p>Do you have a project you’d like to collaborate on? Let’s get in touch! </p>
@@ -539,7 +551,7 @@
     </div>
   </footer>
   <div class="modal" id="modal"></div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
   <script src="js/script.js"></script>
 </body>
 

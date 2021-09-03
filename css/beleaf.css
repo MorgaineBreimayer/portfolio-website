@@ -218,26 +218,16 @@
 }
 
 /* Page Nine */
-#beleaf .case-study .page#nine a {
-  padding-left: 735px;
-  text-decoration: underline;
-  color: var(--md);
-  font-size: .8em;
+#beleaf .case-study .page#nine h3 {
+  order: -1;
+  padding-bottom: 10px;
 }
-#beleaf .case-study .page#nine .gridbox {
-  grid-template-columns: repeat(7,1fr);
-  grid-template-rows: 100%;
-  text-align: right;
-  align-items: center;
-}
-#beleaf .case-study .page#nine img {
-  width: 88%;
-}
-#beleaf .case-study .page#nine .first img, #beleaf .case-study .page#nine .android .first img {
-  width: 100%;
-}
-#beleaf .case-study .page#nine .android img {
-  width: 95%;
+#beleaf .case-study .page#nine .prototype {
+  left: 0;
+  height: 470px;
+  position: relative;
+  padding-right: 40px;
+  margin: 0 auto;
 }
 
 /* Page Ten  */
@@ -423,13 +413,12 @@
     padding-left: 115px;
   }
 
-  #beleaf .case-study .page#nine a {
-    padding-left: 0;
+  #beleaf .case-study .page#nine h3 {
+    order: unset;
     text-align: center;
-    padding-top: 100px;
   }
-  #beleaf .case-study .page#nine .down {
-    padding-top: 80px;
+  #beleaf .case-study .page#nine .prototype {
+    height: 285px;
   }
 
   #beleaf .case-study .page#ten {
@@ -548,12 +537,8 @@
     padding: 0;
   }
 
-  #beleaf .case-study .page#nine .gridbox {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(4,25%);
-  }
-  #beleaf .case-study .page#nine .down {
-    padding-top: 0;
+  #beleaf .case-study .page#nine .prototype {
+    height: 500px;
   }
 
   #beleaf .case-study .page#ten .logo img {
