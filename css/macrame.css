@@ -11,6 +11,7 @@
 #macrame b {
   font-weight: 600;
 }
+
 #macrame .case-study .page {
   background-color: #faf5e9;
   font-family: 'Poppins', sans-serif;
@@ -19,18 +20,21 @@
   box-sizing: content-box;
   background-repeat: no-repeat;
 }
+
 #macrame .case-study .content {
   padding: 20px 30px;
   border: solid var(--gold) 3px;
   border-radius: 7px;
   height: 540px;
 }
+
 #macrame .case-study h2 {
   font-weight: 700;
   color: var(--navy);
   text-align: left;
   margin: 0;
 }
+
 #macrame .case-study h3 {
   font-weight: 600;
   font-size: 1em;
@@ -38,15 +42,18 @@
   text-align: left;
   margin: 13px 0 0;
 }
+
 #macrame .case-study h4 {
   color: var(--gold);
   font-weight: 400;
   font-size: .8em;
 }
+
 #macrame .case-study p, #macrame .case-study ul {
   margin: 2px 0 7px;
   font-size: 14px;
 }
+
 #macrame .case-study figcaption, #macrame .case-study h5 {
   color: var(--orange);
   font-size: .7em;
@@ -60,12 +67,15 @@
   background-image: url("../img/macrame/mockups/title_bg@2x.png");
   background-size: 100%;
 }
+
 #macrame .case-study .page#one .content {
   padding: 30px 40px;
 }
+
 #macrame .case-study .page#one img {
   width: 152px;
 }
+
 #macrame .case-study .page#one p {
   text-align: right;
   padding: 160px 165px 0 0;
@@ -79,6 +89,7 @@
   background-position: right bottom;
   background-color: var(--peach);
 }
+
 #macrame .case-study .page#two .content {
   padding-right: 330px;
 }
@@ -87,24 +98,30 @@
 #macrame .case-study .page#three h3 {
   margin-top: 10px;
 }
+
 #macrame .case-study .page#three img {
   width: 90%;
 }
+
 #macrame .case-study .page#three .logo-images.flexbox {
   justify-content: space-around;
   margin-bottom: 10px;
 }
+
 #macrame .case-study .page#three .logo-padding.col-lg-8 {
   padding-top: 32px;
   float: left;
 }
+
 #macrame .case-study .page#three picture.logo-padding {
   float: right;
 }
+
 #macrame .case-study .page#three .bad-logos.flexbox figure {
   width: 20%;
   margin-bottom: 5px;
 }
+
 #macrame .case-study .page#three .bad-logos img {
   width: 80%;
 }
@@ -115,18 +132,23 @@
   margin-top: 5px;
   font-weight: 600;
 }
+
 #macrame .case-study .page#four ol li {
   padding-bottom: 10px;
 }
+
 #macrame .case-study .page#four ol li span {
   font-weight: 500;
 }
+
 #macrame .case-study .page#four .product img {
   margin: 10px 0 15px;
 }
+
 #macrame .case-study .page#four .imagery.flexbox, .context.flexbox {
   align-items: center;
 }
+
 #macrame .case-study .page#four .context img {
   width: 95%;
 }
@@ -139,54 +161,67 @@
   margin-top: 5px;
   line-height: 1.6;
 }
+
 #macrame .case-study .page#five .typography .poppins-body {
   color: var(--orange);
   font-weight: 400;
   font-size: .9em;
 }
+
 #macrame .case-study .page#five .typography .heirarchy p {
   font-size: 1em;
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 5px;
 }
+
 #macrame .case-study .page#five h3.icons {
   margin: 10px 0;
 }
+
 #macrame .case-study .page#five .icons figure {
   width: 16%;
 }
+
 #macrame .case-study .page#five .icons img {
   width: 45%;
   margin-bottom: 5px;
 }
+
 #macrame .case-study .page#five .colors figure {
   width: 20%;
 }
+
 #macrame .case-study .page#five .colors img {
   width: 50%;
 }
+
 #macrame .case-study .page#five .ui-elements.gridbox {
   column-gap: 7px;
   row-gap: 0;
-  grid-template-columns: 35% repeat(2,1fr);
+  grid-template-columns: 35% repeat(2, 1fr);
   grid-template-rows: 21% repeat(3, 1fr);
   align-items: center;
   margin-top: 20px;
 }
+
 #macrame .case-study .page#five .ui-elements .top {
   align-self: baseline;
 }
+
 #macrame .case-study .page#five .ui-elements h3 {
   line-height: 19px;
   margin: 0;
 }
+
 #macrame .case-study .page#five .ui-elements p {
   margin: 0;
 }
+
 #macrame .case-study .page#five .ui-elements .active {
   font-weight: 600;
 }
+
 #macrame .case-study .page#five .ui-elements .primary {
   background-color: var(--sage);
   color: var(--ivory);
@@ -196,24 +231,29 @@
   text-align: center;
   padding: 7px 0;
 }
+
 #macrame .case-study .page#five .ui-elements .primary.active {
   padding: 3px 0;
 }
+
 #macrame .case-study .page#five .ui-elements .primary.active div {
-    border: 1px solid var(--ivory);
-    border-radius: 2px;
-    padding: 3px 0;
-    margin: 0 3px;
+  border: 1px solid var(--ivory);
+  border-radius: 2px;
+  padding: 3px 0;
+  margin: 0 3px;
 }
+
 #macrame .case-study .page#five .ui-elements .second {
   font-weight: 400;
   font-size: 11px;
   text-decoration: underline;
   padding: 8px 0;
 }
+
 #macrame .case-study .page#five .ui-elements img {
   width: 20%;
 }
+
 #macrame .case-study .page#five .design_elements {
   margin-top: 7px;
 }
@@ -222,6 +262,7 @@
 #macrame .case-study .page#six {
   background-color: var(--peach);
 }
+
 #macrame .case-study .page#six .user-stories .col-lg-6lg-4 {
   margin-top: 5px;
 }
@@ -230,15 +271,19 @@
 #macrame .case-study .page#seven {
   background-color: var(--gold);
 }
+
 #macrame .case-study .page#seven .content {
   border-color: var(--ivory);
 }
+
 #macrame .case-study .page#seven .up {
   padding-top: 75px;
 }
+
 #macrame .case-study .page#seven .down {
   padding-top: 185px;
 }
+
 #macrame .case-study .page#seven figcaption {
   color: var(--navy);
 }
@@ -247,23 +292,28 @@
 #macrame .case-study .page#eight {
   background-color: var(--sage);
 }
+
 #macrame .case-study .page#eight .gridbox {
   column-gap: 7px;
   row-gap: 15px;
-  grid-template-columns: repeat(8,1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 30px 1fr;
   align-items: end;
   margin-top: 10px;
 }
+
 #macrame .case-study .page#eight picture {
   align-self: start;
 }
+
 #macrame .case-study .page#eight h2 {
   color: var(--ivory);
 }
+
 #macrame .case-study .page#eight img {
   padding-left: 5px;
 }
+
 #macrame .case-study .page#eight h5 {
   color: var(--gold);
   font-weight: 500;
@@ -275,20 +325,25 @@
 #macrame .case-study .page#nine .col-lg-4 span {
   padding: 0 30px;
 }
+
 #macrame .case-study .page#nine .user1 figcaption {
   margin-bottom: 2px;
 }
+
 #macrame .case-study .page#nine .user1 img {
   border: 1px solid var(--gold);
   box-shadow: 3px 3px 8px rgb(204 153 51 / 40%);
 }
+
 #macrame .case-study .page#nine .user2 .flexbox {
   margin-top: 5px;
 }
+
 #macrame .case-study .page#nine .user2 img {
   padding-left: 5px;
   height: 165px;
 }
+
 #macrame .case-study .page#nine .user3 img {
   width: 57%;
 }
@@ -297,29 +352,36 @@
 #macrame .case-study .page#ten {
   background-color: var(--navy);
 }
+
 #macrame .case-study .page#ten .content {
   background-color: white;
   align-items: center;
 }
+
 #macrame .case-study .page#ten .prototype {
   width: 250px;
   height: 425px;
   margin: 0 auto;
   display: block;
 }
+
 #macrame .case-study .page#ten picture.right-align {
   text-align: right;
 }
+
 #macrame .case-study .page#ten h2 {
   color: var(--navy);
   align-items: baseline;
 }
+
 #macrame .case-study .page#ten h3 {
   text-align: center;
 }
+
 #macrame .case-study .page#ten img {
   width: 84%;
 }
+
 #macrame .case-study .page#ten .gridbox {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100%;
@@ -328,24 +390,31 @@
   text-align: center;
   align-items: center;
 }
+
 #macrame .case-study .page#ten .gridbox .one {
- grid-column: 1;
+  grid-column: 1;
 }
+
 #macrame .case-study .page#ten .gridbox .two {
   grid-column: 2;
 }
+
 #macrame .case-study .page#ten .gridbox .three {
   grid-column: 3;
 }
+
 #macrame .case-study .page#ten .gridbox .four {
   grid-column: 4;
 }
+
 #macrame .case-study .page#ten .gridbox .five {
   grid-column: 5;
 }
+
 #macrame .case-study .page#ten .gridbox .six {
   grid-column: 6;
 }
+
 #macrame .case-study .page#ten iframe .standalone {
   background-color: var(--navy) !important;
 }
@@ -354,18 +423,22 @@
 #macrame .case-study .page#eleven {
   background-color: var(--peach);
 }
+
 #macrame .case-study .page#eleven .content {
   border-color: var(--ivory);
 }
+
 #macrame .case-study .page#eleven .flexbox {
   align-items: baseline;
   justify-content: space-between;
 }
+
 #macrame .case-study .page#eleven img {
   width: 98%;
   padding: 20px 0 10px;
   margin: 0 10px;
 }
+
 #macrame .case-study .page#eleven h3 {
   text-align: center;
 }
@@ -374,10 +447,12 @@
 #macrame .case-study .page#twelve {
   background-color: var(--navy);
 }
+
 #macrame .case-study .page#twelve .content {
   background-image: url("../img/macrame/mockups/mbp_desk@1x.jpg");
   background-size: cover;
 }
+
 /* #macrame .case-study .page#twelve .large {
   display: block;
 } */
@@ -390,19 +465,20 @@
 #macrame .case-study .page#thirteen {
   background-color: var(--gold);
 }
+
 #macrame .case-study .page#thirteen .content {
   border-color: var(--ivory);
 }
-#macrame .case-study .page#thirteen p + h3 {
+
+#macrame .case-study .page#thirteen p+h3 {
   padding-top: 50px;
 }
+
 #macrame .case-study .page#thirteen .flexbox {
-  align-items:center;
+  align-items: center;
   margin-top: 50px;
   margin-right: 45px;
 }
-
-
 
 /* Medium devices (1024px or smaller) */
 @media only screen and (max-width: 1024px) {
@@ -410,23 +486,28 @@
     padding: 10px 20px;
     height: 715px;
   }
+
   #macrame .case-study .page#one {
     background-image: unset;
   }
+
   #macrame .case-study .page#one .content {
     background-image: url("../img/macrame/mockups/title_mobile@2x.jpg");
     background-size: cover;
   }
+
   #macrame .case-study .page#one img {
     display: block;
     margin: 0 auto;
     width: 143px;
   }
+
   #macrame .case-study .page#one h4 {
     text-align: center;
     color: var(--ivory);
   }
-  #macrame .case-study .page#one  p {
+
+  #macrame .case-study .page#one p {
     text-align: center;
     padding: 293px 0 0;
   }
@@ -435,12 +516,15 @@
     background-size: 61%;
     background-position-x: 276px;
   }
+
   #macrame .case-study .page#two .content {
     padding-right: 20px;
   }
-  #macrame .case-study .page#two h2 + h3 {
+
+  #macrame .case-study .page#two h2+h3 {
     padding-top: 40px;
   }
+
   #macrame .case-study .page#two ul {
     padding-left: 22px;
   }
@@ -448,32 +532,39 @@
   #macrame .case-study .page#three h3 {
     margin-top: 5px;
   }
+
   #macrame .case-study .page#three .flexbox {
     align-items: center;
   }
-  #macrame .case-study .page#three .logoimages.flexbox {
 
-  }
+  #macrame .case-study .page#three .logoimages.flexbox {}
+
   #macrame .case-study .page#three .logoimages.flexbox img {
     width: 100%;
   }
+
   #macrame .case-study .page#three .logo-elements.flexbox {
     flex-direction: row-reverse;
     margin-top: 5px;
   }
+
   #macrame .case-study .page#three .logo-padding.col-lg-8 {
     padding-top: 0;
     margin: 0 0px 8px 0;
   }
+
   #macrame .case-study .page#three picture.logo-padding {
-    text-align:right;
+    text-align: right;
   }
+
   #macrame .case-study .page#three p.col-md-8.col-sm-12 {
     padding-bottom: 19px;
   }
+
   #macrame .case-study .page#three .bad-logos.flexbox {
     align-items: start;
   }
+
   #macrame .case-study .page#three .bad-logos.flexbox img {
     width: 49%;
   }
@@ -481,16 +572,19 @@
   #macrame .case-study .page#four h3 {
     margin-top: 5px;
   }
+
   #macrame .case-study .page#four .content {
     background-image: url("../img/macrame/photography/product_photos_mobile@2x.png");
     background-size: 39%;
     background-position: 338px 349px;
     background-repeat: no-repeat;
   }
+
   #macrame .case-study .page#four .context.flexbox {
     flex-direction: row-reverse;
     margin-top: 20px;
   }
+
   #macrame .case-study .page#four .context .text-right {
     text-align: left;
   }
@@ -499,62 +593,77 @@
     grid-template: 50% 17% 9% 20%/63% 38%;
     display: grid;
   }
+
   #macrame .case-study .page#five .typography {
     padding-right: 20px;
   }
+
   #macrame .case-study .page#five .icons-colors {
     grid-row: 1 / 3;
     grid-column: 2;
     padding-left: 20px;
     border-left: 1px solid var(--gold);
   }
+
   #macrame .case-study .page#five .icons h3 {
     margin-top: 13px;
   }
+
   #macrame .case-study .page#five .icons figure {
     width: 33%;
     margin-bottom: 10px;
   }
+
   #macrame .case-study .page#five .icons picture {
     display: flex;
   }
+
   #macrame .case-study .page#five .icons img {
     width: 38%;
     margin: 0 auto 5px;
   }
+
   #macrame .case-study .page#five .colors h3 {
     margin-top: 10px;
   }
+
   #macrame .case-study .page#five .colors figure {
     width: 33%;
     margin-bottom: 10px;
   }
+
   #macrame .case-study .page#five .colors.flexbox {
     justify-content: center;
     margin-top: 5px;
   }
+
   #macrame .case-study .page#five .design-elements {
     grid-row: 2;
     grid-column: 1;
   }
+
   #macrame .case-study .page#five .de {
     grid-row: 3;
     grid-column: 1;
     grid-column-end: span2;
   }
+
   #macrame .case-study .page#five .de img {
     width: 49.5%;
     float: left;
   }
+
   #macrame .case-study .page#five .ui-elements.gridbox {
     grid-column-end: span2;
     grid-row: 4;
     grid-column: 1 / span2;
-    grid-template-columns: 30% repeat(2,33%);
+    grid-template-columns: 30% repeat(2, 33%);
   }
+
   #macrame .case-study .page#five .ui-elements.gridbox img {
     width: 17%;
   }
+
   #macrame .case-study .page#six .medium img {
     width: auto;
     height: 370px;
@@ -562,76 +671,92 @@
     display: block;
   }
 
-  #macrame .case-study .page#seven .up,#macrame .case-study .page#seven .down {
+  #macrame .case-study .page#seven .up, #macrame .case-study .page#seven .down {
     padding-top: 50px;
   }
 
   #macrame .case-study .page#eight .gridbox {
     grid-gap: 7px;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(12, 35px);
     margin-top: 20px;
   }
+
   #macrame .case-study .page#eight .gridbox .hp-h {
     grid-column: 1;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .hp {
     grid-column: 1;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .pc-h {
     grid-column: 2;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .pc {
     grid-column: 2;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .pp-h {
     grid-column: 3;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .pp {
     grid-column: 3;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .c-h {
     grid-column: 4;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .c {
     grid-column: 4;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .ch-h {
     grid-column: 5;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .ch {
     grid-column: 5;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .oc-h {
     grid-column: 5;
     grid-row: 9;
   }
+
   #macrame .case-study .page#eight .gridbox .oc {
     grid-column: 5;
     grid-row: 10;
   }
+
   #macrame .case-study .page#eight .gridbox .nm-h {
     grid-column: 4;
     grid-row: 9;
   }
+
   #macrame .case-study .page#eight .gridbox .nm {
     grid-column: 4;
     grid-row: 10;
   }
+
   #macrame .case-study .page#eight .gridbox .s-h {
     grid-column: 3;
     grid-row: 9;
   }
+
   #macrame .case-study .page#eight .gridbox .s {
     grid-column: 3;
     grid-row: 10;
@@ -641,13 +766,16 @@
     float: left;
     padding-right: 10px;
   }
+
   #macrame .case-study .page#nine .col-md-4, #macrame .case-study .page#nine .col-md-3 {
     float: right;
     padding-top: 35px;
   }
-  #macrame .case-study .page#nine figure.col-md-3 + figure.col-md-3 {
+
+  #macrame .case-study .page#nine figure.col-md-3+figure.col-md-3 {
     padding-top: 0;
   }
+
   #macrame .case-study .page#nine .user3 img {
     width: 80%;
   }
@@ -661,28 +789,35 @@
     flex-direction: column-reverse;
     text-align: center;
   }
+
   #macrame .case-study .page#eleven img {
     padding: 0;
   }
+
   #macrame .case-study .page#eleven .col-lg-3 img {
     width: 30%;
   }
+
   #macrame .case-study .page#eleven h3 {
     width: 80%;
     margin: 13px auto 0;
   }
+
   #macrame .case-study .page#twelve .content {
     text-align: center;
     background-image: url("../img/macrame/mockups/mbp_desk_mobile@2x.jpg");
   }
+
   #macrame .case-study .page#twelve img {
     width: 18%;
     padding: 527px 0 0;
   }
+
   #macrame .case-study .page#thirteen .flexbox {
     justify-content: center;
     margin-right: 0;
   }
+
   #macrame .case-study .page#thirteen img {
     margin-top: 30px;
   }
@@ -694,19 +829,23 @@
     padding: 10px 18px;
     height: unset;
   }
+
   #macrame .case-study .page#one .content {
     background-position: center;
   }
+
   #macrame .case-study .page#one img {
     display: block;
     margin: 0 auto;
     width: 103px;
   }
+
   #macrame .case-study .page#one h4 {
     text-align: center;
     color: var(--ivory);
   }
-  #macrame .case-study .page#one  p {
+
+  #macrame .case-study .page#one p {
     padding: 200px 0 0;
   }
 
@@ -714,37 +853,46 @@
     background-size: 40%;
     background-position: bottom right;
   }
-  #macrame .case-study .page#two h2 + h3 {
+
+  #macrame .case-study .page#two h2+h3 {
     padding-top: 10px;
   }
+
   #macrame .case-study .page#three picture.logo-padding {
     text-align: center;
   }
+
   #macrame .case-study .page#three .logo-padding img {
     width: 60%;
     padding-bottom: 5px;
   }
+
   #macrame .case-study .page#three .bad-logos.flexbox {
     row-gap: 10px;
     justify-content: left;
   }
+
   #macrame .case-study .page#three .bad-logos.flexbox figure {
     width: 25%;
   }
+
   #macrame .case-study .page#three .bad-logos.flexbox img {
     width: 75%;
   }
 
-  #macrame .case-study .page#four .content{
+  #macrame .case-study .page#four .content {
     background-image: unset;
   }
+
   #macrame .case-study .page#four .context.flexbox {
     flex-direction: unset;
     margin-top: 0;
   }
+
   #macrame .case-study .page#four .context.flexbox p {
     padding-bottom: 5px;
   }
+
   #macrame .case-study .page#four .context .text-right {
     text-align: center;
   }
@@ -752,23 +900,28 @@
   #macrame .case-study .page#five .typography {
     padding-right: 0;
   }
+
   #macrame .case-study .page#five .icons figure {
     width: 16%;
     margin-bottom: 5px;
   }
+
   #macrame .case-study .page#five .icons img {
     width: 51%;
     margin-bottom: 10px;
   }
+
   #macrame .case-study .page#five .colors figure {
     width: 20%;
     margin-bottom: 5px;
   }
+
   #macrame .case-study .page#five .gridbox.medium {
     display: none;
   }
+
   #macrame .case-study .page#five .ui-elements.gridbox {
-    grid-template-columns: 32% repeat(2,1fr);
+    grid-template-columns: 32% repeat(2, 1fr);
     row-gap: 4px;
     padding-bottom: 10px;
   }
@@ -782,6 +935,7 @@
   #macrame .case-study .page#seven .up, #macrame .case-study .page#seven .down {
     padding-top: 30px;
   }
+
   #macrame .case-study .page#seven picture {
     padding-left: 7px;
     display: flex;
@@ -789,70 +943,86 @@
 
   #macrame .case-study .page#eight .gridbox {
     grid-gap: 7px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: unset;
     margin-top: 20px;
   }
+
   #macrame .case-study .page#eight .gridbox .hp-h {
     grid-column: 1;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .hp {
     grid-column: 1;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .pc-h {
     grid-column: 2;
     grid-row: 1;
   }
+
   #macrame .case-study .page#eight .gridbox .pc {
     grid-column: 2;
     grid-row: 2;
   }
+
   #macrame .case-study .page#eight .gridbox .pp-h {
     grid-column: 1;
     grid-row: 4;
   }
+
   #macrame .case-study .page#eight .gridbox .pp {
     grid-column: 1;
     grid-row: 5;
   }
+
   #macrame .case-study .page#eight .gridbox .c-h {
     grid-column: 2;
     grid-row: 4;
   }
+
   #macrame .case-study .page#eight .gridbox .c {
     grid-column: 2;
     grid-row: 5;
   }
+
   #macrame .case-study .page#eight .gridbox .ch-h {
     grid-column: 1;
     grid-row: 6;
   }
+
   #macrame .case-study .page#eight .gridbox .ch {
     grid-column: 1;
     grid-row: 7;
   }
+
   #macrame .case-study .page#eight .gridbox .oc-h {
     grid-column: 2;
     grid-row: 6;
   }
+
   #macrame .case-study .page#eight .gridbox .oc {
     grid-column: 2;
     grid-row: 7;
   }
+
   #macrame .case-study .page#eight .gridbox .nm-h {
     grid-column: 1;
     grid-row: 8;
   }
+
   #macrame .case-study .page#eight .gridbox .nm {
     grid-column: 1;
     grid-row: 9;
   }
+
   #macrame .case-study .page#eight .gridbox .s-h {
     grid-column: 2;
     grid-row: 8;
   }
+
   #macrame .case-study .page#eight .gridbox .s {
     grid-column: 2;
     grid-row: 9;
@@ -861,61 +1031,45 @@
   #macrame .case-study .page#nine .col-md-4, #macrame .case-study .page#nine .col-md-3 {
     padding-top: 0;
   }
+
   #macrame .case-study .page#nine .user2 img {
     height: auto;
   }
+
   #macrame .case-study .page#nine .example {
     float: unset;
-    margin: 0 auto;;
+    margin: 0 auto;
+    ;
   }
 
-  #macrame .case-study .page#ten .gridbox {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: unset;
- }
- #macrame .case-study .page#ten .gridbox .one {
-   grid-row: 1;
-   grid-column: 1;
- }
-  #macrame .case-study .page#ten .gridbox .two {
-    grid-row: 2;
-    grid-column: 1;
+  #macrame .case-study .page#ten .prototype {
+    width: 100%;
+    padding-top: 10px;
   }
-  #macrame .case-study .page#ten .gridbox .three {
-    grid-row: 1;
-    grid-column: 2;
-  }
-  #macrame .case-study .page#ten .gridbox .four {
-    grid-row: 2;
-    grid-column: 2;
-  }
-  #macrame .case-study .page#ten .gridbox .five {
-    grid-row: 3;
-    grid-column: 1;
-  }
-  #macrame .case-study .page#ten .gridbox .six {
-    grid-row: 3;
-    grid-column: 2;
-  }
+
 
   #macrame .case-study .page#eleven .col-lg-3 img {
     width: 45%;
   }
+
   #macrame .case-study .page#twelve .content {
     height: 536px;
     background-position: left;
     background-image: url("../img/macrame/mockups/final_mobile.jpg");
   }
+
   #macrame .case-study .page#twelve img {
     padding-top: 319px;
   }
 
-  #macrame .case-study .page#thirteen p + h3 {
+  #macrame .case-study .page#thirteen p+h3 {
     padding-top: 0
   }
+
   #macrame .case-study .page#thirteen .flexbox {
     margin-top: 0;
   }
+
   #macrame .case-study .page#thirteen img {
     margin-top: 0;
     padding-bottom: 10px;

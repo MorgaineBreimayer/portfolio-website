@@ -1,8 +1,8 @@
 /* About page */
-
 #about p, #about ul {
   line-height: 1.4;
 }
+
 #about .flexbox.title {
   justify-content: space-between;
   flex-wrap: wrap;
@@ -10,13 +10,15 @@
   background-color: var(--wt-turq);
   border-radius: 7px;
   align-items: center;
-  background: linear-gradient(0deg,#d4ece9,#fbf4f8);
+  background: linear-gradient(0deg, #d4ece9, #f7ecec);
 }
+
 #about .headshot {
   overflow: hidden;
   position: relative;
   border-radius: 7px 0 0 7px;
 }
+
 #about .headshot img {
   height: 300px;
   width: auto;
@@ -24,31 +26,39 @@
   display: block;
   position: relative;
 }
+
 #about .intro {
   padding-right: 27px;
 }
+
 #about .intro h1, #about .intro h3 {
   color: var(--dk-turq)
 }
+
 #about .intro h1 {
   margin: 0 0 15px;
 }
+
 #about .button-cont {
   margin: 20px 0 0;
 }
+
 #about main h2 {
   margin-top: 25px;
   margin-bottom: 5px;
 }
+
 #about .skills h3 {
   text-align: left;
   padding-left: 20px;
   margin: 15px 0 5px;
 }
+
 #about .skills .flexbox {
   justify-content: center;
   padding-left: 100px;
 }
+
 #about .skills ul {
   margin: 0px;
 }
@@ -58,31 +68,39 @@
   #about .flexbox.title {
     height: 335px;
   }
+
   #about .headshot {
     height: 335px;
   }
+
   #about .headshot img {
     height: 335px;
     width: auto;
     margin-left: -335px;
     left: 50%;
   }
+
   #about .container.about {
     padding: 10px 15px 0;
   }
+
   #about .intro {
     padding: 0 32px 0 10px;
   }
-  #about .intro  h1 {
+
+  #about .intro h1 {
     margin-bottom: 13px;
   }
+
   #about .story h2 {
     margin: 30px 0 5px;
   }
+
   #about .skills .flexbox {
     justify-content: space-evenly;
     padding-left: 0;
   }
+
   #about main {
     margin-bottom: 20px;
   }
@@ -101,9 +119,11 @@
     padding: 0;
     border-radius: 0;
   }
+
   #about .headshot picture {
     display: inline-grid;
   }
+
   #about .headshot img {
     height: auto;
     width: 100%;
@@ -113,21 +133,26 @@
     border-radius: 0 0 7px 7px;
     border-top: 2px solid var(--med-turq);
   }
+
   #about .intro h1 {
     margin-top: revert;
   }
+
   #about .intro {
     padding: 0 30px;
   }
+
   #about .skills {
     padding-left: unset;
     text-align: center;
   }
+
   #about .skills h3 {
     text-align: center;
     padding-left: 0;
     color: var(--lt-pink);
   }
+
   #about .skills ul {
     list-style-type: none;
     padding-left: 0;
